@@ -1,0 +1,20 @@
+/*
+	Elementor-specific rules and overrides.
+*/
+
+// Base.
+@import './elementor-base.less';
+// Mixins.
+@import './elementor-mixins.less';
+// Main.
+@import './elementor-main.less';
+// General Typography.
+@import './elementor-general-typography.less';
+// General.
+@import './elementor-general.less';
+// Anims.
+@import './elementor-animations.less';
+
+/* --- Widgets --- */
+// Glob import all widget styles (that are not desktop/tablet/mobile).
+@import '../elementor/widgets/**/!(*.desktop.less|*.tablet.less|*.mobile.less|)';

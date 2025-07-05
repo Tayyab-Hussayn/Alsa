@@ -1,0 +1,98 @@
+/*
+
+!! --- Don't remove when initializing a new theme. --- !!
+
+These are general-purpose anims used across themes.
+
+*/
+
+@keyframes vamtam-grow-left {
+    from { clip-path: inset(0 100% 0 0); }
+  	to { clip-path: inset(0); }
+}
+@keyframes vamtam-grow-right {
+    from { clip-path: inset(0 0 0 100%); }
+  	to { clip-path: inset(0); }
+}
+@keyframes vamtam-grow-top {
+    from { clip-path: inset(100% 0 0 0); }
+  	to { clip-path: inset(0); }
+}
+@keyframes vamtam-grow-bottom {
+    from { clip-path: inset(0 0 100% 0); }
+  	to { clip-path: inset(0); }
+}
+
+.growFromLeft {
+	&:not(.elementor-widget-image ) {
+		animation-name: vamtam-grow-left;
+		will-change: clip-path;
+	}
+}
+
+.growFromRight {
+	&:not(.elementor-widget-image ) {
+		animation-name: vamtam-grow-right;
+		will-change: clip-path;
+	}
+}
+
+.growFromLeftScroll {
+	@val: calc(100% - var(--vamtam-scroll-ratio));
+	&:not(.elementor-widget-image) {
+		clip-path:inset(0 @val 0 0);
+		transition: clip-path .1s linear;
+		will-change: clip-path;
+	}
+}
+.growFromRightScroll {
+	@val: calc(100% - var(--vamtam-scroll-ratio));
+	&:not(.elementor-widget-image) {
+		clip-path:inset(0 0 0 @val);
+		transition: clip-path .1s linear;
+		will-change: clip-path;
+	}
+}
+
+.growFromLeftScroll,
+.growFromRightScroll {
+	&.animated-fast {
+		transition-duration: .1s;
+	}
+	&.animated-slow {
+		transition-duration: .1s;
+	}
+}
+
+@keyframes vamtam-scale-out {
+    from { transform: scale(1.4); }
+  	to { transform: scale(1);}
+}
+
+@keyframes vamtam-fadein {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+.vamtam-fadein {
+	animation-name: vamtam-fadein;
+}
+
+@keyframes vamtam-fadeout {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+.vamtam-fadeout {
+	animation-name: vamtam-fadeout;
+}

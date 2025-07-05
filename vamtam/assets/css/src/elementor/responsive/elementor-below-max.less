@@ -1,0 +1,26 @@
+body.responsive-layout {
+
+    #scroll-to-top {
+        bottom: 20px;
+    }
+
+    .page-wrapper {
+        flex-direction: column;
+    }
+}
+
+// WC Store Notice.
+.woocommerce-demo-store {
+	.demo_store {
+		.woocommerce-store-notice__dismiss-link {
+			&::before {
+				position: absolute;
+				right: 20px;
+			}
+		}
+	}
+}
+
+/* --- Widgets --- */
+// Glob import all below-max widget styles.
+@import '../../elementor/widgets/**/*.tablet.less';

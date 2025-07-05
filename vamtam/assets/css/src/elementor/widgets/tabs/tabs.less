@@ -1,0 +1,73 @@
+// Tabs - Desktop.
+.elementor-widget-tabs {
+	// Base Theme Widget Styles.
+    &.vamtam-has-theme-widget-styles {
+
+		&.vamtam-tabs {
+			&.elementor-tabs-view-vertical {
+
+				.elementor-tabs-wrapper {
+					overflow: visible;
+					padding: 50px 0 0 40px;
+				}
+
+				.elementor-tab-desktop-title {
+					min-height: 78px;
+					display: flex;
+					align-items: center;
+
+					&.elementor-active {
+						width: 120%;
+						border-radius: 50px;
+						background-color: var(--vamtam-accent-color-1);
+						z-index: 1;
+						padding-right: 70px; // 60px + 10px
+
+						&::after {
+							position: absolute;
+							right: 10px;
+							content: var(--vamtam-icon-arrow-right);
+							width: 60px;
+							height: 60px;
+							line-height: 1;
+							font-family: 'theme-icons';
+							top: 50%;
+							transform: translateY(-50%);
+							font-size: 21px;
+							background: black;
+							border-radius: 50%;
+							display: flex;
+							justify-content: center;
+							align-items: center;
+						}
+					}
+				}
+
+				.elementor-tabs-content-wrapper {
+					margin: -1px -1px -1px 0; //fix for bg border leaking.
+					border-radius: 50px;
+					background-color: var(--vamtam-accent-color-2);
+					padding: 7% 7% 7% 10%;
+				}
+			}
+
+			&.elementor-tabs-view-horizontal {
+				.elementor-tab-title {
+					border-radius: 35px 35px 0 0;
+					padding: 30px 20px 50px 20px;
+					text-align: center;
+				}
+				.elementor-tabs-content-wrapper {
+					border-radius: 0 0 35px 35px;
+					border-radius: 35px;
+				}
+				.elementor-tab-content {
+					padding: 20px 40px 40px 40px;
+				}
+				.elementor-tabs-wrapper {
+					margin-bottom: -30px;
+				}
+			}
+		}
+    }
+}

@@ -1,0 +1,47 @@
+table.vamtam-styled {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: none;
+	margin: 0px;
+
+	th, td, caption {
+		padding: 5px;
+		border: 0;
+	}
+
+	caption {
+		border-bottom: none;
+	}
+
+	thead {
+		th {
+			border-bottom: solid 1px var( --vamtam-accent-color-1 );
+		}
+	}
+
+	tbody {
+		tr {
+			border-bottom: solid 1px var( --vamtam-default-line-color );
+
+			&:last-child td {
+				border: 0;
+			}
+		}
+	}
+
+	td {
+		padding: 12px 0px;
+		vertical-align: middle;
+
+		p {
+			margin: 0px;
+		}
+	}
+
+	tfoot {
+		font-size: 12px;
+		font-style: normal;
+		color: rgba( 0, 0, 0, .3 );
+	}
+}

@@ -1,0 +1,84 @@
+@import '../mixins.less';
+
+.widget_calendar {
+	max-width: 100%;
+
+	#wp-calendar {
+		width: 100%;
+		margin-bottom: 10px;
+
+		caption {
+			margin: 0;
+			font-size: 1em;
+			font-weight: 500;
+			text-align: start;
+			padding: 0.4em 0.5em;
+			border: 1px solid var(--vamtam-default-line-color);
+			border-bottom: none;
+		}
+
+		thead {
+			border-top: 1px solid var(--vamtam-default-line-color);
+			border-bottom: 1px solid var(--vamtam-default-line-color);
+
+			th {
+				font-weight: 500;
+				font-size: 14px;
+			}
+		}
+
+		tbody {
+			padding: 10px 0;
+		}
+
+		tfoot {
+			border: 1px solid var(--vamtam-default-line-color);
+			border-bottom: 0;
+
+			td {
+				margin-top: 5px;
+				border: 0;
+				font-size: 12px;
+
+				&:first-child {
+					text-align: start;
+					padding: 10px;
+				}
+
+				&:last-child {
+					text-align: end;
+					padding: 10px;
+				}
+
+				a {
+					font-weight: bold;
+				}
+			}
+		}
+
+		td#today {
+			background: var( --vamtam-accent-color-1 );
+
+			&, a {
+				color: var( --vamtam-accent-color-1-hc );
+			}
+		}
+	}
+}
+
+.widget_calendar th,
+.widget_calendar td {
+	padding: 4px 0;
+	text-align: center;
+
+	.vamtam-body-sidebar & {
+		padding: 0.3em;
+		line-height: 1.7em;
+		font-size: 0.9em;
+		color: var( --vamtam-widget-text-lighter );
+	}
+}
+
+.widget_calendar th {
+	font-size: 100%;
+}

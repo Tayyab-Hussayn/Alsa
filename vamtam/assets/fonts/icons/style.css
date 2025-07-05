@@ -1,0 +1,3114 @@
+[class^="vamtam-icomoon-"], [class*=" vamtam-icomoon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.vamtam-icomoon-fire:before {
+  content: "\e9a9";
+}
+.vamtam-icomoon-video-camera:before {
+  content: "\e900";
+}
+.vamtam-icomoon-file-text:before {
+  content: "\e901";
+}
+.vamtam-icomoon-file-empty:before {
+  content: "\e902";
+}
+.vamtam-icomoon-files-empty:before {
+  content: "\e903";
+}
+.vamtam-icomoon-file-text2:before {
+  content: "\e904";
+}
+.vamtam-icomoon-file-picture:before {
+  content: "\e905";
+}
+.vamtam-icomoon-file-music:before {
+  content: "\e906";
+}
+.vamtam-icomoon-file-play:before {
+  content: "\e907";
+}
+.vamtam-icomoon-file-video:before {
+  content: "\e908";
+}
+.vamtam-icomoon-price-tag:before {
+  content: "\e909";
+}
+.vamtam-icomoon-price-tags:before {
+  content: "\e90a";
+}
+.vamtam-icomoon-coin-dollar:before {
+  content: "\e90b";
+}
+.vamtam-icomoon-coin-euro:before {
+  content: "\e90c";
+}
+.vamtam-icomoon-coin-pound:before {
+  content: "\e90d";
+}
+.vamtam-icomoon-coin-yen:before {
+  content: "\e90e";
+}
+.vamtam-icomoon-credit-card:before {
+  content: "\e90f";
+}
+.vamtam-icomoon-calculator:before {
+  content: "\e910";
+}
+.vamtam-icomoon-lifebuoy:before {
+  content: "\e911";
+}
+.vamtam-icomoon-printer:before {
+  content: "\e912";
+}
+.vamtam-icomoon-display:before {
+  content: "\e913";
+}
+.vamtam-icomoon-floppy-disk:before {
+  content: "\e914";
+}
+.vamtam-icomoon-drive:before {
+  content: "\e915";
+}
+.vamtam-icomoon-user-check:before {
+  content: "\e916";
+}
+.vamtam-icomoon-user-tie:before {
+  content: "\e917";
+}
+.vamtam-icomoon-hour-glass:before {
+  content: "\e918";
+}
+.vamtam-icomoon-spinner9:before {
+  content: "\e919";
+}
+.vamtam-icomoon-spinner10:before {
+  content: "\e91a";
+}
+.vamtam-icomoon-spinner11:before {
+  content: "\e91b";
+}
+.vamtam-icomoon-zoom-in:before {
+  content: "\e91c";
+}
+.vamtam-icomoon-zoom-out:before {
+  content: "\e91d";
+}
+.vamtam-icomoon-enlarge:before {
+  content: "\e91e";
+}
+.vamtam-icomoon-shrink:before {
+  content: "\e91f";
+}
+.vamtam-icomoon-enlarge2:before {
+  content: "\e920";
+}
+.vamtam-icomoon-shrink2:before {
+  content: "\e921";
+}
+.vamtam-icomoon-magic-wand:before {
+  content: "\e922";
+}
+.vamtam-icomoon-aid-kit:before {
+  content: "\e923";
+}
+.vamtam-icomoon-pie-chart:before {
+  content: "\e924";
+}
+.vamtam-icomoon-stats-dots:before {
+  content: "\e925";
+}
+.vamtam-icomoon-stats-bars:before {
+  content: "\e926";
+}
+.vamtam-icomoon-stats-bars2:before {
+  content: "\e927";
+}
+.vamtam-icomoon-spoon-knife:before {
+  content: "\e928";
+}
+.vamtam-icomoon-bin:before {
+  content: "\e929";
+}
+.vamtam-icomoon-bin2:before {
+  content: "\e92a";
+}
+.vamtam-icomoon-power-cord:before {
+  content: "\e92b";
+}
+.vamtam-icomoon-list-numbered:before {
+  content: "\e92c";
+}
+.vamtam-icomoon-cloud-check:before {
+  content: "\e92d";
+}
+.vamtam-icomoon-sphere:before {
+  content: "\e92e";
+}
+.vamtam-icomoon-eye-plus:before {
+  content: "\e92f";
+}
+.vamtam-icomoon-eye-minus:before {
+  content: "\e930";
+}
+.vamtam-icomoon-star-empty:before {
+  content: "\e931";
+}
+.vamtam-icomoon-star-half:before {
+  content: "\e932";
+}
+.vamtam-icomoon-star-full:before {
+  content: "\e933";
+}
+.vamtam-icomoon-man-woman:before {
+  content: "\e934";
+}
+.vamtam-icomoon-smile:before {
+  content: "\e935";
+}
+.vamtam-icomoon-smile2:before {
+  content: "\e936";
+}
+.vamtam-icomoon-baffled:before {
+  content: "\e937";
+}
+.vamtam-icomoon-baffled2:before {
+  content: "\e938";
+}
+.vamtam-icomoon-hipster:before {
+  content: "\e939";
+}
+.vamtam-icomoon-hipster2:before {
+  content: "\e93a";
+}
+.vamtam-icomoon-sleepy:before {
+  content: "\e93b";
+}
+.vamtam-icomoon-sleepy2:before {
+  content: "\e93c";
+}
+.vamtam-icomoon-frustrated:before {
+  content: "\e93d";
+}
+.vamtam-icomoon-frustrated2:before {
+  content: "\e93e";
+}
+.vamtam-icomoon-crying:before {
+  content: "\e93f";
+}
+.vamtam-icomoon-crying2:before {
+  content: "\e940";
+}
+.vamtam-icomoon-cross:before {
+  content: "\e941";
+}
+.vamtam-icomoon-previous2:before {
+  content: "\e942";
+}
+.vamtam-icomoon-next2:before {
+  content: "\e943";
+}
+.vamtam-icomoon-infinite:before {
+  content: "\e944";
+}
+.vamtam-icomoon-circle-up:before {
+  content: "\e945";
+}
+.vamtam-icomoon-circle-right:before {
+  content: "\e946";
+}
+.vamtam-icomoon-circle-down:before {
+  content: "\e947";
+}
+.vamtam-icomoon-circle-left:before {
+  content: "\e948";
+}
+.vamtam-icomoon-move-up:before {
+  content: "\e949";
+}
+.vamtam-icomoon-move-down:before {
+  content: "\e94a";
+}
+.vamtam-icomoon-sort-alpha-asc:before {
+  content: "\e94b";
+}
+.vamtam-icomoon-sort-alpha-desc:before {
+  content: "\e94c";
+}
+.vamtam-icomoon-sort-numeric-asc:before {
+  content: "\e94d";
+}
+.vamtam-icomoon-sort-numberic-desc:before {
+  content: "\e94e";
+}
+.vamtam-icomoon-sort-amount-asc:before {
+  content: "\e94f";
+}
+.vamtam-icomoon-sort-amount-desc:before {
+  content: "\e950";
+}
+.vamtam-icomoon-shift:before {
+  content: "\e951";
+}
+.vamtam-icomoon-ctrl:before {
+  content: "\e952";
+}
+.vamtam-icomoon-opt:before {
+  content: "\e953";
+}
+.vamtam-icomoon-radio-checked2:before {
+  content: "\e954";
+}
+.vamtam-icomoon-make-group:before {
+  content: "\e955";
+}
+.vamtam-icomoon-ungroup:before {
+  content: "\e956";
+}
+.vamtam-icomoon-ligature:before {
+  content: "\e957";
+}
+.vamtam-icomoon-ligature2:before {
+  content: "\e958";
+}
+.vamtam-icomoon-ltr:before {
+  content: "\e959";
+}
+.vamtam-icomoon-rtl:before {
+  content: "\e95a";
+}
+.vamtam-icomoon-section:before {
+  content: "\e95b";
+}
+.vamtam-icomoon-new-tab:before {
+  content: "\e95c";
+}
+.vamtam-icomoon-embed2:before {
+  content: "\e95d";
+}
+.vamtam-icomoon-terminal:before {
+  content: "\e95e";
+}
+.vamtam-icomoon-amazon:before {
+  content: "\e95f";
+}
+.vamtam-icomoon-google2:before {
+  content: "\e960";
+}
+.vamtam-icomoon-google3:before {
+  content: "\e961";
+}
+.vamtam-icomoon-google-plus:before {
+  content: "\e962";
+}
+.vamtam-icomoon-google-plus2:before {
+  content: "\e963";
+}
+.vamtam-icomoon-google-plus3:before {
+  content: "\e964";
+}
+.vamtam-icomoon-hangouts:before {
+  content: "\e965";
+}
+.vamtam-icomoon-whatsapp:before {
+  content: "\e966";
+}
+.vamtam-icomoon-spotify:before {
+  content: "\e967";
+}
+.vamtam-icomoon-telegram:before {
+  content: "\e968";
+}
+.vamtam-icomoon-vine:before {
+  content: "\e969";
+}
+.vamtam-icomoon-vk:before {
+  content: "\e96a";
+}
+.vamtam-icomoon-renren:before {
+  content: "\e96b";
+}
+.vamtam-icomoon-sina-weibo:before {
+  content: "\e96c";
+}
+.vamtam-icomoon-rss:before {
+  content: "\e96d";
+}
+.vamtam-icomoon-rss2:before {
+  content: "\e96e";
+}
+.vamtam-icomoon-twitch:before {
+  content: "\e96f";
+}
+.vamtam-icomoon-behance:before {
+  content: "\e970";
+}
+.vamtam-icomoon-behance2:before {
+  content: "\e971";
+}
+.vamtam-icomoon-500px:before {
+  content: "\e972";
+}
+.vamtam-icomoon-dropbox:before {
+  content: "\e973";
+}
+.vamtam-icomoon-onedrive:before {
+  content: "\e974";
+}
+.vamtam-icomoon-npm:before {
+  content: "\e975";
+}
+.vamtam-icomoon-basecamp:before {
+  content: "\e976";
+}
+.vamtam-icomoon-trello:before {
+  content: "\e977";
+}
+.vamtam-icomoon-ello:before {
+  content: "\e978";
+}
+.vamtam-icomoon-yahoo2:before {
+  content: "\e979";
+}
+.vamtam-icomoon-appleinc:before {
+  content: "\e97a";
+}
+.vamtam-icomoon-hackernews:before {
+  content: "\e97b";
+}
+.vamtam-icomoon-wikipedia:before {
+  content: "\e97c";
+}
+.vamtam-icomoon-linkedin2:before {
+  content: "\e97d";
+}
+.vamtam-icomoon-edge:before {
+  content: "\e97e";
+}
+.vamtam-icomoon-html-five:before {
+  content: "\e97f";
+}
+.vamtam-icomoon-html-five2:before {
+  content: "\e980";
+}
+.vamtam-icomoon-git:before {
+  content: "\e981";
+}
+.vamtam-icomoon-codepen:before {
+  content: "\e982";
+}
+.vamtam-icomoon-svg:before {
+  content: "\e983";
+}
+.vamtam-icomoon-home:before {
+  content: "\e000";
+}
+.vamtam-icomoon-home2:before {
+  content: "\e001";
+}
+.vamtam-icomoon-home3:before {
+  content: "\e002";
+}
+.vamtam-icomoon-home4:before {
+  content: "\e003";
+}
+.vamtam-icomoon-home5:before {
+  content: "\e004";
+}
+.vamtam-icomoon-home6:before {
+  content: "\e005";
+}
+.vamtam-icomoon-home7:before {
+  content: "\e006";
+}
+.vamtam-icomoon-office:before {
+  content: "\e007";
+}
+.vamtam-icomoon-newspaper:before {
+  content: "\e008";
+}
+.vamtam-icomoon-pencil:before {
+  content: "\e009";
+}
+.vamtam-icomoon-pencil2:before {
+  content: "\e00a";
+}
+.vamtam-icomoon-pencil3:before {
+  content: "\e00b";
+}
+.vamtam-icomoon-pencil4:before {
+  content: "\e00c";
+}
+.vamtam-icomoon-quill:before {
+  content: "\e00d";
+}
+.vamtam-icomoon-quill2:before {
+  content: "\e00e";
+}
+.vamtam-icomoon-pen:before {
+  content: "\e00f";
+}
+.vamtam-icomoon-pen2:before {
+  content: "\e010";
+}
+.vamtam-icomoon-pen3:before {
+  content: "\e011";
+}
+.vamtam-icomoon-marker:before {
+  content: "\e012";
+}
+.vamtam-icomoon-blog:before {
+  content: "\e013";
+}
+.vamtam-icomoon-eyedropper:before {
+  content: "\e014";
+}
+.vamtam-icomoon-droplet:before {
+  content: "\e015";
+}
+.vamtam-icomoon-droplet2:before {
+  content: "\e016";
+}
+.vamtam-icomoon-paint-format:before {
+  content: "\e017";
+}
+.vamtam-icomoon-image:before {
+  content: "\e018";
+}
+.vamtam-icomoon-image2:before {
+  content: "\e019";
+}
+.vamtam-icomoon-images:before {
+  content: "\e01a";
+}
+.vamtam-icomoon-image3:before {
+  content: "\e01b";
+}
+.vamtam-icomoon-image4:before {
+  content: "\e01c";
+}
+.vamtam-icomoon-image5:before {
+  content: "\e01d";
+}
+.vamtam-icomoon-camera:before {
+  content: "\e01e";
+}
+.vamtam-icomoon-camera2:before {
+  content: "\e01f";
+}
+.vamtam-icomoon-camera3:before {
+  content: "\e020";
+}
+.vamtam-icomoon-camera4:before {
+  content: "\e021";
+}
+.vamtam-icomoon-music:before {
+  content: "\e022";
+}
+.vamtam-icomoon-music2:before {
+  content: "\e023";
+}
+.vamtam-icomoon-music3:before {
+  content: "\e024";
+}
+.vamtam-icomoon-piano:before {
+  content: "\e025";
+}
+.vamtam-icomoon-headphones:before {
+  content: "\e026";
+}
+.vamtam-icomoon-headphones2:before {
+  content: "\e027";
+}
+.vamtam-icomoon-play:before {
+  content: "\e028";
+}
+.vamtam-icomoon-movie:before {
+  content: "\e029";
+}
+.vamtam-icomoon-movie2:before {
+  content: "\e02a";
+}
+.vamtam-icomoon-film:before {
+  content: "\e02b";
+}
+.vamtam-icomoon-film2:before {
+  content: "\e02c";
+}
+.vamtam-icomoon-film3:before {
+  content: "\e02d";
+}
+.vamtam-icomoon-camera5:before {
+  content: "\e02e";
+}
+.vamtam-icomoon-camera6:before {
+  content: "\e02f";
+}
+.vamtam-icomoon-camera7:before {
+  content: "\e030";
+}
+.vamtam-icomoon-dice:before {
+  content: "\e031";
+}
+.vamtam-icomoon-pacman:before {
+  content: "\e032";
+}
+.vamtam-icomoon-spades:before {
+  content: "\e033";
+}
+.vamtam-icomoon-clubs:before {
+  content: "\e034";
+}
+.vamtam-icomoon-diamonds:before {
+  content: "\e035";
+}
+.vamtam-icomoon-king:before {
+  content: "\e036";
+}
+.vamtam-icomoon-queen:before {
+  content: "\e037";
+}
+.vamtam-icomoon-rock:before {
+  content: "\e038";
+}
+.vamtam-icomoon-bishop:before {
+  content: "\e039";
+}
+.vamtam-icomoon-knight:before {
+  content: "\e03a";
+}
+.vamtam-icomoon-pawn:before {
+  content: "\e03b";
+}
+.vamtam-icomoon-bullhorn:before {
+  content: "\e03c";
+}
+.vamtam-icomoon-megaphone:before {
+  content: "\e03d";
+}
+.vamtam-icomoon-new:before {
+  content: "\e03e";
+}
+.vamtam-icomoon-connection:before {
+  content: "\e03f";
+}
+.vamtam-icomoon-connection2:before {
+  content: "\e040";
+}
+.vamtam-icomoon-podcast:before {
+  content: "\e041";
+}
+.vamtam-icomoon-radio:before {
+  content: "\e042";
+}
+.vamtam-icomoon-feed:before {
+  content: "\e043";
+}
+.vamtam-icomoon-mic:before {
+  content: "\e044";
+}
+.vamtam-icomoon-mic2:before {
+  content: "\e045";
+}
+.vamtam-icomoon-mic3:before {
+  content: "\e046";
+}
+.vamtam-icomoon-mic4:before {
+  content: "\e047";
+}
+.vamtam-icomoon-book:before {
+  content: "\e048";
+}
+.vamtam-icomoon-book2:before {
+  content: "\e049";
+}
+.vamtam-icomoon-books:before {
+  content: "\e04a";
+}
+.vamtam-icomoon-library:before {
+  content: "\e04b";
+}
+.vamtam-icomoon-file:before {
+  content: "\e04c";
+}
+.vamtam-icomoon-profile:before {
+  content: "\e04d";
+}
+.vamtam-icomoon-file2:before {
+  content: "\e04e";
+}
+.vamtam-icomoon-file3:before {
+  content: "\e04f";
+}
+.vamtam-icomoon-file4:before {
+  content: "\e050";
+}
+.vamtam-icomoon-file5:before {
+  content: "\e051";
+}
+.vamtam-icomoon-file6:before {
+  content: "\e052";
+}
+.vamtam-icomoon-file-plus:before {
+  content: "\e053";
+}
+.vamtam-icomoon-file-minus:before {
+  content: "\e054";
+}
+.vamtam-icomoon-file-download:before {
+  content: "\e055";
+}
+.vamtam-icomoon-file-upload:before {
+  content: "\e056";
+}
+.vamtam-icomoon-file-check:before {
+  content: "\e057";
+}
+.vamtam-icomoon-file-remove:before {
+  content: "\e058";
+}
+.vamtam-icomoon-file7:before {
+  content: "\e059";
+}
+.vamtam-icomoon-copy:before {
+  content: "\e05a";
+}
+.vamtam-icomoon-copy2:before {
+  content: "\e05b";
+}
+.vamtam-icomoon-copy3:before {
+  content: "\e05c";
+}
+.vamtam-icomoon-copy4:before {
+  content: "\e05d";
+}
+.vamtam-icomoon-paste:before {
+  content: "\e05e";
+}
+.vamtam-icomoon-paste2:before {
+  content: "\e05f";
+}
+.vamtam-icomoon-paste3:before {
+  content: "\e060";
+}
+.vamtam-icomoon-stack:before {
+  content: "\e061";
+}
+.vamtam-icomoon-folder:before {
+  content: "\e062";
+}
+.vamtam-icomoon-folder-download:before {
+  content: "\e063";
+}
+.vamtam-icomoon-folder-upload:before {
+  content: "\e064";
+}
+.vamtam-icomoon-folder-plus:before {
+  content: "\e065";
+}
+.vamtam-icomoon-folder-plus2:before {
+  content: "\e066";
+}
+.vamtam-icomoon-folder-minus:before {
+  content: "\e067";
+}
+.vamtam-icomoon-folder-minus2:before {
+  content: "\e068";
+}
+.vamtam-icomoon-folder8:before {
+  content: "\e069";
+}
+.vamtam-icomoon-folder-remove:before {
+  content: "\e06a";
+}
+.vamtam-icomoon-folder2:before {
+  content: "\e06b";
+}
+.vamtam-icomoon-folder-open:before {
+  content: "\e06c";
+}
+.vamtam-icomoon-folder-plus3:before {
+  content: "\e06d";
+}
+.vamtam-icomoon-folder-minus3:before {
+  content: "\e06e";
+}
+.vamtam-icomoon-folder-download2:before {
+  content: "\e06f";
+}
+.vamtam-icomoon-folder-upload2:before {
+  content: "\e070";
+}
+.vamtam-icomoon-folder3:before {
+  content: "\e071";
+}
+.vamtam-icomoon-folder-open2:before {
+  content: "\e072";
+}
+.vamtam-icomoon-certificate:before {
+  content: "\e073";
+}
+.vamtam-icomoon-cc:before {
+  content: "\e074";
+}
+.vamtam-icomoon-tag:before {
+  content: "\e075";
+}
+.vamtam-icomoon-tag2:before {
+  content: "\e076";
+}
+.vamtam-icomoon-tag3:before {
+  content: "\e077";
+}
+.vamtam-icomoon-tag4:before {
+  content: "\e078";
+}
+.vamtam-icomoon-tags:before {
+  content: "\e079";
+}
+.vamtam-icomoon-tags2:before {
+  content: "\e07a";
+}
+.vamtam-icomoon-tag5:before {
+  content: "\e07b";
+}
+.vamtam-icomoon-barcode:before {
+  content: "\e07c";
+}
+.vamtam-icomoon-barcode2:before {
+  content: "\e07d";
+}
+.vamtam-icomoon-qrcode:before {
+  content: "\e07e";
+}
+.vamtam-icomoon-ticket:before {
+  content: "\e07f";
+}
+.vamtam-icomoon-cart:before {
+  content: "\e080";
+}
+.vamtam-icomoon-cart2:before {
+  content: "\e081";
+}
+.vamtam-icomoon-cart3:before {
+  content: "\e082";
+}
+.vamtam-icomoon-cart4:before {
+  content: "\e083";
+}
+.vamtam-icomoon-cart5:before {
+  content: "\e084";
+}
+.vamtam-icomoon-cart-plus:before {
+  content: "\e085";
+}
+.vamtam-icomoon-cart-minus:before {
+  content: "\e086";
+}
+.vamtam-icomoon-cart-add:before {
+  content: "\e087";
+}
+.vamtam-icomoon-cart-remove:before {
+  content: "\e088";
+}
+.vamtam-icomoon-cart-checkout:before {
+  content: "\e089";
+}
+.vamtam-icomoon-cart-remove2:before {
+  content: "\e08a";
+}
+.vamtam-icomoon-basket:before {
+  content: "\e08b";
+}
+.vamtam-icomoon-basket2:before {
+  content: "\e08c";
+}
+.vamtam-icomoon-coin:before {
+  content: "\e08d";
+}
+.vamtam-icomoon-credit:before {
+  content: "\e08e";
+}
+.vamtam-icomoon-calculate:before {
+  content: "\e08f";
+}
+.vamtam-icomoon-calculate2:before {
+  content: "\e090";
+}
+.vamtam-icomoon-support:before {
+  content: "\e091";
+}
+.vamtam-icomoon-phone:before {
+  content: "\e092";
+}
+.vamtam-icomoon-phone2:before {
+  content: "\e093";
+}
+.vamtam-icomoon-phone3:before {
+  content: "\e094";
+}
+.vamtam-icomoon-contact-add:before {
+  content: "\e095";
+}
+.vamtam-icomoon-contact-remove:before {
+  content: "\e096";
+}
+.vamtam-icomoon-contact-add2:before {
+  content: "\e097";
+}
+.vamtam-icomoon-contact-remove2:before {
+  content: "\e098";
+}
+.vamtam-icomoon-call-incoming:before {
+  content: "\e099";
+}
+.vamtam-icomoon-call-outgoing:before {
+  content: "\e09a";
+}
+.vamtam-icomoon-phone4:before {
+  content: "\e09b";
+}
+.vamtam-icomoon-phone5:before {
+  content: "\e09c";
+}
+.vamtam-icomoon-phone-hang-up:before {
+  content: "\e09d";
+}
+.vamtam-icomoon-phone-hang-up2:before {
+  content: "\e09e";
+}
+.vamtam-icomoon-address-book:before {
+  content: "\e09f";
+}
+.vamtam-icomoon-notebook:before {
+  content: "\e0a0";
+}
+.vamtam-icomoon-envelop:before {
+  content: "\e0a1";
+}
+.vamtam-icomoon-mail-send:before {
+  content: "\e0a2";
+}
+.vamtam-icomoon-envelop2:before {
+  content: "\e0a3";
+}
+.vamtam-icomoon-pushpin:before {
+  content: "\e0a4";
+}
+.vamtam-icomoon-location:before {
+  content: "\e0a5";
+}
+.vamtam-icomoon-location2:before {
+  content: "\e0a6";
+}
+.vamtam-icomoon-location3:before {
+  content: "\e0a7";
+}
+.vamtam-icomoon-location4:before {
+  content: "\e0a8";
+}
+.vamtam-icomoon-compass:before {
+  content: "\e0a9";
+}
+.vamtam-icomoon-compass2:before {
+  content: "\e0aa";
+}
+.vamtam-icomoon-map:before {
+  content: "\e0ab";
+}
+.vamtam-icomoon-map2:before {
+  content: "\e0ac";
+}
+.vamtam-icomoon-map3:before {
+  content: "\e0ad";
+}
+.vamtam-icomoon-direction:before {
+  content: "\e0ae";
+}
+.vamtam-icomoon-history:before {
+  content: "\e0af";
+}
+.vamtam-icomoon-clock:before {
+  content: "\e0b0";
+}
+.vamtam-icomoon-clock2:before {
+  content: "\e0b1";
+}
+.vamtam-icomoon-clock3:before {
+  content: "\e0b2";
+}
+.vamtam-icomoon-clock4:before {
+  content: "\e0b3";
+}
+.vamtam-icomoon-watch:before {
+  content: "\e0b4";
+}
+.vamtam-icomoon-alarm:before {
+  content: "\e0b5";
+}
+.vamtam-icomoon-alarm2:before {
+  content: "\e0b6";
+}
+.vamtam-icomoon-bell:before {
+  content: "\e0b7";
+}
+.vamtam-icomoon-stopwatch:before {
+  content: "\e0b8";
+}
+.vamtam-icomoon-calendar:before {
+  content: "\e0b9";
+}
+.vamtam-icomoon-calendar2:before {
+  content: "\e0ba";
+}
+.vamtam-icomoon-calendar3:before {
+  content: "\e0bb";
+}
+.vamtam-icomoon-calendar4:before {
+  content: "\e0bc";
+}
+.vamtam-icomoon-print:before {
+  content: "\e0bd";
+}
+.vamtam-icomoon-print2:before {
+  content: "\e0be";
+}
+.vamtam-icomoon-mouse:before {
+  content: "\e0bf";
+}
+.vamtam-icomoon-mouse2:before {
+  content: "\e0c0";
+}
+.vamtam-icomoon-keyboard:before {
+  content: "\e0c1";
+}
+.vamtam-icomoon-screen:before {
+  content: "\e0c2";
+}
+.vamtam-icomoon-screen2:before {
+  content: "\e0c3";
+}
+.vamtam-icomoon-laptop:before {
+  content: "\e0c4";
+}
+.vamtam-icomoon-mobile:before {
+  content: "\e0c5";
+}
+.vamtam-icomoon-mobile2:before {
+  content: "\e0c6";
+}
+.vamtam-icomoon-tablet:before {
+  content: "\e0c7";
+}
+.vamtam-icomoon-tv:before {
+  content: "\e0c8";
+}
+.vamtam-icomoon-cabinet:before {
+  content: "\e0c9";
+}
+.vamtam-icomoon-archive:before {
+  content: "\e0ca";
+}
+.vamtam-icomoon-drawer:before {
+  content: "\e0cb";
+}
+.vamtam-icomoon-drawer2:before {
+  content: "\e0cc";
+}
+.vamtam-icomoon-drawer3:before {
+  content: "\e0cd";
+}
+.vamtam-icomoon-box-add:before {
+  content: "\e0ce";
+}
+.vamtam-icomoon-box-remove:before {
+  content: "\e0cf";
+}
+.vamtam-icomoon-download:before {
+  content: "\e0d0";
+}
+.vamtam-icomoon-upload:before {
+  content: "\e0d1";
+}
+.vamtam-icomoon-disk:before {
+  content: "\e0d2";
+}
+.vamtam-icomoon-storage:before {
+  content: "\e0d3";
+}
+.vamtam-icomoon-storage2:before {
+  content: "\e0d4";
+}
+.vamtam-icomoon-database:before {
+  content: "\e0d5";
+}
+.vamtam-icomoon-database2:before {
+  content: "\e0d6";
+}
+.vamtam-icomoon-undo:before {
+  content: "\e0d7";
+}
+.vamtam-icomoon-redo:before {
+  content: "\e0d8";
+}
+.vamtam-icomoon-rotate:before {
+  content: "\e0d9";
+}
+.vamtam-icomoon-rotate2:before {
+  content: "\e0da";
+}
+.vamtam-icomoon-flip:before {
+  content: "\e0db";
+}
+.vamtam-icomoon-flip2:before {
+  content: "\e0dc";
+}
+.vamtam-icomoon-undo2:before {
+  content: "\e0dd";
+}
+.vamtam-icomoon-redo2:before {
+  content: "\e0de";
+}
+.vamtam-icomoon-forward:before {
+  content: "\e0df";
+}
+.vamtam-icomoon-reply:before {
+  content: "\e0e0";
+}
+.vamtam-icomoon-reply2:before {
+  content: "\e0e1";
+}
+.vamtam-icomoon-bubble:before {
+  content: "\e0e2";
+}
+.vamtam-icomoon-bubbles:before {
+  content: "\e0e3";
+}
+.vamtam-icomoon-bubbles2:before {
+  content: "\e0e4";
+}
+.vamtam-icomoon-bubble2:before {
+  content: "\e0e5";
+}
+.vamtam-icomoon-bubbles3:before {
+  content: "\e0e6";
+}
+.vamtam-icomoon-bubbles4:before {
+  content: "\e0e7";
+}
+.vamtam-icomoon-bubble-notification:before {
+  content: "\e0e8";
+}
+.vamtam-icomoon-bubble3:before {
+  content: "\e0e9";
+}
+.vamtam-icomoon-bubble-dots:before {
+  content: "\e0ea";
+}
+.vamtam-icomoon-bubble4:before {
+  content: "\e0eb";
+}
+.vamtam-icomoon-bubble5:before {
+  content: "\e0ec";
+}
+.vamtam-icomoon-bubble-dots2:before {
+  content: "\e0ed";
+}
+.vamtam-icomoon-bubble6:before {
+  content: "\e0ee";
+}
+.vamtam-icomoon-bubbles5:before {
+  content: "\e0ef";
+}
+.vamtam-icomoon-bubbles6:before {
+  content: "\e0f0";
+}
+.vamtam-icomoon-bubble-blocked:before {
+  content: "\e0f1";
+}
+.vamtam-icomoon-bubble-quote:before {
+  content: "\e0f2";
+}
+.vamtam-icomoon-bubble-user:before {
+  content: "\e0f3";
+}
+.vamtam-icomoon-bubble-check:before {
+  content: "\e0f4";
+}
+.vamtam-icomoon-bubble-video-chat:before {
+  content: "\e0f5";
+}
+.vamtam-icomoon-bubble-link:before {
+  content: "\e0f6";
+}
+.vamtam-icomoon-bubble-locked:before {
+  content: "\e0f7";
+}
+.vamtam-icomoon-bubble-star:before {
+  content: "\e0f8";
+}
+.vamtam-icomoon-bubble-heart:before {
+  content: "\e0f9";
+}
+.vamtam-icomoon-bubble-paperclip:before {
+  content: "\e0fa";
+}
+.vamtam-icomoon-bubble-cancel:before {
+  content: "\e0fb";
+}
+.vamtam-icomoon-bubble-plus:before {
+  content: "\e0fc";
+}
+.vamtam-icomoon-bubble-minus:before {
+  content: "\e0fd";
+}
+.vamtam-icomoon-bubble-notification2:before {
+  content: "\e0fe";
+}
+.vamtam-icomoon-bubble-trash:before {
+  content: "\e0ff";
+}
+.vamtam-icomoon-bubble-left:before {
+  content: "\e100";
+}
+.vamtam-icomoon-bubble-right:before {
+  content: "\e101";
+}
+.vamtam-icomoon-bubble-up:before {
+  content: "\e102";
+}
+.vamtam-icomoon-bubble-down:before {
+  content: "\e103";
+}
+.vamtam-icomoon-bubble-first:before {
+  content: "\e104";
+}
+.vamtam-icomoon-bubble-last:before {
+  content: "\e105";
+}
+.vamtam-icomoon-bubble-replu:before {
+  content: "\e106";
+}
+.vamtam-icomoon-bubble-forward:before {
+  content: "\e107";
+}
+.vamtam-icomoon-bubble-reply:before {
+  content: "\e108";
+}
+.vamtam-icomoon-bubble-forward2:before {
+  content: "\e109";
+}
+.vamtam-icomoon-user:before {
+  content: "\e10a";
+}
+.vamtam-icomoon-users:before {
+  content: "\e10b";
+}
+.vamtam-icomoon-user-plus:before {
+  content: "\e10c";
+}
+.vamtam-icomoon-user-plus2:before {
+  content: "\e10d";
+}
+.vamtam-icomoon-user-minus:before {
+  content: "\e10e";
+}
+.vamtam-icomoon-user-minus2:before {
+  content: "\e10f";
+}
+.vamtam-icomoon-user-cancel:before {
+  content: "\e110";
+}
+.vamtam-icomoon-user-block:before {
+  content: "\e111";
+}
+.vamtam-icomoon-user2:before {
+  content: "\e112";
+}
+.vamtam-icomoon-users2:before {
+  content: "\e113";
+}
+.vamtam-icomoon-user-plus3:before {
+  content: "\e114";
+}
+.vamtam-icomoon-user-minus3:before {
+  content: "\e115";
+}
+.vamtam-icomoon-user-cancel2:before {
+  content: "\e116";
+}
+.vamtam-icomoon-user-block2:before {
+  content: "\e117";
+}
+.vamtam-icomoon-user3:before {
+  content: "\e118";
+}
+.vamtam-icomoon-user4:before {
+  content: "\e119";
+}
+.vamtam-icomoon-vcard:before {
+  content: "\e11a";
+}
+.vamtam-icomoon-hanger:before {
+  content: "\e11b";
+}
+.vamtam-icomoon-quotes-left:before {
+  content: "\e11c";
+}
+.vamtam-icomoon-quotes-right:before {
+  content: "\e11d";
+}
+.vamtam-icomoon-quotes-right2:before {
+  content: "\e11e";
+}
+.vamtam-icomoon-quotes-right3:before {
+  content: "\e11f";
+}
+.vamtam-icomoon-busy:before {
+  content: "\e120";
+}
+.vamtam-icomoon-busy2:before {
+  content: "\e121";
+}
+.vamtam-icomoon-busy3:before {
+  content: "\e122";
+}
+.vamtam-icomoon-spinner:before {
+  content: "\e123";
+}
+.vamtam-icomoon-spinner2:before {
+  content: "\e124";
+}
+.vamtam-icomoon-spinner3:before {
+  content: "\e125";
+}
+.vamtam-icomoon-spinner4:before {
+  content: "\e126";
+}
+.vamtam-icomoon-spinner5:before {
+  content: "\e127";
+}
+.vamtam-icomoon-spinner6:before {
+  content: "\e128";
+}
+.vamtam-icomoon-spinner7:before {
+  content: "\e129";
+}
+.vamtam-icomoon-spinner8:before {
+  content: "\e12a";
+}
+.vamtam-icomoon-binoculars:before {
+  content: "\e12b";
+}
+.vamtam-icomoon-search:before {
+  content: "\e12c";
+}
+.vamtam-icomoon-search2:before {
+  content: "\e12d";
+}
+.vamtam-icomoon-zoomin:before {
+  content: "\e12e";
+}
+.vamtam-icomoon-zoomout:before {
+  content: "\e12f";
+}
+.vamtam-icomoon-search3:before {
+  content: "\e130";
+}
+.vamtam-icomoon-zoomin2:before {
+  content: "\e131";
+}
+.vamtam-icomoon-zoomout2:before {
+  content: "\e132";
+}
+.vamtam-icomoon-expand:before {
+  content: "\e133";
+}
+.vamtam-icomoon-contract:before {
+  content: "\e134";
+}
+.vamtam-icomoon-expand2:before {
+  content: "\e135";
+}
+.vamtam-icomoon-contract2:before {
+  content: "\e136";
+}
+.vamtam-icomoon-key:before {
+  content: "\e137";
+}
+.vamtam-icomoon-key2:before {
+  content: "\e138";
+}
+.vamtam-icomoon-lock:before {
+  content: "\e139";
+}
+.vamtam-icomoon-lock2:before {
+  content: "\e13a";
+}
+.vamtam-icomoon-unlocked:before {
+  content: "\e13b";
+}
+.vamtam-icomoon-lock3:before {
+  content: "\e13c";
+}
+.vamtam-icomoon-unlocked2:before {
+  content: "\e13d";
+}
+.vamtam-icomoon-wrench:before {
+  content: "\e13e";
+}
+.vamtam-icomoon-wrench2:before {
+  content: "\e13f";
+}
+.vamtam-icomoon-settings:before {
+  content: "\e140";
+}
+.vamtam-icomoon-equalizer:before {
+  content: "\e141";
+}
+.vamtam-icomoon-equalizer2:before {
+  content: "\e142";
+}
+.vamtam-icomoon-equalizer3:before {
+  content: "\e143";
+}
+.vamtam-icomoon-cog:before {
+  content: "\e144";
+}
+.vamtam-icomoon-cogs:before {
+  content: "\e145";
+}
+.vamtam-icomoon-cog2:before {
+  content: "\e146";
+}
+.vamtam-icomoon-cog3:before {
+  content: "\e147";
+}
+.vamtam-icomoon-cog4:before {
+  content: "\e148";
+}
+.vamtam-icomoon-factory:before {
+  content: "\e149";
+}
+.vamtam-icomoon-hammer:before {
+  content: "\e14a";
+}
+.vamtam-icomoon-tools:before {
+  content: "\e14b";
+}
+.vamtam-icomoon-wand:before {
+  content: "\e14c";
+}
+.vamtam-icomoon-wand2:before {
+  content: "\e14d";
+}
+.vamtam-icomoon-aid:before {
+  content: "\e14e";
+}
+.vamtam-icomoon-patch:before {
+  content: "\e14f";
+}
+.vamtam-icomoon-bug:before {
+  content: "\e150";
+}
+.vamtam-icomoon-bug2:before {
+  content: "\e151";
+}
+.vamtam-icomoon-inject:before {
+  content: "\e152";
+}
+.vamtam-icomoon-construction:before {
+  content: "\e153";
+}
+.vamtam-icomoon-cone:before {
+  content: "\e154";
+}
+.vamtam-icomoon-pie:before {
+  content: "\e155";
+}
+.vamtam-icomoon-pie2:before {
+  content: "\e156";
+}
+.vamtam-icomoon-pie3:before {
+  content: "\e157";
+}
+.vamtam-icomoon-pie4:before {
+  content: "\e158";
+}
+.vamtam-icomoon-stats:before {
+  content: "\e159";
+}
+.vamtam-icomoon-stats2:before {
+  content: "\e15a";
+}
+.vamtam-icomoon-stats3:before {
+  content: "\e15b";
+}
+.vamtam-icomoon-bars:before {
+  content: "\e15c";
+}
+.vamtam-icomoon-bars2:before {
+  content: "\e15d";
+}
+.vamtam-icomoon-bars3:before {
+  content: "\e15e";
+}
+.vamtam-icomoon-stats-up:before {
+  content: "\e15f";
+}
+.vamtam-icomoon-stats-down:before {
+  content: "\e160";
+}
+.vamtam-icomoon-ladder:before {
+  content: "\e161";
+}
+.vamtam-icomoon-cake:before {
+  content: "\e162";
+}
+.vamtam-icomoon-gift:before {
+  content: "\e163";
+}
+.vamtam-icomoon-balloon:before {
+  content: "\e164";
+}
+.vamtam-icomoon-rating:before {
+  content: "\e165";
+}
+.vamtam-icomoon-rating2:before {
+  content: "\e166";
+}
+.vamtam-icomoon-rating3:before {
+  content: "\e167";
+}
+.vamtam-icomoon-podium:before {
+  content: "\e168";
+}
+.vamtam-icomoon-medal:before {
+  content: "\e169";
+}
+.vamtam-icomoon-medal2:before {
+  content: "\e16a";
+}
+.vamtam-icomoon-medal3:before {
+  content: "\e16b";
+}
+.vamtam-icomoon-medal4:before {
+  content: "\e16c";
+}
+.vamtam-icomoon-medal5:before {
+  content: "\e16d";
+}
+.vamtam-icomoon-crown:before {
+  content: "\e16e";
+}
+.vamtam-icomoon-trophy:before {
+  content: "\e16f";
+}
+.vamtam-icomoon-trophy2:before {
+  content: "\e170";
+}
+.vamtam-icomoon-trophy-star:before {
+  content: "\e171";
+}
+.vamtam-icomoon-diamond:before {
+  content: "\e172";
+}
+.vamtam-icomoon-glass:before {
+  content: "\e173";
+}
+.vamtam-icomoon-glass2:before {
+  content: "\e174";
+}
+.vamtam-icomoon-bottle:before {
+  content: "\e175";
+}
+.vamtam-icomoon-bottle2:before {
+  content: "\e176";
+}
+.vamtam-icomoon-mug:before {
+  content: "\e177";
+}
+.vamtam-icomoon-food:before {
+  content: "\e178";
+}
+.vamtam-icomoon-food2:before {
+  content: "\e179";
+}
+.vamtam-icomoon-leaf:before {
+  content: "\e17a";
+}
+.vamtam-icomoon-apple-fruit:before {
+  content: "\e17b";
+}
+.vamtam-icomoon-paw:before {
+  content: "\e17c";
+}
+.vamtam-icomoon-steps:before {
+  content: "\e17d";
+}
+.vamtam-icomoon-flower:before {
+  content: "\e17e";
+}
+.vamtam-icomoon-rocket:before {
+  content: "\e17f";
+}
+.vamtam-icomoon-meter:before {
+  content: "\e180";
+}
+.vamtam-icomoon-meter2:before {
+  content: "\e181";
+}
+.vamtam-icomoon-meter-slow:before {
+  content: "\e182";
+}
+.vamtam-icomoon-meter-medium:before {
+  content: "\e183";
+}
+.vamtam-icomoon-meter-fast:before {
+  content: "\e184";
+}
+.vamtam-icomoon-dashboard:before {
+  content: "\e185";
+}
+.vamtam-icomoon-hammer2:before {
+  content: "\e186";
+}
+.vamtam-icomoon-balance:before {
+  content: "\e187";
+}
+.vamtam-icomoon-lab:before {
+  content: "\e189";
+}
+.vamtam-icomoon-magnet:before {
+  content: "\e18a";
+}
+.vamtam-icomoon-dumbbell:before {
+  content: "\e18b";
+}
+.vamtam-icomoon-skull:before {
+  content: "\e18c";
+}
+.vamtam-icomoon-skull2:before {
+  content: "\e18d";
+}
+.vamtam-icomoon-lamp:before {
+  content: "\e18e";
+}
+.vamtam-icomoon-lamp2:before {
+  content: "\e18f";
+}
+.vamtam-icomoon-lamp3:before {
+  content: "\e190";
+}
+.vamtam-icomoon-remove:before {
+  content: "\e191";
+}
+.vamtam-icomoon-remove2:before {
+  content: "\e192";
+}
+.vamtam-icomoon-remove3:before {
+  content: "\e193";
+}
+.vamtam-icomoon-remove4:before {
+  content: "\e194";
+}
+.vamtam-icomoon-remove5:before {
+  content: "\e195";
+}
+.vamtam-icomoon-briefcase:before {
+  content: "\e196";
+}
+.vamtam-icomoon-briefcase2:before {
+  content: "\e197";
+}
+.vamtam-icomoon-briefcase3:before {
+  content: "\e198";
+}
+.vamtam-icomoon-airplane:before {
+  content: "\e199";
+}
+.vamtam-icomoon-airplane2:before {
+  content: "\e19a";
+}
+.vamtam-icomoon-paperplane:before {
+  content: "\e19b";
+}
+.vamtam-icomoon-car:before {
+  content: "\e19c";
+}
+.vamtam-icomoon-gas-pump:before {
+  content: "\e19d";
+}
+.vamtam-icomoon-bus:before {
+  content: "\e19e";
+}
+.vamtam-icomoon-truck:before {
+  content: "\e19f";
+}
+.vamtam-icomoon-road:before {
+  content: "\e1a0";
+}
+.vamtam-icomoon-boat:before {
+  content: "\e1a1";
+}
+.vamtam-icomoon-cube:before {
+  content: "\e1a2";
+}
+.vamtam-icomoon-cube2:before {
+  content: "\e1a3";
+}
+.vamtam-icomoon-pyramid:before {
+  content: "\e1a4";
+}
+.vamtam-icomoon-puzzle:before {
+  content: "\e1a5";
+}
+.vamtam-icomoon-puzzle2:before {
+  content: "\e1a6";
+}
+.vamtam-icomoon-puzzle3:before {
+  content: "\e1a7";
+}
+.vamtam-icomoon-puzzle4:before {
+  content: "\e1a8";
+}
+.vamtam-icomoon-glasses:before {
+  content: "\e1a9";
+}
+.vamtam-icomoon-glasses2:before {
+  content: "\e1aa";
+}
+.vamtam-icomoon-glasses3:before {
+  content: "\e1ab";
+}
+.vamtam-icomoon-sunglasses:before {
+  content: "\e1ac";
+}
+.vamtam-icomoon-accessibility:before {
+  content: "\e1ad";
+}
+.vamtam-icomoon-accessibility2:before {
+  content: "\e1ae";
+}
+.vamtam-icomoon-target:before {
+  content: "\e1af";
+}
+.vamtam-icomoon-target2:before {
+  content: "\e1b0";
+}
+.vamtam-icomoon-target3:before {
+  content: "\e1b1";
+}
+.vamtam-icomoon-gun:before {
+  content: "\e1b2";
+}
+.vamtam-icomoon-gun-ban:before {
+  content: "\e1b3";
+}
+.vamtam-icomoon-shield:before {
+  content: "\e1b4";
+}
+.vamtam-icomoon-shield2:before {
+  content: "\e1b5";
+}
+.vamtam-icomoon-lightning:before {
+  content: "\e1b6";
+}
+.vamtam-icomoon-power:before {
+  content: "\e1b7";
+}
+.vamtam-icomoon-power2:before {
+  content: "\e1b8";
+}
+.vamtam-icomoon-switch:before {
+  content: "\e1b9";
+}
+.vamtam-icomoon-powercord:before {
+  content: "\e1ba";
+}
+.vamtam-icomoon-clipboard:before {
+  content: "\e1bb";
+}
+.vamtam-icomoon-signup:before {
+  content: "\e1bc";
+}
+.vamtam-icomoon-list:before {
+  content: "\e1bd";
+}
+.vamtam-icomoon-list2:before {
+  content: "\e1be";
+}
+.vamtam-icomoon-numbered-list:before {
+  content: "\e1bf";
+}
+.vamtam-icomoon-playlist:before {
+  content: "\e1c0";
+}
+.vamtam-icomoon-grid:before {
+  content: "\e1c1";
+}
+.vamtam-icomoon-grid2:before {
+  content: "\e1c2";
+}
+.vamtam-icomoon-grid3:before {
+  content: "\e1c3";
+}
+.vamtam-icomoon-grid4:before {
+  content: "\e1c4";
+}
+.vamtam-icomoon-tree:before {
+  content: "\e1c5";
+}
+.vamtam-icomoon-tree2:before {
+  content: "\e1c6";
+}
+.vamtam-icomoon-tree3:before {
+  content: "\e1c7";
+}
+.vamtam-icomoon-menu:before {
+  content: "\e1c8";
+}
+.vamtam-icomoon-menu2:before {
+  content: "\e1c9";
+}
+.vamtam-icomoon-menu3:before {
+  content: "\e1ca";
+}
+.vamtam-icomoon-menu4:before {
+  content: "\e1cb";
+}
+.vamtam-icomoon-menu5:before {
+  content: "\e1cc";
+}
+.vamtam-icomoon-cloud:before {
+  content: "\e1cd";
+}
+.vamtam-icomoon-cloud-download:before {
+  content: "\e1ce";
+}
+.vamtam-icomoon-cloud-upload:before {
+  content: "\e1cf";
+}
+.vamtam-icomoon-download2:before {
+  content: "\e1d0";
+}
+.vamtam-icomoon-upload2:before {
+  content: "\e1d1";
+}
+.vamtam-icomoon-download3:before {
+  content: "\e1d2";
+}
+.vamtam-icomoon-upload3:before {
+  content: "\e1d3";
+}
+.vamtam-icomoon-download4:before {
+  content: "\e1d4";
+}
+.vamtam-icomoon-upload4:before {
+  content: "\e1d5";
+}
+.vamtam-icomoon-download5:before {
+  content: "\e1d6";
+}
+.vamtam-icomoon-upload5:before {
+  content: "\e1d7";
+}
+.vamtam-icomoon-globe:before {
+  content: "\e1d8";
+}
+.vamtam-icomoon-globe2:before {
+  content: "\e1d9";
+}
+.vamtam-icomoon-earth:before {
+  content: "\e1da";
+}
+.vamtam-icomoon-link:before {
+  content: "\e1db";
+}
+.vamtam-icomoon-link2:before {
+  content: "\e1dc";
+}
+.vamtam-icomoon-link3:before {
+  content: "\e1dd";
+}
+.vamtam-icomoon-link22:before {
+  content: "\e1de";
+}
+.vamtam-icomoon-link4:before {
+  content: "\e1df";
+}
+.vamtam-icomoon-link5:before {
+  content: "\e1e0";
+}
+.vamtam-icomoon-link6:before {
+  content: "\e1e1";
+}
+.vamtam-icomoon-anchor:before {
+  content: "\e1e2";
+}
+.vamtam-icomoon-flag:before {
+  content: "\e1e3";
+}
+.vamtam-icomoon-flag2:before {
+  content: "\e1e4";
+}
+.vamtam-icomoon-flag3:before {
+  content: "\e1e5";
+}
+.vamtam-icomoon-flag4:before {
+  content: "\e1e6";
+}
+.vamtam-icomoon-attachment:before {
+  content: "\e1e7";
+}
+.vamtam-icomoon-attachment2:before {
+  content: "\e1e8";
+}
+.vamtam-icomoon-eye:before {
+  content: "\e1e9";
+}
+.vamtam-icomoon-eye-blocked:before {
+  content: "\e1ea";
+}
+.vamtam-icomoon-eye2:before {
+  content: "\e1eb";
+}
+.vamtam-icomoon-eye3:before {
+  content: "\e1ec";
+}
+.vamtam-icomoon-eye-blocked2:before {
+  content: "\e1ed";
+}
+.vamtam-icomoon-eye4:before {
+  content: "\e1ee";
+}
+.vamtam-icomoon-eye5:before {
+  content: "\e1ef";
+}
+.vamtam-icomoon-eye6:before {
+  content: "\e1f0";
+}
+.vamtam-icomoon-eye7:before {
+  content: "\e1f1";
+}
+.vamtam-icomoon-bookmark:before {
+  content: "\e1f2";
+}
+.vamtam-icomoon-bookmark2:before {
+  content: "\e1f3";
+}
+.vamtam-icomoon-bookmarks:before {
+  content: "\e1f4";
+}
+.vamtam-icomoon-bookmark3:before {
+  content: "\e1f5";
+}
+.vamtam-icomoon-weather-lightning:before {
+  content: "\e1f6";
+}
+.vamtam-icomoon-weather-rain:before {
+  content: "\e1f7";
+}
+.vamtam-icomoon-weather-snow:before {
+  content: "\e1f8";
+}
+.vamtam-icomoon-windy:before {
+  content: "\e1f9";
+}
+.vamtam-icomoon-fan:before {
+  content: "\e1fa";
+}
+.vamtam-icomoon-umbrella:before {
+  content: "\e1fb";
+}
+.vamtam-icomoon-sun:before {
+  content: "\e1fc";
+}
+.vamtam-icomoon-sun2:before {
+  content: "\e1fd";
+}
+.vamtam-icomoon-brightness-high:before {
+  content: "\e1fe";
+}
+.vamtam-icomoon-brightness-medium:before {
+  content: "\e1ff";
+}
+.vamtam-icomoon-brightness-low:before {
+  content: "\e200";
+}
+.vamtam-icomoon-brightness-contrast:before {
+  content: "\e201";
+}
+.vamtam-icomoon-contrast:before {
+  content: "\e202";
+}
+.vamtam-icomoon-moon:before {
+  content: "\e203";
+}
+.vamtam-icomoon-bed:before {
+  content: "\e204";
+}
+.vamtam-icomoon-bed2:before {
+  content: "\e205";
+}
+.vamtam-icomoon-star:before {
+  content: "\e206";
+}
+.vamtam-icomoon-star2:before {
+  content: "\e207";
+}
+.vamtam-icomoon-star3:before {
+  content: "\e208";
+}
+.vamtam-icomoon-star4:before {
+  content: "\e209";
+}
+.vamtam-icomoon-star5:before {
+  content: "\e20a";
+}
+.vamtam-icomoon-star6:before {
+  content: "\e20b";
+}
+.vamtam-icomoon-heart:before {
+  content: "\e20c";
+}
+.vamtam-icomoon-heart2:before {
+  content: "\e20d";
+}
+.vamtam-icomoon-heart-broken:before {
+  content: "\e20e";
+}
+.vamtam-icomoon-heart3:before {
+  content: "\e20f";
+}
+.vamtam-icomoon-heart4:before {
+  content: "\e210";
+}
+.vamtam-icomoon-heart-broken2:before {
+  content: "\e211";
+}
+.vamtam-icomoon-heart5:before {
+  content: "\e212";
+}
+.vamtam-icomoon-heart6:before {
+  content: "\e213";
+}
+.vamtam-icomoon-heart-broken3:before {
+  content: "\e214";
+}
+.vamtam-icomoon-thumbs-up:before {
+  content: "\e215";
+}
+.vamtam-icomoon-thumbs-up2:before {
+  content: "\e216";
+}
+.vamtam-icomoon-thumbs-down:before {
+  content: "\e217";
+}
+.vamtam-icomoon-thumbs-down2:before {
+  content: "\e218";
+}
+.vamtam-icomoon-thumbs-up3:before {
+  content: "\e219";
+}
+.vamtam-icomoon-thumbs-up4:before {
+  content: "\e21a";
+}
+.vamtam-icomoon-people:before {
+  content: "\e21b";
+}
+.vamtam-icomoon-man:before {
+  content: "\e21c";
+}
+.vamtam-icomoon-male:before {
+  content: "\e21d";
+}
+.vamtam-icomoon-woman:before {
+  content: "\e21e";
+}
+.vamtam-icomoon-female:before {
+  content: "\e21f";
+}
+.vamtam-icomoon-peace:before {
+  content: "\e220";
+}
+.vamtam-icomoon-yin-yang:before {
+  content: "\e221";
+}
+.vamtam-icomoon-happy:before {
+  content: "\e222";
+}
+.vamtam-icomoon-happy2:before {
+  content: "\e223";
+}
+.vamtam-icomoon-smiley:before {
+  content: "\e224";
+}
+.vamtam-icomoon-smiley2:before {
+  content: "\e225";
+}
+.vamtam-icomoon-tongue:before {
+  content: "\e226";
+}
+.vamtam-icomoon-tongue2:before {
+  content: "\e227";
+}
+.vamtam-icomoon-sad:before {
+  content: "\e228";
+}
+.vamtam-icomoon-sad2:before {
+  content: "\e229";
+}
+.vamtam-icomoon-wink:before {
+  content: "\e22a";
+}
+.vamtam-icomoon-wink2:before {
+  content: "\e22b";
+}
+.vamtam-icomoon-grin:before {
+  content: "\e22c";
+}
+.vamtam-icomoon-grin2:before {
+  content: "\e22d";
+}
+.vamtam-icomoon-cool:before {
+  content: "\e22e";
+}
+.vamtam-icomoon-cool2:before {
+  content: "\e22f";
+}
+.vamtam-icomoon-angry:before {
+  content: "\e230";
+}
+.vamtam-icomoon-angry2:before {
+  content: "\e231";
+}
+.vamtam-icomoon-evil:before {
+  content: "\e232";
+}
+.vamtam-icomoon-evil2:before {
+  content: "\e233";
+}
+.vamtam-icomoon-shocked:before {
+  content: "\e234";
+}
+.vamtam-icomoon-shocked2:before {
+  content: "\e235";
+}
+.vamtam-icomoon-confused:before {
+  content: "\e236";
+}
+.vamtam-icomoon-confused2:before {
+  content: "\e237";
+}
+.vamtam-icomoon-neutral:before {
+  content: "\e238";
+}
+.vamtam-icomoon-neutral2:before {
+  content: "\e239";
+}
+.vamtam-icomoon-wondering:before {
+  content: "\e23a";
+}
+.vamtam-icomoon-wondering2:before {
+  content: "\e23b";
+}
+.vamtam-icomoon-cursor:before {
+  content: "\e23c";
+}
+.vamtam-icomoon-cursor2:before {
+  content: "\e23d";
+}
+.vamtam-icomoon-point-up:before {
+  content: "\e23e";
+}
+.vamtam-icomoon-point-right:before {
+  content: "\e23f";
+}
+.vamtam-icomoon-point-down:before {
+  content: "\e240";
+}
+.vamtam-icomoon-point-left:before {
+  content: "\e241";
+}
+.vamtam-icomoon-move:before {
+  content: "\e242";
+}
+.vamtam-icomoon-warning:before {
+  content: "\e243";
+}
+.vamtam-icomoon-notification:before {
+  content: "\e244";
+}
+.vamtam-icomoon-question:before {
+  content: "\e245";
+}
+.vamtam-icomoon-question2:before {
+  content: "\e246";
+}
+.vamtam-icomoon-question3:before {
+  content: "\e247";
+}
+.vamtam-icomoon-question4:before {
+  content: "\e248";
+}
+.vamtam-icomoon-question5:before {
+  content: "\e249";
+}
+.vamtam-icomoon-plus-circle:before {
+  content: "\e24a";
+}
+.vamtam-icomoon-plus-circle2:before {
+  content: "\e24b";
+}
+.vamtam-icomoon-minus-circle:before {
+  content: "\e24c";
+}
+.vamtam-icomoon-minus-circle2:before {
+  content: "\e24d";
+}
+.vamtam-icomoon-info:before {
+  content: "\e24e";
+}
+.vamtam-icomoon-info2:before {
+  content: "\e24f";
+}
+.vamtam-icomoon-blocked:before {
+  content: "\e250";
+}
+.vamtam-icomoon-cancel-circle:before {
+  content: "\e251";
+}
+.vamtam-icomoon-cancel-circle2:before {
+  content: "\e252";
+}
+.vamtam-icomoon-checkmark-circle:before {
+  content: "\e253";
+}
+.vamtam-icomoon-checkmark-circle2:before {
+  content: "\e254";
+}
+.vamtam-icomoon-cancel:before {
+  content: "\e255";
+}
+.vamtam-icomoon-spam:before {
+  content: "\e256";
+}
+.vamtam-icomoon-close:before {
+  content: "\e257";
+}
+.vamtam-icomoon-checkmark:before {
+  content: "\e258";
+}
+.vamtam-icomoon-checkmark2:before {
+  content: "\e259";
+}
+.vamtam-icomoon-checkmark3:before {
+  content: "\e25a";
+}
+.vamtam-icomoon-checkmark4:before {
+  content: "\e25b";
+}
+.vamtam-icomoon-spell-check:before {
+  content: "\e25c";
+}
+.vamtam-icomoon-minus:before {
+  content: "\e25d";
+}
+.vamtam-icomoon-plus:before {
+  content: "\e25e";
+}
+.vamtam-icomoon-enter:before {
+  content: "\e25f";
+}
+.vamtam-icomoon-exit:before {
+  content: "\e260";
+}
+.vamtam-icomoon-enter2:before {
+  content: "\e261";
+}
+.vamtam-icomoon-exit2:before {
+  content: "\e262";
+}
+.vamtam-icomoon-enter3:before {
+  content: "\e263";
+}
+.vamtam-icomoon-exit3:before {
+  content: "\e264";
+}
+.vamtam-icomoon-exit4:before {
+  content: "\e265";
+}
+.vamtam-icomoon-play2:before {
+  content: "\e266";
+}
+.vamtam-icomoon-pause:before {
+  content: "\e267";
+}
+.vamtam-icomoon-stop:before {
+  content: "\e268";
+}
+.vamtam-icomoon-backward:before {
+  content: "\e269";
+}
+.vamtam-icomoon-forward2:before {
+  content: "\e26a";
+}
+.vamtam-icomoon-play3:before {
+  content: "\e26b";
+}
+.vamtam-icomoon-pause2:before {
+  content: "\e26c";
+}
+.vamtam-icomoon-stop2:before {
+  content: "\e26d";
+}
+.vamtam-icomoon-backward2:before {
+  content: "\e26e";
+}
+.vamtam-icomoon-forward3:before {
+  content: "\e26f";
+}
+.vamtam-icomoon-first:before {
+  content: "\e270";
+}
+.vamtam-icomoon-last:before {
+  content: "\e271";
+}
+.vamtam-icomoon-previous:before {
+  content: "\e272";
+}
+.vamtam-icomoon-next:before {
+  content: "\e273";
+}
+.vamtam-icomoon-eject:before {
+  content: "\e274";
+}
+.vamtam-icomoon-volume-high:before {
+  content: "\e275";
+}
+.vamtam-icomoon-volume-medium:before {
+  content: "\e276";
+}
+.vamtam-icomoon-volume-low:before {
+  content: "\e277";
+}
+.vamtam-icomoon-volume-mute:before {
+  content: "\e278";
+}
+.vamtam-icomoon-volume-mute2:before {
+  content: "\e279";
+}
+.vamtam-icomoon-volume-increase:before {
+  content: "\e27a";
+}
+.vamtam-icomoon-volume-decrease:before {
+  content: "\e27b";
+}
+.vamtam-icomoon-volume-high2:before {
+  content: "\e27c";
+}
+.vamtam-icomoon-volume-medium2:before {
+  content: "\e27d";
+}
+.vamtam-icomoon-volume-low2:before {
+  content: "\e27e";
+}
+.vamtam-icomoon-volume-mute3:before {
+  content: "\e27f";
+}
+.vamtam-icomoon-volume-mute4:before {
+  content: "\e280";
+}
+.vamtam-icomoon-volume-increase2:before {
+  content: "\e281";
+}
+.vamtam-icomoon-volume-decrease2:before {
+  content: "\e282";
+}
+.vamtam-icomoon-volume5:before {
+  content: "\e283";
+}
+.vamtam-icomoon-volume4:before {
+  content: "\e284";
+}
+.vamtam-icomoon-volume3:before {
+  content: "\e285";
+}
+.vamtam-icomoon-volume2:before {
+  content: "\e286";
+}
+.vamtam-icomoon-volume1:before {
+  content: "\e287";
+}
+.vamtam-icomoon-volume0:before {
+  content: "\e288";
+}
+.vamtam-icomoon-volume-mute5:before {
+  content: "\e289";
+}
+.vamtam-icomoon-volume-mute6:before {
+  content: "\e28a";
+}
+.vamtam-icomoon-loop:before {
+  content: "\e28b";
+}
+.vamtam-icomoon-loop2:before {
+  content: "\e28c";
+}
+.vamtam-icomoon-loop3:before {
+  content: "\e28d";
+}
+.vamtam-icomoon-loop4:before {
+  content: "\e28e";
+}
+.vamtam-icomoon-loop5:before {
+  content: "\e28f";
+}
+.vamtam-icomoon-shuffle:before {
+  content: "\e290";
+}
+.vamtam-icomoon-shuffle2:before {
+  content: "\e291";
+}
+.vamtam-icomoon-wave:before {
+  content: "\e292";
+}
+.vamtam-icomoon-wave2:before {
+  content: "\e293";
+}
+.vamtam-icomoon-arrow-first:before {
+  content: "\e294";
+}
+.vamtam-icomoon-arrow-right:before {
+  content: "\e295";
+}
+.vamtam-icomoon-arrow-up:before {
+  content: "\e296";
+}
+.vamtam-icomoon-arrow-right2:before {
+  content: "\e297";
+}
+.vamtam-icomoon-arrow-down:before {
+  content: "\e298";
+}
+.vamtam-icomoon-arrow-left:before {
+  content: "\e299";
+}
+.vamtam-icomoon-arrow-up2:before {
+  content: "\e29a";
+}
+.vamtam-icomoon-arrow-right3:before {
+  content: "\e29b";
+}
+.vamtam-icomoon-arrow-down2:before {
+  content: "\e29c";
+}
+.vamtam-icomoon-arrow-left2:before {
+  content: "\e29d";
+}
+.vamtam-icomoon-arrow-up-left:before {
+  content: "\e29e";
+}
+.vamtam-icomoon-arrow-up3:before {
+  content: "\e29f";
+}
+.vamtam-icomoon-arrow-up-right:before {
+  content: "\e2a0";
+}
+.vamtam-icomoon-arrow-right4:before {
+  content: "\e2a1";
+}
+.vamtam-icomoon-arrow-down-right:before {
+  content: "\e2a2";
+}
+.vamtam-icomoon-arrow-down3:before {
+  content: "\e2a3";
+}
+.vamtam-icomoon-arrow-down-left:before {
+  content: "\e2a4";
+}
+.vamtam-icomoon-arrow-left3:before {
+  content: "\e2a5";
+}
+.vamtam-icomoon-arrow-up-left2:before {
+  content: "\e2a6";
+}
+.vamtam-icomoon-arrow-up4:before {
+  content: "\e2a7";
+}
+.vamtam-icomoon-arrow-up-right2:before {
+  content: "\e2a8";
+}
+.vamtam-icomoon-arrow-right5:before {
+  content: "\e2a9";
+}
+.vamtam-icomoon-arrow-down-right2:before {
+  content: "\e2aa";
+}
+.vamtam-icomoon-arrow-down4:before {
+  content: "\e2ab";
+}
+.vamtam-icomoon-arrow-down-left2:before {
+  content: "\e2ac";
+}
+.vamtam-icomoon-arrow-left4:before {
+  content: "\e2ad";
+}
+.vamtam-icomoon-arrow-up-left3:before {
+  content: "\e2ae";
+}
+.vamtam-icomoon-arrow-up5:before {
+  content: "\e2af";
+}
+.vamtam-icomoon-arrow-up-right3:before {
+  content: "\e2b0";
+}
+.vamtam-icomoon-arrow-right6:before {
+  content: "\e2b1";
+}
+.vamtam-icomoon-arrow-down-right3:before {
+  content: "\e2b2";
+}
+.vamtam-icomoon-arrow-down5:before {
+  content: "\e2b3";
+}
+.vamtam-icomoon-arrow-down-left3:before {
+  content: "\e2b4";
+}
+.vamtam-icomoon-arrow-left5:before {
+  content: "\e2b5";
+}
+.vamtam-icomoon-arrow:before {
+  content: "\e2b6";
+}
+.vamtam-icomoon-arrow2:before {
+  content: "\e2b7";
+}
+.vamtam-icomoon-arrow3:before {
+  content: "\e2b8";
+}
+.vamtam-icomoon-arrow4:before {
+  content: "\e2b9";
+}
+.vamtam-icomoon-arrow-up-left4:before {
+  content: "\e2ba";
+}
+.vamtam-icomoon-arrow-up6:before {
+  content: "\e2bb";
+}
+.vamtam-icomoon-arrow-up-right4:before {
+  content: "\e2bc";
+}
+.vamtam-icomoon-arrow-right7:before {
+  content: "\e2bd";
+}
+.vamtam-icomoon-arrow-down-right4:before {
+  content: "\e2be";
+}
+.vamtam-icomoon-arrow-down6:before {
+  content: "\e2bf";
+}
+.vamtam-icomoon-arrow-down-left4:before {
+  content: "\e2c0";
+}
+.vamtam-icomoon-arrow-left6:before {
+  content: "\e2c1";
+}
+.vamtam-icomoon-arrow-up-left5:before {
+  content: "\e2c2";
+}
+.vamtam-icomoon-arrow-up7:before {
+  content: "\e2c3";
+}
+.vamtam-icomoon-arrow-up-right5:before {
+  content: "\e2c4";
+}
+.vamtam-icomoon-arrow-right8:before {
+  content: "\e2c5";
+}
+.vamtam-icomoon-arrow-down-right5:before {
+  content: "\e2c6";
+}
+.vamtam-icomoon-arrow-down7:before {
+  content: "\e2c7";
+}
+.vamtam-icomoon-arrow-down-left5:before {
+  content: "\e2c8";
+}
+.vamtam-icomoon-arrow-left7:before {
+  content: "\e2c9";
+}
+.vamtam-icomoon-arrow-up8:before {
+  content: "\e2ca";
+}
+.vamtam-icomoon-arrow-right9:before {
+  content: "\e2cb";
+}
+.vamtam-icomoon-arrow-down8:before {
+  content: "\e2cc";
+}
+.vamtam-icomoon-arrow-left8:before {
+  content: "\e2cd";
+}
+.vamtam-icomoon-arrow-up9:before {
+  content: "\e2ce";
+}
+.vamtam-icomoon-arrow-right10:before {
+  content: "\e2cf";
+}
+.vamtam-icomoon-arrow-down9:before {
+  content: "\e2d0";
+}
+.vamtam-icomoon-arrow-left9:before {
+  content: "\e2d1";
+}
+.vamtam-icomoon-arrow-up10:before {
+  content: "\e2d2";
+}
+.vamtam-icomoon-arrow-right11:before {
+  content: "\e2d3";
+}
+.vamtam-icomoon-arrow-down10:before {
+  content: "\e2d4";
+}
+.vamtam-icomoon-arrow-left10:before {
+  content: "\e2d5";
+}
+.vamtam-icomoon-arrow-up11:before {
+  content: "\e2d6";
+}
+.vamtam-icomoon-arrow-right12:before {
+  content: "\e2d7";
+}
+.vamtam-icomoon-arrow-down11:before {
+  content: "\e2d8";
+}
+.vamtam-icomoon-arrow-left11:before {
+  content: "\e2d9";
+}
+.vamtam-icomoon-enter4:before {
+  content: "\e2da";
+}
+.vamtam-icomoon-enter5:before {
+  content: "\e2db";
+}
+.vamtam-icomoon-esc:before {
+  content: "\e2dc";
+}
+.vamtam-icomoon-backspace:before {
+  content: "\e2dd";
+}
+.vamtam-icomoon-backspace2:before {
+  content: "\e2de";
+}
+.vamtam-icomoon-backspace3:before {
+  content: "\e2df";
+}
+.vamtam-icomoon-tab:before {
+  content: "\e2e0";
+}
+.vamtam-icomoon-transmission:before {
+  content: "\e2e1";
+}
+.vamtam-icomoon-transmission2:before {
+  content: "\e2e2";
+}
+.vamtam-icomoon-sort:before {
+  content: "\e2e3";
+}
+.vamtam-icomoon-sort2:before {
+  content: "\e2e4";
+}
+.vamtam-icomoon-command:before {
+  content: "\e2e5";
+}
+.vamtam-icomoon-checkbox-checked:before {
+  content: "\e2e6";
+}
+.vamtam-icomoon-checkbox-unchecked:before {
+  content: "\e2e7";
+}
+.vamtam-icomoon-checkbox-partial:before {
+  content: "\e2e8";
+}
+.vamtam-icomoon-radio-checked:before {
+  content: "\e2e9";
+}
+.vamtam-icomoon-radio-unchecked:before {
+  content: "\e2ea";
+}
+.vamtam-icomoon-crop:before {
+  content: "\e2eb";
+}
+.vamtam-icomoon-vector:before {
+  content: "\e2ec";
+}
+.vamtam-icomoon-rulers:before {
+  content: "\e2ed";
+}
+.vamtam-icomoon-scissors:before {
+  content: "\e2ee";
+}
+.vamtam-icomoon-scissors2:before {
+  content: "\e2ef";
+}
+.vamtam-icomoon-filter:before {
+  content: "\e2f0";
+}
+.vamtam-icomoon-filter2:before {
+  content: "\e2f1";
+}
+.vamtam-icomoon-filter3:before {
+  content: "\e2f2";
+}
+.vamtam-icomoon-filter4:before {
+  content: "\e2f3";
+}
+.vamtam-icomoon-font:before {
+  content: "\e2f4";
+}
+.vamtam-icomoon-text-height:before {
+  content: "\e2f5";
+}
+.vamtam-icomoon-text-width:before {
+  content: "\e2f6";
+}
+.vamtam-icomoon-font-size:before {
+  content: "\e2f7";
+}
+.vamtam-icomoon-bold:before {
+  content: "\e2f8";
+}
+.vamtam-icomoon-underline:before {
+  content: "\e2f9";
+}
+.vamtam-icomoon-italic:before {
+  content: "\e2fa";
+}
+.vamtam-icomoon-strikethrough:before {
+  content: "\e2fb";
+}
+.vamtam-icomoon-omega:before {
+  content: "\e2fc";
+}
+.vamtam-icomoon-sigma:before {
+  content: "\e2fd";
+}
+.vamtam-icomoon-nbsp:before {
+  content: "\e2fe";
+}
+.vamtam-icomoon-page-break:before {
+  content: "\e2ff";
+}
+.vamtam-icomoon-page-break2:before {
+  content: "\e300";
+}
+.vamtam-icomoon-superscript:before {
+  content: "\e301";
+}
+.vamtam-icomoon-subscript:before {
+  content: "\e302";
+}
+.vamtam-icomoon-superscript2:before {
+  content: "\e303";
+}
+.vamtam-icomoon-subscript2:before {
+  content: "\e304";
+}
+.vamtam-icomoon-text-color:before {
+  content: "\e305";
+}
+.vamtam-icomoon-pagebreak:before {
+  content: "\e306";
+}
+.vamtam-icomoon-clear-formatting:before {
+  content: "\e307";
+}
+.vamtam-icomoon-table:before {
+  content: "\e308";
+}
+.vamtam-icomoon-table2:before {
+  content: "\e309";
+}
+.vamtam-icomoon-insert-template:before {
+  content: "\e30a";
+}
+.vamtam-icomoon-pilcrow:before {
+  content: "\e30b";
+}
+.vamtam-icomoon-lefttoright:before {
+  content: "\e30c";
+}
+.vamtam-icomoon-righttoleft:before {
+  content: "\e30d";
+}
+.vamtam-icomoon-paragraph-left:before {
+  content: "\e30e";
+}
+.vamtam-icomoon-paragraph-center:before {
+  content: "\e30f";
+}
+.vamtam-icomoon-paragraph-right:before {
+  content: "\e310";
+}
+.vamtam-icomoon-paragraph-justify:before {
+  content: "\e311";
+}
+.vamtam-icomoon-paragraph-left2:before {
+  content: "\e312";
+}
+.vamtam-icomoon-paragraph-center2:before {
+  content: "\e313";
+}
+.vamtam-icomoon-paragraph-right2:before {
+  content: "\e314";
+}
+.vamtam-icomoon-paragraph-justify2:before {
+  content: "\e315";
+}
+.vamtam-icomoon-indent-increase:before {
+  content: "\e316";
+}
+.vamtam-icomoon-indent-decrease:before {
+  content: "\e317";
+}
+.vamtam-icomoon-share:before {
+  content: "\e318";
+}
+.vamtam-icomoon-newtab:before {
+  content: "\e319";
+}
+.vamtam-icomoon-newtab2:before {
+  content: "\e31a";
+}
+.vamtam-icomoon-popout:before {
+  content: "\e31b";
+}
+.vamtam-icomoon-embed:before {
+  content: "\e31c";
+}
+.vamtam-icomoon-code:before {
+  content: "\e31d";
+}
+.vamtam-icomoon-console:before {
+  content: "\e31e";
+}
+.vamtam-icomoon-share2:before {
+  content: "\e31f";
+}
+.vamtam-icomoon-share3:before {
+  content: "\e320";
+}
+.vamtam-icomoon-mail:before {
+  content: "\e321";
+}
+.vamtam-icomoon-mail2:before {
+  content: "\e322";
+}
+.vamtam-icomoon-mail3:before {
+  content: "\e323";
+}
+.vamtam-icomoon-mail4:before {
+  content: "\e324";
+}
+.vamtam-icomoon-google:before {
+  content: "\e325";
+}
+.vamtam-icomoon-googleplus:before {
+  content: "\e326";
+}
+.vamtam-icomoon-googleplus2:before {
+  content: "\e327";
+}
+.vamtam-icomoon-googleplus3:before {
+  content: "\e328";
+}
+.vamtam-icomoon-googleplus4:before {
+  content: "\e329";
+}
+.vamtam-icomoon-google-drive:before {
+  content: "\e32a";
+}
+.vamtam-icomoon-facebook:before {
+  content: "\e32b";
+}
+.vamtam-icomoon-facebook2:before {
+  content: "\e32c";
+}
+.vamtam-icomoon-facebook3:before {
+  content: "\e32d";
+}
+.vamtam-icomoon-instagram:before {
+  content: "\e32e";
+}
+.vamtam-icomoon-twitter:before {
+  content: "\e32f";
+}
+.vamtam-icomoon-twitter2:before {
+  content: "\e330";
+}
+.vamtam-icomoon-twitter3:before {
+  content: "\e331";
+}
+.vamtam-icomoon-feed2:before {
+  content: "\e332";
+}
+.vamtam-icomoon-feed3:before {
+  content: "\e333";
+}
+.vamtam-icomoon-feed4:before {
+  content: "\e334";
+}
+.vamtam-icomoon-youtube:before {
+  content: "\e335";
+}
+.vamtam-icomoon-youtube2:before {
+  content: "\e336";
+}
+.vamtam-icomoon-vimeo:before {
+  content: "\e337";
+}
+.vamtam-icomoon-vimeo2:before {
+  content: "\e338";
+}
+.vamtam-icomoon-vimeo3:before {
+  content: "\e339";
+}
+.vamtam-icomoon-lanyrd:before {
+  content: "\e33a";
+}
+.vamtam-icomoon-flickr:before {
+  content: "\e33b";
+}
+.vamtam-icomoon-flickr2:before {
+  content: "\e33c";
+}
+.vamtam-icomoon-flickr3:before {
+  content: "\e33d";
+}
+.vamtam-icomoon-flickr4:before {
+  content: "\e33e";
+}
+.vamtam-icomoon-picassa:before {
+  content: "\e33f";
+}
+.vamtam-icomoon-picassa2:before {
+  content: "\e340";
+}
+.vamtam-icomoon-dribbble:before {
+  content: "\e341";
+}
+.vamtam-icomoon-dribbble2:before {
+  content: "\e342";
+}
+.vamtam-icomoon-dribbble3:before {
+  content: "\e343";
+}
+.vamtam-icomoon-forrst:before {
+  content: "\e344";
+}
+.vamtam-icomoon-forrst2:before {
+  content: "\e345";
+}
+.vamtam-icomoon-deviantart:before {
+  content: "\e346";
+}
+.vamtam-icomoon-deviantart2:before {
+  content: "\e347";
+}
+.vamtam-icomoon-steam:before {
+  content: "\e348";
+}
+.vamtam-icomoon-steam2:before {
+  content: "\e349";
+}
+.vamtam-icomoon-github:before {
+  content: "\e34a";
+}
+.vamtam-icomoon-github2:before {
+  content: "\e34b";
+}
+.vamtam-icomoon-github3:before {
+  content: "\e34c";
+}
+.vamtam-icomoon-github4:before {
+  content: "\e34d";
+}
+.vamtam-icomoon-github5:before {
+  content: "\e34e";
+}
+.vamtam-icomoon-wordpress:before {
+  content: "\e34f";
+}
+.vamtam-icomoon-wordpress2:before {
+  content: "\e350";
+}
+.vamtam-icomoon-joomla:before {
+  content: "\e351";
+}
+.vamtam-icomoon-blogger:before {
+  content: "\e352";
+}
+.vamtam-icomoon-blogger2:before {
+  content: "\e353";
+}
+.vamtam-icomoon-tumblr:before {
+  content: "\e354";
+}
+.vamtam-icomoon-tumblr2:before {
+  content: "\e355";
+}
+.vamtam-icomoon-yahoo:before {
+  content: "\e356";
+}
+.vamtam-icomoon-tux:before {
+  content: "\e357";
+}
+.vamtam-icomoon-apple:before {
+  content: "\e358";
+}
+.vamtam-icomoon-finder:before {
+  content: "\e359";
+}
+.vamtam-icomoon-android:before {
+  content: "\e35a";
+}
+.vamtam-icomoon-windows:before {
+  content: "\e35b";
+}
+.vamtam-icomoon-windows8:before {
+  content: "\e35c";
+}
+.vamtam-icomoon-soundcloud:before {
+  content: "\e35d";
+}
+.vamtam-icomoon-soundcloud2:before {
+  content: "\e35e";
+}
+.vamtam-icomoon-skype:before {
+  content: "\e35f";
+}
+.vamtam-icomoon-reddit:before {
+  content: "\e360";
+}
+.vamtam-icomoon-linkedin:before {
+  content: "\e361";
+}
+.vamtam-icomoon-lastfm:before {
+  content: "\e362";
+}
+.vamtam-icomoon-lastfm2:before {
+  content: "\e363";
+}
+.vamtam-icomoon-delicious:before {
+  content: "\e364";
+}
+.vamtam-icomoon-stumbleupon:before {
+  content: "\e365";
+}
+.vamtam-icomoon-stumbleupon2:before {
+  content: "\e366";
+}
+.vamtam-icomoon-stackoverflow:before {
+  content: "\e367";
+}
+.vamtam-icomoon-pinterest:before {
+  content: "\e368";
+}
+.vamtam-icomoon-pinterest2:before {
+  content: "\e369";
+}
+.vamtam-icomoon-xing:before {
+  content: "\e36a";
+}
+.vamtam-icomoon-xing2:before {
+  content: "\e36b";
+}
+.vamtam-icomoon-flattr:before {
+  content: "\e36c";
+}
+.vamtam-icomoon-foursquare:before {
+  content: "\e36d";
+}
+.vamtam-icomoon-foursquare2:before {
+  content: "\e36e";
+}
+.vamtam-icomoon-paypal:before {
+  content: "\e36f";
+}
+.vamtam-icomoon-paypal2:before {
+  content: "\e370";
+}
+.vamtam-icomoon-paypal3:before {
+  content: "\e371";
+}
+.vamtam-icomoon-yelp:before {
+  content: "\e372";
+}
+.vamtam-icomoon-libreoffice:before {
+  content: "\e373";
+}
+.vamtam-icomoon-file-pdf:before {
+  content: "\e374";
+}
+.vamtam-icomoon-file-openoffice:before {
+  content: "\e375";
+}
+.vamtam-icomoon-file-word:before {
+  content: "\e376";
+}
+.vamtam-icomoon-file-excel:before {
+  content: "\e377";
+}
+.vamtam-icomoon-file-zip:before {
+  content: "\e378";
+}
+.vamtam-icomoon-file-powerpoint:before {
+  content: "\e379";
+}
+.vamtam-icomoon-file-xml:before {
+  content: "\e37a";
+}
+.vamtam-icomoon-file-css:before {
+  content: "\e37b";
+}
+.vamtam-icomoon-html5:before {
+  content: "\e37c";
+}
+.vamtam-icomoon-html52:before {
+  content: "\e37d";
+}
+.vamtam-icomoon-css3:before {
+  content: "\e37e";
+}
+.vamtam-icomoon-chrome:before {
+  content: "\e37f";
+}
+.vamtam-icomoon-firefox:before {
+  content: "\e380";
+}
+.vamtam-icomoon-IE:before {
+  content: "\e381";
+}
+.vamtam-icomoon-opera:before {
+  content: "\e382";
+}
+.vamtam-icomoon-safari:before {
+  content: "\e383";
+}
+.vamtam-icomoon-IcoMoon:before {
+  content: "\e384";
+}

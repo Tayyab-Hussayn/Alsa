@@ -1,0 +1,245 @@
+.woocommerce {
+	&.widget {
+		span.amount {
+			font-size: 12px;
+		}
+
+		.chosen a {
+			color: var(--vamtam-primary-font-color) !important;
+			text-decoration: none;
+		}
+	}
+
+	ul.product_list_widget {
+		.star-rating {
+			display: none;
+			margin: .7em 0;
+		}
+	}
+
+	ul.cart_list li,
+	ul.product_list_widget li {
+		.vamtam-responsive-wrapper {
+			float: right;
+			margin-left: 4px;
+			width: 32px;
+		}
+
+		a {
+			font-weight: inherit;
+		}
+	}
+
+	&.widget_shopping_cart {
+		.cart_list li {
+			padding: 0.6em 0 .6em 1.8em;
+			line-height: initial;
+
+			a.remove {
+				top: 0.5em;
+				line-height: 20px !important;
+				text-decoration: none;
+
+				svg {
+					display: none;
+				}
+			}
+
+			&:first-child {
+				a.remove {
+					top: 0;
+				}
+			}
+		}
+
+		.widget_shopping_cart_content {
+			li {
+				overflow: visible;
+				text-align: start;
+				border: 0;
+
+				dl {
+					padding: 0;
+					border: 0;
+
+					dt,
+					dd {
+						&:extend( .vamtam-font-primary-font );
+						margin-bottom: 10px;
+					}
+
+					dt {
+						font-weight: bold;
+					}
+				}
+
+				a {
+					&:extend( .vamtam-font-primary-font );
+					border: none;
+					line-height: 1.4em;
+					padding: 0;
+
+					text-decoration: underline;
+					text-underline-offset: 6px;
+					transition: text-decoration .4s ease;
+					&:hover {
+						text-decoration: underline solid currentColor;
+					}
+
+					b {
+						font-weight: 500;
+					}
+				}
+
+				img {
+					border-radius: var( --vamtam-border-radius );
+				}
+
+				&:last-child {
+					border: none;
+				}
+
+				&.empty {
+					padding: 0px;
+					text-align: center;
+					margin: 0px;
+					border-bottom: 0;
+				}
+			}
+
+			.total {
+				border-top: 1px solid var( --vamtam-default-line-color );
+				padding: 1.5em 0 0.5em 0;
+				margin-top: 1em;
+				text-align: inherit;
+
+				strong,
+				.amount {
+					color: var( --vamtam-accent-color-6 );
+					font-size: var( --vamtam-primary-font-font-size-desktop );
+					font-weight: bold;
+				}
+
+			}
+
+			.quantity,
+			.amount {
+				font-size: 12px;
+
+				&:before {
+					display: none;
+				}
+			}
+
+			p:last-child {
+				text-align: inherit;
+				margin-bottom: 0;
+			}
+
+			.woocommerce-mini-cart__empty-message {
+				text-align: start !important;
+			}
+
+			.buttons {
+				a.button {
+					border-color: var(  --vamtam-default-line-color );
+					padding-left: 5%;
+					padding-right: 5%;
+					padding-top: 12px;
+					width: 100%;
+					box-sizing: border-box;
+				}
+				a.checkout {
+					border-color: var(  --vamtam-accent-color-1 );
+				}
+			}
+		}
+	}
+
+	&.widget_product_search {
+		#searchform {
+			label {
+				display: none !important;
+			}
+		}
+	}
+
+	&.widget_price_filter {
+		.widgettitle {
+			border: none !important;
+		}
+		.price_slider {
+			background: var( --vamtam-accent-color-7 ) !important;
+
+			height: 0.6em;
+			border-radius: var( --vamtam-border-radius-oval ) !important;
+
+			> div.ui-slider-range {
+				background: var( --vamtam-accent-color-1 );
+			}
+
+			> .ui-slider-handle {
+				width: 1.4em;
+				height: 1.4em;
+				background: var( --vamtam-accent-color-5 );
+				box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+				top: -.4em;
+			}
+		}
+
+		.price_slider_amount {
+			.button {
+				font-size: 12px;
+				margin-top: 18px;
+				padding: 12px 20px 10px 20px;
+			}
+		}
+
+		.price_label {
+			padding-top: 20px;
+		}
+
+		.ui-slider {
+			margin: 0px;
+		}
+	}
+
+	&.widget_layered_nav_filters ul li {
+		border: none;
+
+		a {
+			border-color: transparent;
+			border-radius: 0px;
+			background: none;
+			padding: 0;
+			color: var(--vamtam-body-link-regular) !important;
+
+			&:hover {
+				color: var(--vamtam-body-link-hover) !important;
+			}
+		}
+	}
+
+	.woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item {
+		padding: .43em 0;
+	}
+
+	ul li.wc-layered-nav-rating {
+		.star-rating {
+			margin-bottom: 0;
+		}
+	}
+
+	&.widget_layered_nav,
+	&.widget_rating_filter {
+		ul li {
+			a, span {
+				padding: 0px;
+			}
+		}
+	}
+
+	&.widget_product_categories li li {
+		padding-left: 10px;
+	}
+}

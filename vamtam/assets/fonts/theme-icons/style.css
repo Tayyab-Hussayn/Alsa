@@ -1,0 +1,1293 @@
+[class^="vamtam-theme-"], [class*=" vamtam-theme-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'theme' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.vamtam-theme-done:before {
+  content: "\e9e4";
+}
+.vamtam-theme-additive-free:before {
+  content: "\e9d7";
+}
+.vamtam-theme-certificate-food:before {
+  content: "\e9d8";
+}
+.vamtam-theme-food-safe:before {
+  content: "\e9d9";
+}
+.vamtam-theme-gmo-non:before {
+  content: "\e9da";
+}
+.vamtam-theme-harvest:before {
+  content: "\e9db";
+}
+.vamtam-theme-healthy-lifestyle:before {
+  content: "\e9dc";
+}
+.vamtam-theme-organic-01:before {
+  content: "\e9dd";
+}
+.vamtam-theme-organic-02:before {
+  content: "\e9de";
+}
+.vamtam-theme-organic-03:before {
+  content: "\e9df";
+}
+.vamtam-theme-award-medals:before {
+  content: "\e9c9";
+}
+.vamtam-theme-brain:before {
+  content: "\e9ca";
+}
+.vamtam-theme-chart-target:before {
+  content: "\e9cb";
+}
+.vamtam-theme-company:before {
+  content: "\e9cc";
+}
+.vamtam-theme-education-hat:before {
+  content: "\e9cd";
+}
+.vamtam-theme-handshake:before {
+  content: "\e9ce";
+}
+.vamtam-theme-programing:before {
+  content: "\e9cf";
+}
+.vamtam-theme-inovation:before {
+  content: "\e9d0";
+}
+.vamtam-theme-phone-old:before {
+  content: "\e9d1";
+}
+.vamtam-theme-team-people:before {
+  content: "\e9d2";
+}
+.vamtam-theme-worldwide-map:before {
+  content: "\e9d3";
+}
+.vamtam-theme-creative-design:before {
+  content: "\e9c5";
+}
+.vamtam-theme-creative-research:before {
+  content: "\e9c6";
+}
+.vamtam-theme-creative-seo:before {
+  content: "\e9c7";
+}
+.vamtam-theme-basket-bold:before {
+  content: "\e9bb";
+}
+.vamtam-theme-profile-bold:before {
+  content: "\e9bc";
+}
+.vamtam-theme-play-border:before {
+  content: "\e9bd";
+}
+.vamtam-theme-albums:before {
+  content: "\e9be";
+}
+.vamtam-theme-heart-fashion:before {
+  content: "\e9bf";
+}
+.vamtam-theme-hand-five:before {
+  content: "\e9c0";
+}
+.vamtam-theme-newsletter:before {
+  content: "\e9c1";
+}
+.vamtam-theme-price-tag:before {
+  content: "\e9c2";
+}
+.vamtam-theme-repeat-cycle:before {
+  content: "\e9c3";
+}
+.vamtam-theme-time-sand:before {
+  content: "\e9c4";
+}
+.vamtam-theme-balloons:before {
+  content: "\e9aa";
+}
+.vamtam-theme-cube:before {
+  content: "\e9ab";
+}
+.vamtam-theme-education:before {
+  content: "\e9ac";
+}
+.vamtam-theme-envelope-email-letter:before {
+  content: "\e9ad";
+}
+.vamtam-theme-Health_Care:before {
+  content: "\e9ae";
+}
+.vamtam-theme-Healthsvg:before {
+  content: "\e9af";
+}
+.vamtam-theme-Human_Rights:before {
+  content: "\e9b0";
+}
+.vamtam-theme-Little_Finger:before {
+  content: "\e9b1";
+}
+.vamtam-theme-payment:before {
+  content: "\e9b2";
+}
+.vamtam-theme-speech-bubble:before {
+  content: "\e9b6";
+}
+.vamtam-theme-Security-Network:before {
+  content: "\e9b3";
+}
+.vamtam-theme-security-grid:before {
+  content: "\e9b7";
+}
+.vamtam-theme-transport:before {
+  content: "\e9b4";
+}
+.vamtam-theme-fireplace:before {
+  content: "\e9a3";
+}
+.vamtam-theme-food-waiter:before {
+  content: "\e9a4";
+}
+.vamtam-theme-pool-ball:before {
+  content: "\e9a5";
+}
+.vamtam-theme-ski:before {
+  content: "\e9a6";
+}
+.vamtam-theme-swimming-pool:before {
+  content: "\e9a7";
+}
+.vamtam-theme-transform:before {
+  content: "\e9a8";
+}
+.vamtam-theme-drinks:before {
+  content: "\e9a9";
+}
+.vamtam-theme-Award-badge:before {
+  content: "\e995";
+}
+.vamtam-theme-Award-badge2:before {
+  content: "\e996";
+}
+.vamtam-theme-Award-computer:before {
+  content: "\e997";
+}
+.vamtam-theme-Award:before {
+  content: "\e998";
+}
+.vamtam-theme-Creative-idea:before {
+  content: "\e999";
+}
+.vamtam-theme-Experience:before {
+  content: "\e99a";
+}
+.vamtam-theme-Hand-drag:before {
+  content: "\e99b";
+}
+.vamtam-theme-Interactivity:before {
+  content: "\e99c";
+}
+.vamtam-theme-Motion-abstract:before {
+  content: "\e99d";
+}
+.vamtam-theme-Programming:before {
+  content: "\e99e";
+}
+.vamtam-theme-Prototyping:before {
+  content: "\e99f";
+}
+.vamtam-theme-Smart-lens:before {
+  content: "\e9a0";
+}
+.vamtam-theme-Workflow:before {
+  content: "\e9a1";
+}
+.vamtam-theme-dash-hor:before {
+  content: "\e9d4";
+}
+.vamtam-theme-dash-ver:before {
+  content: "\e9d5";
+}
+.vamtam-theme-arrow-bottom-double:before {
+  content: "\e98a";
+}
+.vamtam-theme-arrow-left-double:before {
+  content: "\e98b";
+}
+.vamtam-theme-arrow-right-double:before {
+  content: "\e98c";
+}
+.vamtam-theme-arrow-top-doble:before {
+  content: "\e98d";
+}
+.vamtam-theme-audio-guide:before {
+  content: "\e98e";
+}
+.vamtam-theme-bike-lock:before {
+  content: "\e98f";
+}
+.vamtam-theme-helmet:before {
+  content: "\e990";
+}
+.vamtam-theme-bike-parking:before {
+  content: "\e991";
+}
+.vamtam-theme-bike:before {
+  content: "\e992";
+}
+.vamtam-theme-bike-basket:before {
+  content: "\e993";
+}
+.vamtam-theme-cleaning:before {
+  content: "\e986";
+}
+.vamtam-theme-eco:before {
+  content: "\e987";
+}
+.vamtam-theme-like-stars:before {
+  content: "\e988";
+}
+.vamtam-theme-saving:before {
+  content: "\e989";
+}
+.vamtam-theme-coffe-cup:before {
+  content: "\e983";
+}
+.vamtam-theme-drink-party:before {
+  content: "\e984";
+}
+.vamtam-theme-meal:before {
+  content: "\e985";
+}
+.vamtam-theme-snapchat:before {
+  content: "\e994";
+}
+.vamtam-theme-Amazon:before {
+  content: "\e97c";
+}
+.vamtam-theme-Apple:before {
+  content: "\e97d";
+}
+.vamtam-theme-mixcloud:before {
+  content: "\e9b9";
+}
+.vamtam-theme-bandcamp:before {
+  content: "\e9ba";
+}
+.vamtam-theme-Deezer:before {
+  content: "\e97e";
+}
+.vamtam-theme-GooglePlay:before {
+  content: "\e97f";
+}
+.vamtam-theme-Soundcloud:before {
+  content: "\e980";
+}
+.vamtam-theme-Spotify:before {
+  content: "\e981";
+}
+.vamtam-theme-delivery-tracking:before {
+  content: "\e975";
+}
+.vamtam-theme-package-checklist:before {
+  content: "\e976";
+}
+.vamtam-theme-package-load:before {
+  content: "\e977";
+}
+.vamtam-theme-package-search:before {
+  content: "\e978";
+}
+.vamtam-theme-package-tracking:before {
+  content: "\e979";
+}
+.vamtam-theme-package-warranty:before {
+  content: "\e97a";
+}
+.vamtam-theme-worldwide-shipping:before {
+  content: "\e97b";
+}
+.vamtam-theme-airplane:before {
+  content: "\e92e";
+}
+.vamtam-theme-clipboard:before {
+  content: "\e96e";
+}
+.vamtam-theme-container:before {
+  content: "\e96f";
+}
+.vamtam-theme-delivery-confirm:before {
+  content: "\e970";
+}
+.vamtam-theme-delivery-time:before {
+  content: "\e971";
+}
+.vamtam-theme-forklift:before {
+  content: "\e972";
+}
+.vamtam-theme-package-accept:before {
+  content: "\e973";
+}
+.vamtam-theme-shipping:before {
+  content: "\e974";
+}
+.vamtam-theme-clock-solid:before {
+  content: "\e96d";
+}
+.vamtam-theme-basket-thin:before {
+  content: "\e967";
+}
+.vamtam-theme-search-thin:before {
+  content: "\e968";
+}
+.vamtam-theme-ornament-elegance:before {
+  content: "\e969";
+}
+.vamtam-theme-ornament-pattern:before {
+  content: "\e96a";
+}
+.vamtam-theme-ornament-geometric:before {
+  content: "\e96b";
+}
+.vamtam-theme-flower-wreath:before {
+  content: "\e966";
+}
+.vamtam-theme-flower6:before {
+  content: "\e96c";
+}
+.vamtam-theme-flower-left:before {
+  content: "\e956";
+}
+.vamtam-theme-flower-right:before {
+  content: "\e957";
+}
+.vamtam-theme-flower2:before {
+  content: "\e958";
+}
+.vamtam-theme-flower3:before {
+  content: "\e959";
+}
+.vamtam-theme-flower4:before {
+  content: "\e95a";
+}
+.vamtam-theme-flower5:before {
+  content: "\e95b";
+}
+.vamtam-theme-gift:before {
+  content: "\e961";
+}
+.vamtam-theme-rings:before {
+  content: "\e965";
+}
+.vamtam-theme-ornament-waves:before {
+  content: "\e94e";
+}
+.vamtam-theme-ornament-plant:before {
+  content: "\e94d";
+}
+.vamtam-theme-spa-body-massage:before {
+  content: "\e94f";
+}
+.vamtam-theme-spa-drop:before {
+  content: "\e950";
+}
+.vamtam-theme-spa-face-massage:before {
+  content: "\e951";
+}
+.vamtam-theme-spa-foot-massage:before {
+  content: "\e952";
+}
+.vamtam-theme-spa-head-massage:before {
+  content: "\e953";
+}
+.vamtam-theme-spa-oils:before {
+  content: "\e954";
+}
+.vamtam-theme-spa-stones:before {
+  content: "\e955";
+}
+.vamtam-theme-bridge:before {
+  content: "\e947";
+}
+.vamtam-theme-check-list:before {
+  content: "\e948";
+}
+.vamtam-theme-cogs:before {
+  content: "\e95c";
+}
+.vamtam-theme-healthy:before {
+  content: "\e95d";
+}
+.vamtam-theme-oil-platform:before {
+  content: "\e95e";
+}
+.vamtam-theme-piston:before {
+  content: "\e95f";
+}
+.vamtam-theme-screwdriver-wrench:before {
+  content: "\e960";
+}
+.vamtam-theme-shield-star:before {
+  content: "\e962";
+}
+.vamtam-theme-truck:before {
+  content: "\e963";
+}
+.vamtam-theme-ear:before {
+  content: "\e903";
+}
+.vamtam-theme-facial:before {
+  content: "\e904";
+}
+.vamtam-theme-genital:before {
+  content: "\e905";
+}
+.vamtam-theme-king:before {
+  content: "\e906";
+}
+.vamtam-theme-lips:before {
+  content: "\e907";
+}
+.vamtam-theme-makeup:before {
+  content: "\e908";
+}
+.vamtam-theme-oral:before {
+  content: "\e90a";
+}
+.vamtam-theme-tatto-heart:before {
+  content: "\e911";
+}
+.vamtam-theme-tattoo:before {
+  content: "\e914";
+}
+.vamtam-theme-tree:before {
+  content: "\e929";
+}
+.vamtam-theme-chemical:before {
+  content: "\e923";
+}
+.vamtam-theme-leaf-blower:before {
+  content: "\e924";
+}
+.vamtam-theme-mower:before {
+  content: "\e925";
+}
+.vamtam-theme-water:before {
+  content: "\e926";
+}
+.vamtam-theme-buildings:before {
+  content: "\e918";
+}
+.vamtam-theme-flowers:before {
+  content: "\e919";
+}
+.vamtam-theme-gardener:before {
+  content: "\e91d";
+}
+.vamtam-theme-house-trees:before {
+  content: "\e91e";
+}
+.vamtam-theme-pot:before {
+  content: "\e91f";
+}
+.vamtam-theme-testimonials:before {
+  content: "\e920";
+}
+.vamtam-theme-trowel:before {
+  content: "\e921";
+}
+.vamtam-theme-delivery:before {
+  content: "\e92a";
+}
+.vamtam-theme-gardener-young:before {
+  content: "\e927";
+}
+.vamtam-theme-leaves:before {
+  content: "\e928";
+}
+.vamtam-theme-Business-Man:before {
+  content: "\e92b";
+}
+.vamtam-theme-Business-Group:before {
+  content: "\e92c";
+}
+.vamtam-theme-bubble-communication:before {
+  content: "\e982";
+}
+.vamtam-theme-communications:before {
+  content: "\e91a";
+}
+.vamtam-theme-documents:before {
+  content: "\e91b";
+}
+.vamtam-theme-ideas:before {
+  content: "\e922";
+}
+.vamtam-theme-people:before {
+  content: "\e92d";
+}
+.vamtam-theme-business-folder:before {
+  content: "\e91c";
+}
+.vamtam-theme-business-money-tax:before {
+  content: "\e92f";
+}
+.vamtam-theme-business-money:before {
+  content: "\e909";
+}
+.vamtam-theme-business-money-Idea:before {
+  content: "\e90b";
+}
+.vamtam-theme-business-money-search:before {
+  content: "\e90c";
+}
+.vamtam-theme-business-money-secure:before {
+  content: "\e90d";
+}
+.vamtam-theme-business-money-up:before {
+  content: "\e90e";
+}
+.vamtam-theme-business-money-down:before {
+  content: "\e90f";
+}
+.vamtam-theme-business-strategy:before {
+  content: "\e910";
+}
+.vamtam-theme-business-stats:before {
+  content: "\e912";
+}
+.vamtam-theme-business-real-estate:before {
+  content: "\e915";
+}
+.vamtam-theme-business-hands:before {
+  content: "\e917";
+}
+.vamtam-theme-arrow-left-long:before {
+  content: "\e930";
+}
+.vamtam-theme-arrow-right-long:before {
+  content: "\e931";
+}
+.vamtam-theme-arrow-top-long:before {
+  content: "\e932";
+}
+.vamtam-theme-arrow-bottom-long:before {
+  content: "\e933";
+}
+.vamtam-theme-hamburger-menu:before {
+  content: "\e916";
+}
+.vamtam-theme-close-sample:before {
+  content: "\e934";
+}
+.vamtam-theme-search-clean:before {
+  content: "\e935";
+}
+.vamtam-theme-bag-clean:before {
+  content: "\e902";
+}
+.vamtam-theme-scroll:before {
+  content: "\e913";
+}
+.vamtam-theme-arrow-left-sample:before {
+  content: "\e936";
+}
+.vamtam-theme-arrow-right-sample:before {
+  content: "\e937";
+}
+.vamtam-theme-arrow-bottom-sample:before {
+  content: "\e938";
+}
+.vamtam-theme-arrow-top-sample:before {
+  content: "\e939";
+}
+.vamtam-theme-business-symbol:before {
+  content: "\e93a";
+}
+.vamtam-theme-tatto-star2:before {
+  content: "\e93b";
+}
+.vamtam-theme-tatto-star:before {
+  content: "\e93c";
+}
+.vamtam-theme-quote:before {
+  content: "\e93d";
+}
+.vamtam-theme-quote-end:before {
+  content: "\e9b8";
+}
+.vamtam-theme-stars:before {
+  content: "\e9b5";
+}
+.vamtam-theme-angle-top:before {
+  content: "\e004";
+}
+.vamtam-theme-angle-bottom:before {
+  content: "\e003";
+}
+.vamtam-theme-angle-right:before {
+  content: "\e005";
+}
+.vamtam-theme-angle-left:before {
+  content: "\e006";
+}
+.vamtam-theme-arrow-left:before {
+  content: "\e008";
+}
+.vamtam-theme-arrow-right:before {
+  content: "\e007";
+}
+.vamtam-theme-checkmark:before {
+  content: "\e01e";
+}
+.vamtam-theme-mail:before {
+  content: "\e009";
+}
+.vamtam-theme-camera:before {
+  content: "\e013";
+}
+.vamtam-theme-tag:before {
+  content: "\e014";
+}
+.vamtam-theme-previous:before {
+  content: "\e016";
+}
+.vamtam-theme-next:before {
+  content: "\e015";
+}
+.vamtam-theme-map:before {
+  content: "\e017";
+}
+.vamtam-theme-radio-unchecked:before {
+  content: "\e021";
+}
+.vamtam-theme-eye:before {
+  content: "\e023";
+}
+.vamtam-theme-phone-outline:before {
+  content: "\e027";
+}
+.vamtam-theme-phone:before {
+  content: "\e026";
+}
+.vamtam-theme-phone-clean:before {
+  content: "\e93e";
+}
+.vamtam-theme-pencil:before {
+  content: "\e025";
+}
+.vamtam-theme-ink-tool:before {
+  content: "\e036";
+}
+.vamtam-theme-brush:before {
+  content: "\e035";
+}
+.vamtam-theme-heart:before {
+  content: "\e001";
+}
+.vamtam-theme-play-circle:before {
+  content: "\e964";
+}
+.vamtam-theme-play2:before {
+  content: "\e038";
+}
+.vamtam-theme-triangle-right:before {
+  content: "\e01c";
+}
+.vamtam-theme-next2:before {
+  content: "\e03a";
+}
+.vamtam-theme-bars:before {
+  content: "\e000";
+}
+.vamtam-theme-reddit:before {
+  content: "\e9c8";
+}
+.vamtam-theme-houzz:before {
+  content: "\e93f";
+}
+.vamtam-theme-last-fm:before {
+  content: "\e949";
+}
+.vamtam-theme-dribbble:before {
+  content: "\e94c";
+}
+.vamtam-theme-behance-logo:before {
+  content: "\e9a2";
+}
+.vamtam-theme-vimeo:before {
+  content: "\e94a";
+}
+.vamtam-theme-youtube:before {
+  content: "\e94b";
+}
+.vamtam-theme-medium:before {
+  content: "\e9e0";
+}
+.vamtam-theme-linkedin-square:before {
+  content: "\e9e1";
+}
+.vamtam-theme-linkedin:before {
+  content: "\e618";
+}
+.vamtam-theme-google-plus:before {
+  content: "\e941";
+}
+.vamtam-theme-tumblr:before {
+  content: "\e942";
+}
+.vamtam-theme-pinterest:before {
+  content: "\e943";
+}
+.vamtam-theme-twitter-square:before {
+  content: "\e9e2";
+}
+.vamtam-theme-twitter:before {
+  content: "\e944";
+}
+.vamtam-theme-facebook-square:before {
+  content: "\e9d6";
+}
+.vamtam-theme-facebook:before {
+  content: "\e945";
+}
+.vamtam-theme-instagram:before {
+  content: "\e946";
+}
+.vamtam-theme-tripadvisor:before {
+  content: "\e940";
+}
+.vamtam-theme-line-vertical:before {
+  content: "\e600";
+}
+.vamtam-theme-location-map:before {
+  content: "\e901";
+}
+.vamtam-theme-libreoffice:before {
+  content: "\e01b";
+}
+.vamtam-theme-checkbox-unchecked:before {
+  content: "\e01d";
+}
+.vamtam-theme-read-more:before {
+  content: "\e032";
+}
+.vamtam-theme-icon-close:before {
+  content: "\e900";
+}
+.vamtam-theme-arrow-up2:before {
+  content: "\e619";
+}
+.vamtam-theme-arrow-down2:before {
+  content: "\e61a";
+}
+.vamtam-theme-arrow-right22:before {
+  content: "\e606";
+}
+.vamtam-theme-arrow-left22:before {
+  content: "\e607";
+}
+.vamtam-theme-user-female:before {
+  content: "\e03c";
+}
+.vamtam-theme-user-follow:before {
+  content: "\e03d";
+}
+.vamtam-theme-user-following:before {
+  content: "\e03e";
+}
+.vamtam-theme-user-unfollow:before {
+  content: "\e03f";
+}
+.vamtam-theme-trophy:before {
+  content: "\e040";
+}
+.vamtam-theme-screen-smartphone:before {
+  content: "\e041";
+}
+.vamtam-theme-screen-desktop:before {
+  content: "\e042";
+}
+.vamtam-theme-plane:before {
+  content: "\e043";
+}
+.vamtam-theme-notebook:before {
+  content: "\e044";
+}
+.vamtam-theme-moustache:before {
+  content: "\e045";
+}
+.vamtam-theme-mouse:before {
+  content: "\e046";
+}
+.vamtam-theme-magnet:before {
+  content: "\e047";
+}
+.vamtam-theme-energy:before {
+  content: "\e048";
+}
+.vamtam-theme-emoticon-smile:before {
+  content: "\e049";
+}
+.vamtam-theme-cursor-move:before {
+  content: "\e04a";
+}
+.vamtam-theme-crop:before {
+  content: "\e04b";
+}
+.vamtam-theme-credit-card:before {
+  content: "\e04c";
+}
+.vamtam-theme-chemistry:before {
+  content: "\e04d";
+}
+.vamtam-theme-user:before {
+  content: "\e04e";
+}
+.vamtam-theme-speedometer:before {
+  content: "\e04f";
+}
+.vamtam-theme-social-youtube:before {
+  content: "\e050";
+}
+.vamtam-theme-social-twitter:before {
+  content: "\e051";
+}
+.vamtam-theme-social-tumblr:before {
+  content: "\e052";
+}
+.vamtam-theme-social-facebook:before {
+  content: "\e053";
+}
+.vamtam-theme-social-dropbox:before {
+  content: "\e054";
+}
+.vamtam-theme-social-dribbble:before {
+  content: "\e055";
+}
+.vamtam-theme-shield:before {
+  content: "\e056";
+}
+.vamtam-theme-screen-tablet:before {
+  content: "\e057";
+}
+.vamtam-theme-hourglass:before {
+  content: "\e058";
+}
+.vamtam-theme-graduation:before {
+  content: "\e059";
+}
+.vamtam-theme-ghost:before {
+  content: "\e05a";
+}
+.vamtam-theme-game-controller:before {
+  content: "\e05b";
+}
+.vamtam-theme-fire:before {
+  content: "\e05c";
+}
+.vamtam-theme-eyeglasses:before {
+  content: "\e05d";
+}
+.vamtam-theme-envelope-open:before {
+  content: "\e05e";
+}
+.vamtam-theme-envelope-letter:before {
+  content: "\e05f";
+}
+.vamtam-theme-bell:before {
+  content: "\e060";
+}
+.vamtam-theme-badge:before {
+  content: "\e061";
+}
+.vamtam-theme-anchor:before {
+  content: "\e062";
+}
+.vamtam-theme-wallet:before {
+  content: "\e063";
+}
+.vamtam-theme-vector:before {
+  content: "\e064";
+}
+.vamtam-theme-speech:before {
+  content: "\e065";
+}
+.vamtam-theme-printer:before {
+  content: "\e066";
+}
+.vamtam-theme-present:before {
+  content: "\e067";
+}
+.vamtam-theme-playlist:before {
+  content: "\e068";
+}
+.vamtam-theme-pin:before {
+  content: "\e069";
+}
+.vamtam-theme-picture:before {
+  content: "\e06a";
+}
+.vamtam-theme-map2:before {
+  content: "\e06b";
+}
+.vamtam-theme-layers:before {
+  content: "\e06c";
+}
+.vamtam-theme-handbag:before {
+  content: "\e06d";
+}
+.vamtam-theme-globe-alt:before {
+  content: "\e06e";
+}
+.vamtam-theme-globe:before {
+  content: "\e06f";
+}
+.vamtam-theme-frame:before {
+  content: "\e070";
+}
+.vamtam-theme-folder-alt:before {
+  content: "\e071";
+}
+.vamtam-theme-film:before {
+  content: "\e072";
+}
+.vamtam-theme-feed:before {
+  content: "\e073";
+}
+.vamtam-theme-earphones:before {
+  content: "\e074";
+}
+.vamtam-theme-drop:before {
+  content: "\e075";
+}
+.vamtam-theme-drawer:before {
+  content: "\e076";
+}
+.vamtam-theme-docs:before {
+  content: "\e077";
+}
+.vamtam-theme-directions:before {
+  content: "\e078";
+}
+.vamtam-theme-direction:before {
+  content: "\e079";
+}
+.vamtam-theme-diamond:before {
+  content: "\e07a";
+}
+.vamtam-theme-cup:before {
+  content: "\e07b";
+}
+.vamtam-theme-compass:before {
+  content: "\e07c";
+}
+.vamtam-theme-call-out:before {
+  content: "\e07d";
+}
+.vamtam-theme-call-in:before {
+  content: "\e07e";
+}
+.vamtam-theme-call-end:before {
+  content: "\e07f";
+}
+.vamtam-theme-calculator:before {
+  content: "\e080";
+}
+.vamtam-theme-bubbles:before {
+  content: "\e081";
+}
+.vamtam-theme-book-open:before {
+  content: "\e082";
+}
+.vamtam-theme-basket-loaded:before {
+  content: "\e083";
+}
+.vamtam-theme-basket:before {
+  content: "\e084";
+}
+.vamtam-theme-bag:before {
+  content: "\e085";
+}
+.vamtam-theme-action-undo:before {
+  content: "\e086";
+}
+.vamtam-theme-action-redo:before {
+  content: "\e087";
+}
+.vamtam-theme-wrench:before {
+  content: "\e088";
+}
+.vamtam-theme-umbrella:before {
+  content: "\e089";
+}
+.vamtam-theme-trash:before {
+  content: "\e08a";
+}
+.vamtam-theme-tag3:before {
+  content: "\e08b";
+}
+.vamtam-theme-support:before {
+  content: "\e08c";
+}
+.vamtam-theme-size-fullscreen:before {
+  content: "\e08d";
+}
+.vamtam-theme-size-actual:before {
+  content: "\e08e";
+}
+.vamtam-theme-shuffle:before {
+  content: "\e08f";
+}
+.vamtam-theme-share2:before {
+  content: "\e090";
+}
+.vamtam-theme-rocket:before {
+  content: "\e091";
+}
+.vamtam-theme-question:before {
+  content: "\e092";
+}
+.vamtam-theme-pie-chart:before {
+  content: "\e093";
+}
+.vamtam-theme-pencil2:before {
+  content: "\e094";
+}
+.vamtam-theme-note:before {
+  content: "\e095";
+}
+.vamtam-theme-music-tone-alt:before {
+  content: "\e096";
+}
+.vamtam-theme-music-tone:before {
+  content: "\e097";
+}
+.vamtam-theme-microphone:before {
+  content: "\e098";
+}
+.vamtam-theme-loop:before {
+  content: "\e099";
+}
+.vamtam-theme-logout:before {
+  content: "\e09a";
+}
+.vamtam-theme-login:before {
+  content: "\e09b";
+}
+.vamtam-theme-list:before {
+  content: "\e09c";
+}
+.vamtam-theme-like2:before {
+  content: "\e09d";
+}
+.vamtam-theme-disc:before {
+  content: "\e09e";
+}
+.vamtam-theme-magic-wand:before {
+  content: "\e09f";
+}
+.vamtam-theme-puzzle:before {
+  content: "\e0a0";
+}
+.vamtam-theme-earphones-alt:before {
+  content: "\e0a1";
+}
+.vamtam-theme-briefcase:before {
+  content: "\e0a2";
+}
+.vamtam-theme-share-alt:before {
+  content: "\e0a3";
+}
+.vamtam-theme-home2:before {
+  content: "\e0a4";
+}
+.vamtam-theme-grid:before {
+  content: "\e0a5";
+}
+.vamtam-theme-graph:before {
+  content: "\e0a6";
+}
+.vamtam-theme-equalizer:before {
+  content: "\e0a7";
+}
+.vamtam-theme-dislike:before {
+  content: "\e0a8";
+}
+.vamtam-theme-cursor:before {
+  content: "\e0a9";
+}
+.vamtam-theme-control-start:before {
+  content: "\e0aa";
+}
+.vamtam-theme-control-rewind:before {
+  content: "\e0ab";
+}
+.vamtam-theme-control-play:before {
+  content: "\e0ac";
+}
+.vamtam-theme-control-pause:before {
+  content: "\e0ad";
+}
+.vamtam-theme-control-forward:before {
+  content: "\e0ae";
+}
+.vamtam-theme-control-end:before {
+  content: "\e0af";
+}
+.vamtam-theme-calendar:before {
+  content: "\e0b0";
+}
+.vamtam-theme-arrow-up:before {
+  content: "\e0b1";
+}
+.vamtam-theme-arrow-right2:before {
+  content: "\e0b2";
+}
+.vamtam-theme-arrow-left2:before {
+  content: "\e0b3";
+}
+.vamtam-theme-arrow-down:before {
+  content: "\e0b4";
+}
+.vamtam-theme-ban:before {
+  content: "\e0b5";
+}
+.vamtam-theme-bubble:before {
+  content: "\e0b6";
+}
+.vamtam-theme-camcorder:before {
+  content: "\e0b7";
+}
+.vamtam-theme-camera2:before {
+  content: "\e0b8";
+}
+.vamtam-theme-check:before {
+  content: "\e0b9";
+}
+.vamtam-theme-clock:before {
+  content: "\e0ba";
+}
+.vamtam-theme-close:before {
+  content: "\e0bb";
+}
+.vamtam-theme-cloud-download:before {
+  content: "\e0bc";
+}
+.vamtam-theme-cloud-upload:before {
+  content: "\e0bd";
+}
+.vamtam-theme-eye2:before {
+  content: "\e0be";
+}
+.vamtam-theme-flag:before {
+  content: "\e0bf";
+}
+.vamtam-theme-folder:before {
+  content: "\e0c0";
+}
+.vamtam-theme-heart2:before {
+  content: "\e0c1";
+}
+.vamtam-theme-info:before {
+  content: "\e0c2";
+}
+.vamtam-theme-key:before {
+  content: "\e0c3";
+}
+.vamtam-theme-link:before {
+  content: "\e0c4";
+}
+.vamtam-theme-lock2:before {
+  content: "\e0c5";
+}
+.vamtam-theme-lock-open:before {
+  content: "\e0c6";
+}
+.vamtam-theme-magnifier:before {
+  content: "\e0c7";
+}
+.vamtam-theme-magnifier-add:before {
+  content: "\e0c8";
+}
+.vamtam-theme-magnifier-remove:before {
+  content: "\e0c9";
+}
+.vamtam-theme-paper-clip:before {
+  content: "\e0ca";
+}
+.vamtam-theme-pointer:before {
+  content: "\e0cb";
+}
+.vamtam-theme-power:before {
+  content: "\e0cc";
+}
+.vamtam-theme-refresh:before {
+  content: "\e0cd";
+}
+.vamtam-theme-reload:before {
+  content: "\e0ce";
+}
+.vamtam-theme-settings:before {
+  content: "\e0cf";
+}
+.vamtam-theme-star:before {
+  content: "\e0d0";
+}
+.vamtam-theme-symbol-female:before {
+  content: "\e0d1";
+}
+.vamtam-theme-symbol-male:before {
+  content: "\e0d2";
+}
+.vamtam-theme-target:before {
+  content: "\e0d3";
+}
+.vamtam-theme-volume-1:before {
+  content: "\e0d4";
+}
+.vamtam-theme-volume-2:before {
+  content: "\e0d5";
+}
+.vamtam-theme-volume-off:before {
+  content: "\e0d6";
+}
+.vamtam-theme-users:before {
+  content: "\e0d7";
+}
+.vamtam-theme-bulb:before {
+  content: "\e0d8";
+}
+.vamtam-theme-bar-chart:before {
+  content: "\e0d9";
+}
+.vamtam-theme-doc:before {
+  content: "\e0da";
+}
+.vamtam-theme-envelope:before {
+  content: "\e0db";
+}
+.vamtam-theme-paper-plane:before {
+  content: "\e0dc";
+}
+.vamtam-theme-plus2:before {
+  content: "\e0dd";
+}
+.vamtam-theme-plus:before {
+  content: "\e60e";
+}
+.vamtam-theme-minus:before {
+  content: "\e60f";
+}

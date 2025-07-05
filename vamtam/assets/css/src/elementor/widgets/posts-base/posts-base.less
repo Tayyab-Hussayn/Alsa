@@ -1,0 +1,61 @@
+// Posts / Archive Posts.
+
+// Theme-dependant.
+.posts-base() {
+	// Pagination Border.
+	&.elementor-show-pagination-border-yes {
+		.elementor-pagination .page-numbers {
+			border: 1px solid var(--vamtam-default-line-color);
+		}
+	}
+
+	:is(.vamtam-post__categories, .vamtam-post__tags) {
+		display: flex;
+		a {
+			color: inherit;
+			&:not(:first-of-type) {
+				padding-left: 5px;
+			}
+		}
+	}
+
+	&.elementor-posts--align- {
+		&center {
+			.elementor-post__meta-data {
+				text-align: center;
+				:is(.vamtam-post__categories, .vamtam-post__tags) {
+					justify-content: center;
+				}
+			}
+		}
+		&left {
+			.elementor-post__meta-data {
+				text-align: start;
+				:is(.vamtam-post__categories, .vamtam-post__tags) {
+					justify-content: flex-start;
+				}
+			}
+		}
+		&right {
+			.elementor-post__meta-data {
+				text-align: end;
+				:is(.vamtam-post__categories, .vamtam-post__tags) {
+					justify-content: flex-end;
+				}
+			}
+		}
+	}
+
+	.elementor-post > .elementor-post__meta-data {
+		padding: var(--vamtam-content-padding, 0);
+	}
+
+	.elementor-post {
+
+		.elementor-post__thumbnail__link {
+			// overflow: hidden;
+			border-radius: var(--vamtam-img-border-radius);
+			mask-image: radial-gradient(white, black);
+		}
+	}
+}

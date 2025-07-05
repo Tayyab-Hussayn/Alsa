@@ -1,0 +1,3562 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwadkRFe9.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwa5kRFe9.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaZkRFe9.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwalkRFe9.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaVkRFe9.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaRkRFe9.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwapkRA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwadkRFe9.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwa5kRFe9.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaZkRFe9.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwalkRFe9.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaVkRFe9.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaRkRFe9.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwapkRA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwadkRFe9.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwa5kRFe9.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaZkRFe9.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwalkRFe9.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaVkRFe9.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaRkRFe9.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwapkRA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwadkRFe9.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwa5kRFe9.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaZkRFe9.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwalkRFe9.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaVkRFe9.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaRkRFe9.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwapkRA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwadkRFe9.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwa5kRFe9.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaZkRFe9.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwalkRFe9.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaVkRFe9.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaRkRFe9.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwapkRA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwadkRFe9.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwa5kRFe9.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaZkRFe9.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwalkRFe9.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaVkRFe9.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaRkRFe9.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwapkRA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwadkRFe9.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwa5kRFe9.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaZkRFe9.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwalkRFe9.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaVkRFe9.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaRkRFe9.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwapkRA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwadkRFe9.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwa5kRFe9.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaZkRFe9.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwalkRFe9.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaVkRFe9.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaRkRFe9.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwapkRA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwadkRFe9.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwa5kRFe9.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaZkRFe9.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwalkRFe9.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaVkRFe9.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwaRkRFe9.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSyv5HMAFg6IuGlBNMjxLsCwapkRA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsK8ah8QA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsD8ah8QA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsL8ah8QA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsE8ah8QA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsI8ah8QA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsJ8ah8QA.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsH8ag.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsK8ah8QA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsD8ah8QA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsL8ah8QA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsE8ah8QA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsI8ah8QA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsJ8ah8QA.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsH8ag.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsK8ah8QA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsD8ah8QA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsL8ah8QA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsE8ah8QA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsI8ah8QA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsJ8ah8QA.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsH8ag.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsK8ah8QA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsD8ah8QA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsL8ah8QA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsE8ah8QA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsI8ah8QA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsJ8ah8QA.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsH8ag.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsK8ah8QA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsD8ah8QA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsL8ah8QA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsE8ah8QA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsI8ah8QA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsJ8ah8QA.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsH8ag.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsK8ah8QA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsD8ah8QA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsL8ah8QA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsE8ah8QA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsI8ah8QA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsJ8ah8QA.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsH8ag.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsK8ah8QA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsD8ah8QA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsL8ah8QA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsE8ah8QA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsI8ah8QA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsJ8ah8QA.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsH8ag.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsK8ah8QA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsD8ah8QA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsL8ah8QA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsE8ah8QA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsI8ah8QA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsJ8ah8QA.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsH8ag.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsK8ah8QA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsD8ah8QA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsL8ah8QA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsE8ah8QA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsI8ah8QA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsJ8ah8QA.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v3/NGSwv5HMAFg6IuGlBNMjxLsH8ag.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKV-Go6G5tXcraQI2GwZoREDFs.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKV-Go6G5tXcraQI2GwfYREDFs.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKV-Go6G5tXcraQI2GwfIREDFs.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKV-Go6G5tXcraQI2GwcoRE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI82hZbdhMWJy.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI82hZaxhMWJy.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI82hZa1hMWJy.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI82hZaNhMQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI6miZbdhMWJy.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI6miZaxhMWJy.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI6miZa1hMWJy.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI6miZaNhMQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKX-Go6G5tXcraQKxaAcJxA.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKX-Go6G5tXcraQKw2AcJxA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKX-Go6G5tXcraQKwyAcJxA.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKX-Go6G5tXcraQKwKAcA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI_GjZbdhMWJy.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI_GjZaxhMWJy.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI_GjZa1hMWJy.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI_GjZaNhMQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI92kZbdhMWJy.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI92kZaxhMWJy.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI92kZa1hMWJy.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI92kZaNhMQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI7mlZbdhMWJy.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI7mlZaxhMWJy.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI7mlZa1hMWJy.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI7mlZaNhMQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI6WmZbdhMWJy.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI6WmZaxhMWJy.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI6WmZa1hMWJy.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI6WmZaNhMQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI4GnZbdhMWJy.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI4GnZaxhMWJy.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI4GnZa1hMWJy.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKS-Go6G5tXcraQI4GnZaNhMQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKX-Go6G5tXcr72KxaAcJxA.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKX-Go6G5tXcr72Kw2AcJxA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKX-Go6G5tXcr72KwyAcJxA.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKX-Go6G5tXcr72KwKAcA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr5aOhWzVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr5aOhWoVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr5aOhWpVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr5aOhWnVaE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr4-ORWzVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr4-ORWoVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr4-ORWpVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr4-ORWnVaE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKZ-Go6G5tXcraBGwCYdA.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKZ-Go6G5tXcraaGwCYdA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKZ-Go6G5tXcrabGwCYdA.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKZ-Go6G5tXcraVGwA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr5mOBWzVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr5mOBWoVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr5mOBWpVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr5mOBWnVaE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr5KPxWzVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr5KPxWoVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr5KPxWpVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr5KPxWnVaE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr4uPhWzVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr4uPhWoVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr4uPhWpVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr4uPhWnVaE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr4yPRWzVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr4yPRWoVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr4yPRWpVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr4yPRWnVaE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr4WPBWzVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr4WPBWoVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr4WPBWpVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v13/nKKU-Go6G5tXcr4WPBWnVaE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* greek */
+@font-face {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/syne/v16/8vIH7w4qzmVxm2NL9Hz_.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/syne/v16/8vIH7w4qzmVxm25L9Hz_.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/syne/v16/8vIH7w4qzmVxm2BL9A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* greek */
+@font-face {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/syne/v16/8vIH7w4qzmVxm2NL9Hz_.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/syne/v16/8vIH7w4qzmVxm25L9Hz_.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/syne/v16/8vIH7w4qzmVxm2BL9A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* greek */
+@font-face {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/syne/v16/8vIH7w4qzmVxm2NL9Hz_.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/syne/v16/8vIH7w4qzmVxm25L9Hz_.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/syne/v16/8vIH7w4qzmVxm2BL9A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* greek */
+@font-face {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/syne/v16/8vIH7w4qzmVxm2NL9Hz_.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/syne/v16/8vIH7w4qzmVxm25L9Hz_.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/syne/v16/8vIH7w4qzmVxm2BL9A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* greek */
+@font-face {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/syne/v16/8vIH7w4qzmVxm2NL9Hz_.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/syne/v16/8vIH7w4qzmVxm25L9Hz_.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/syne/v16/8vIH7w4qzmVxm2BL9A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+@font-face {
+	font-family: "Font Awesome 5 Brands";
+	font-style: normal;
+	font-weight: 400;
+	font-display: block;
+	src: url(https://numerique.vamtam.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.eot);
+	src: url(https://numerique.vamtam.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(https://numerique.vamtam.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff2) format("woff2"),url(https://numerique.vamtam.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff) format("woff"),url(https://numerique.vamtam.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.ttf) format("truetype"),url(https://numerique.vamtam.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.svg#fontawesome) format("svg")
+}
+
+@font-face {
+	font-family: "Font Awesome 5 Free";
+	font-style: normal;
+	font-weight: 400;
+	font-display: block;
+	src: url(https://numerique.vamtam.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.eot);
+	src: url(https://numerique.vamtam.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(https://numerique.vamtam.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.woff2) format("woff2"),url(https://numerique.vamtam.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.woff) format("woff"),url(https://numerique.vamtam.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.ttf) format("truetype"),url(https://numerique.vamtam.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.svg#fontawesome) format("svg")
+}
+
+@font-face {
+	font-family: "Font Awesome 5 Free";
+	font-style: normal;
+	font-weight: 900;
+	font-display: block;
+	src: url(https://numerique.vamtam.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.eot);
+	src: url(https://numerique.vamtam.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(https://numerique.vamtam.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2) format("woff2"),url(https://numerique.vamtam.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff) format("woff"),url(https://numerique.vamtam.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.ttf) format("truetype"),url(https://numerique.vamtam.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.svg#fontawesome) format("svg")
+}
+
+html {
+    background: #fff; /* Body bg color */
+}
+html body {
+  --vamtam-site-max-width: 660px;
+  --vamtam-left-sidebar-width: 25%;
+  --vamtam-accent-color-6-transparent: rgba(var(--vamtam-accent-color-6-rgb),.6);
+  --vamtam-default-line-color: var(--vamtam-accent-color-7);
+
+  --vamtam-widget-text-darker: #000;
+  --vamtam-widget-text-lighter: var( --vamtam-primary-font-color );
+  --vamtam-content-space-xxl: calc(var(--vamtam-content-space-l) * 2);
+  --vamtam-content-space-xl: calc(var(--vamtam-content-space-l) * 1.2);
+  --vamtam-content-space-l: min( 4vh, 40px );
+  --vamtam-content-space-m: calc(var(--vamtam-content-space-l) * 0.4);
+  --vamtam-content-space-s: calc(var(--vamtam-content-space-l) * 0.2);
+  --vamtam-content-space-xs: calc(var(--vamtam-content-space-l) * 0.1);
+  --vamtam-sidebar-content-margin: var(--vamtam-content-space-xl);
+  --vamtam-left-sidebar-width: 30%;
+  --vamtam-right-sidebar-width: 30%;
+}
+
+body .post-content ul li,
+body .post-content ol li,
+body .page-content ul li,
+body .page-content ol li {
+  margin-block-start: 0.6em; /* update */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: none;
+}
+
+html body.single-post.layout-full .limit-wrapper {
+  --vamtam-site-max-width: 660px;
+}
+
+html body.single-post.layout-full #sub-header .limit-wrapper:not(.header-maybe-limit-wrapper) {
+  --vamtam-site-max-width: 1260px;
+}
+
+html body.single-post.layout-full .main-header .limit-wrapper {
+  --vamtam-site-max-width: 1260px;
+}
+
+code, kbd, pre, samp {
+  font-size: inherit;
+}
+
+body.layout-full .meta-header .meta-header-inside .vamtam-meta-tax,
+body.layout-full .meta-header .meta-header-inside .vamtam-meta-tax a {
+  text-align: center;
+}
+body header.main-header .header-padding {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+body .fixed-header-box .logo-wrapper .logo.text-logo,
+body .fixed-header-box .logo-wrapper .logo.text-logo:hover {
+  color: var(--vamtam-accent-color-1);
+  font-family: var(--vamtam-h1-font-family);
+  font-weight: normal;
+  font-size: 190%;
+  line-height: 100%;
+}
+body .fixed-header-box .logo-wrapper .site-tagline {
+  font-size: 0.7em;
+  color: var(--vamtam-accent-color-6);
+  padding-top: 5px;
+}
+body .page-wrapper>aside.left {
+  border-right: solid 1px var(--vamtam-default-line-color);
+  margin-right: 5%;
+  padding-right: 5%;
+}
+
+.page-wrapper>aside.left section.widget>.limit-wrapper>.wp-block-group>.wp-block-group__inner-container>.limit-wrapper>h2 {
+  margin-top: 0;
+}
+.vamtam-body-sidebar .widget {
+  margin: 0 0 var(--vamtam-content-space-xxl) 0;
+}
+
+.vamtam-cart-dropdown-link .products {
+  font-family: inherit; /* body font */
+  font-weight: 600;
+  font-size: 9px;
+  background: var(--vamtam-accent-color-1);
+  color: var(--vamtam-accent-color-5) !important;
+}
+
+.vamtam-cart-dropdown-link svg {
+  margin-top: 14px;
+  width: 24px;
+  height: 24px;
+  fill: var(--vamtam-accent-color-6);
+}
+.vamtam-cart-dropdown-link:hover svg {
+  fill: var(--vamtam-accent-color-1);
+}
+.vamtam-cart-dropdown-link:hover .products, .vamtam-cart-dropdown-link:hover .products.cart-empty {
+  color: var(--vamtam-accent-color-1);
+}
+#menus {
+  min-height: auto;
+}
+#main-menu .menu {
+  justify-content: center;
+}
+#main-menu .menu>.menu-item>.sub-menu-wrapper>.sub-menu {
+  top: 0px;
+}
+#main-menu .menu>.menu-item .sub-menu .menu-item:first-child,
+#main-menu .menu>.menu-item .sub-menu .menu-item:last-child {
+    padding: 0;
+}
+#main-menu .menu>.menu-item .sub-menu .menu-item a:hover {
+  text-decoration: underline;
+}
+
+
+.button, .vamtam-cart-collaterals input[name=apply_coupon], .woocommerce #content input.button, .woocommerce #place_order, .woocommerce #respond input#submit,
+.woocommerce #respond input#submit.alt, .woocommerce .button.wc-backward, .woocommerce .cross-sells .add_to_cart_button, .woocommerce .woocommerce-Button.button, .woocommerce .woocommerce-button.button, .woocommerce .woocommerce-form-login .woocommerce-form-login__submit,
+.woocommerce .woocommerce-message .vamtam-close-notice-btn, .woocommerce a.added_to_cart, .woocommerce a.button, .woocommerce a.button.alt, .woocommerce button.button, .woocommerce button.button.alt, .woocommerce button.button.alt.disabled, .woocommerce input.button, .woocommerce input.button.alt, .woocommerce-page #content input.button,
+.woocommerce-page #respond input#submit, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce.widget_shopping_cart .widget_shopping_cart_content .buttons a.button, .woocommerce.woocommerce-cart .cart-collaterals .wc-proceed-to-checkout .checkout-button, .woocommerce.woocommerce-cart .vamtam-cart-collaterals .coupon button[name=apply_coupon],
+.woocommerce.woocommerce-checkout .checkout_coupon .button[name=apply_coupon], a.comment-reply-link, button, input[type=button], input[type=submit] {
+  background: var(--vamtam-accent-color-2);
+  color: var(--vamtam-accent-color-2-hc);
+  text-decoration: underline;
+  font-size: 14px;
+}
+.comments a.comment-reply-link, .woocommerce #reviews #comments a.comment-reply-link {
+  font-size: max(11px);
+  padding: 7px 16px;
+  line-height: var( --e-global-typography-line-height );
+}
+.button:hover, .vamtam-cart-collaterals input[name=apply_coupon]:hover, .woocommerce #content input.button:hover, .woocommerce #place_order:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce #respond input#submit:hover, .woocommerce .button.wc-backward:hover, .woocommerce .cross-sells .add_to_cart_button:hover,
+.woocommerce .woocommerce-Button.button:hover, .woocommerce .woocommerce-button.button:hover, .woocommerce .woocommerce-form-login .woocommerce-form-login__submit:hover, .woocommerce .woocommerce-message .vamtam-close-notice-btn:hover, .woocommerce a.added_to_cart:hover, .woocommerce a.button.alt:hover, .woocommerce a.button:hover, .woocommerce button.button.alt.disabled:hover,
+.woocommerce button.button.alt:hover, .woocommerce button.button:hover, .woocommerce input.button.alt:hover, .woocommerce input.button:hover, .woocommerce-page #content input.button:hover, .woocommerce-page #respond input#submit:hover, .woocommerce-page a.button:hover, .woocommerce-page button.button:hover, .woocommerce-page input.button:hover,
+.woocommerce.widget_shopping_cart .widget_shopping_cart_content .buttons a.button:hover, .woocommerce.woocommerce-cart .cart-collaterals .wc-proceed-to-checkout .checkout-button:hover, .woocommerce.woocommerce-cart .vamtam-cart-collaterals .coupon button[name=apply_coupon]:hover, .woocommerce.woocommerce-checkout .checkout_coupon .button[name=apply_coupon]:hover,
+a.comment-reply-link:hover, button:hover, input[type=button]:hover, input[type=submit]:hover {
+  background: var(--vamtam-accent-color-1);
+  color: var(--vamtam-accent-color-1-hc);
+}
+
+/* Blog listing */
+body .loop-wrapper.regular .list-item .post-content-outer .excerpt:not(:last-child), body .loop-wrapper.regular .list-item .post-content-outer .excerpt p {
+  font-size: max(14px);
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  text-align: left;
+}
+body .loop-wrapper.regular .list-item .post-content-outer .excerpt:not(:last-child),
+body .loop-wrapper.regular .list-item .post-content-outer .excerpt p {
+  margin-bottom: 0;
+}
+body .loop-wrapper .list-item .post-row header {
+  margin-bottom: 15px;
+}
+body .loop-wrapper.regular .list-item .post-row .vamtam-meta-date {
+  margin-bottom: var(--vamtam-content-space-s);
+  width: 100%;
+}
+body .loop-wrapper.regular .list-item .post-row .vamtam-meta-date a{
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: normal;
+  color: var(--vamtam-accent-color-6);
+  line-height: 32px;
+}
+
+
+html body.single-post .single-post-wrapper .post-content-outer .single-post-meta-bottom .the-tags {
+  border-top: solid 1px var(--vamtam-default-line-color);
+  padding-top: var(--vamtam-content-space-l);
+  margin-top:  var(--vamtam-content-space-l);
+  display: block;
+}
+body .loop-wrapper .vamtam-meta-comments svg, body .loop-wrapper .vamtam-meta-tax.the-tags svg {
+  margin-right: 8px;
+  height: 14px;
+}
+body .loop-wrapper .vamtam-meta-tax.the-tags a {
+  margin-left: 5px;
+  font-size: 12px;
+  font-weight: normal;
+}
+body .loop-wrapper .vamtam-meta-tax.the-tags a:hover,
+body .comments-wrapper .logged-in-as a:hover,
+body .comments #cancel-comment-reply-link:hover,
+body .comments .comment-meta>.comment-meta-inner>a:hover {
+  color: var(--vamtam-body-link-hover);
+}
+
+body .meta-header .page-header .desc,
+body .meta-header .page-header .desc p {
+  margin-bottom: 0;
+}
+body .meta-header .meta-header-inside {
+  padding: var(--vamtam-content-space-xl) 0 var(--vamtam-content-space-m) 0;
+}
+html body:not(.single-post) .page-header h1, html body .page-header h1{
+	font: 600 60px / 60px Syne, sans-serif;
+}
+
+html body.vamtam-limited-layout #sub-header {
+  border-top: 0;
+}
+body:not(.layout-left-only):not(.layout-right-only) #sub-header {
+  border-bottom: 0;
+  text-align: center;
+}
+
+
+
+
+
+
+/* Blog post */
+.meta-header .meta-header-inside .vamtam-meta-tax, .meta-header .meta-header-inside .vamtam-meta-tax a {
+  margin-bottom: 1vh;
+  margin-top: 2vh;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+}
+body.single .loop-wrapper .post-article.single {
+  padding-top: 0;
+}
+body.single:not(.layout-left-only):not(.layout-right-only) .loop-wrapper .post-article.single {
+  padding-top: var(--vamtam-sidebar-content-margin);
+}
+body.single-post .meta-header .meta-header-inside::after {
+  content: " ";
+  height: 1px;
+  width: 100%;
+  margin: var(--vamtam-content-space-l) 0 0vh 0;
+  background: transparent;
+}
+body.single-post:not(.layout-left-only):not(.layout-right-only) .meta-header .meta-header-inside::after {
+  margin: 0 auto 0 auto;
+  width: 100px;
+}
+html body.single-post .single-post-meta-wrapper .meta-top {
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0px;
+}
+html body.single-post .single-post-meta-wrapper .meta-top .with-separator {
+  padding: 0;
+}
+body.single-post:not(.layout-left-only):not(.layout-right-only) article>.page-content {
+  padding-top: 0;
+}
+html body.single-post .single-post-meta-wrapper .meta-top .meta-left {
+  grid-gap: 0 14px;
+}
+body.single-post:not(.layout-left-only):not(.layout-right-only) .loop-wrapper .meta-top .vamtam-meta-author,
+body.single-post:not(.layout-left-only):not(.layout-right-only) .loop-wrapper .meta-top .vamtam-meta-comments,
+body.single-post:not(.layout-left-only):not(.layout-right-only) .loop-wrapper .meta-top .vamtam-meta-date,
+body.single-post:not(.layout-left-only):not(.layout-right-only) .loop-wrapper .meta-top .vamtam-meta-tax {
+  line-height: 2.5em !important;
+}
+html body .loop-wrapper .meta-top .vamtam-meta-comments svg {
+  display: none;
+  margin: 0;
+}
+html body .loop-wrapper .meta-top, html body .loop-wrapper .meta-top a {
+  color: var(--vamtam-body-link-regular);
+}
+html body .loop-wrapper .meta-top a:hover {
+  color: var(--vamtam-body-link-hover);
+}
+html body .loop-wrapper .meta-top .vamtam-meta-author svg, html body .loop-wrapper .meta-top .vamtam-meta-date svg, html body .loop-wrapper .meta-top .vamtam-meta-comments svg, html body .loop-wrapper .meta-top .vamtam-meta-tax svg {
+  content: " ";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-top: -3px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: var(--vamtam-accent-color-6-transparent);
+  color: var(--vamtam-accent-color-6);
+}
+html body .loop-wrapper .meta-top .vamtam-meta-comments svg {
+  margin-right: 10px;
+}
+html body .loop-wrapper .vamtam-meta-comments svg, html body .loop-wrapper .vamtam-meta-tax.the-tags svg {
+  color: var(--vamtam-body-link-regular);
+}
+html body .loop-wrapper .meta-top .vamtam-meta-comments::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' %3E%3Cpath fill='currentColor' d='M448 0H64C28.7 0 0 28.7 0 64v288c0 35.3 28.7 64 64 64h96v84c0 9.8 11.2 15.5 19.1 9.7L304 416h144c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64z' %3E%3C/path%3E%3C/svg%3E");
+}
+
+body.single-post .single-post-meta-wrapper .meta-top .meta-left .with-separator span:not(:last-child) {
+  margin-right: 40px;
+}
+
+.comment-reply-title, .comments-wrapper .sep-text .content, .comments-wrapper .sep-text .content a {
+  font-size: max(24px);
+  padding-top: var(--vamtam-sidebar-content-margin);
+  font-family: var(--vamtam-h4-font-family);
+}
+.comments-wrapper label {
+  padding-bottom: 15px;
+  font-size: 14px;
+}
+body .comments #respond, body.woocommerce #reviews #comments #respond {
+  padding: 0;
+}
+body .comments #respond .comment-reply-title {
+  border: 0;
+}
+.comments .comment-author-link, .woocommerce #reviews #comments .comment-author-link, .comments .comment-author-link a, .woocommerce #reviews #comments .comment-author-link {
+  font-size: max(14px);
+}
+.comments .comment-time, .woocommerce #reviews #comments .comment-time {
+  color: var(--vamtam-accent-color-6);
+  padding: 0.3em 0 calc(var(--vamtam-content-space-s) * 2) 0;
+}
+.comments .comment-meta>.comment-meta-inner>a:last-child, .comments .comment-meta>.comment-meta-inner>div:last-child, .woocommerce #reviews #comments .comment-meta>.comment-meta-inner>a:last-child, .woocommerce #reviews #comments .comment-meta>.comment-meta-inner>div:last-child {
+  font-size: max(12px);
+  line-height: 1.2em;
+}
+#commentform p {
+  margin-bottom: var(--vamtam-content-space-l);
+}
+.comments .comment .comment-content p, .woocommerce #reviews #comments .comment .comment-content p {
+  font-size: max(14px);
+}
+.comments #cancel-comment-reply-link, .woocommerce #reviews #comments #cancel-comment-reply-link {
+  font-size: max(16px);
+  margin-left: 10px;
+  border-left: solid 1px var(--vamtam-default-line-color);
+  padding-left: 10px;
+  text-transform: none;
+  color: var(--vamtam-body-link-regular);
+}
+.comments .comment .comment-content p+.comment-reply-link, .woocommerce #reviews #comments .comment .comment-content p+.comment-reply-link {
+  margin-top: -0.9em;
+}
+.wp-block-gallery .blocks-gallery-caption {
+  font-size: max(14px);
+}
+blockquote {
+  padding: .6em 2em;
+  font-style: inherit;
+  border: none !important;
+  background-color: var(--vamtam-accent-color-3);
+  color: var(--vamtam-accent-color-3-hc);
+  text-align: center;
+}
+blockquote  p {
+  font: var(--vamtam-h4-font-style,normal) var(--vamtam-h4-font-weight,normal) var(--vamtam-h4-font-size-desktop)/var(--vamtam-h4-line-height-desktop) var(--vamtam-h4-font-family) !important;
+}
+blockquote .wp-block-pullquote__citation, blockquote .wp-block-pullquote__citation a, blockquote .wp-block-quote__citation, blockquote .wp-block-quote__citation a, blockquote cite, blockquote cite a {
+  opacity: 0.8;
+}
+
+
+/* TEMP FIX, Need to remove! */
+html body.single-post .single-post-meta-wrapper .meta-top .meta-left.has-author {
+    grid-template-columns: auto;
+}
+/* END temp */
+
+body select {
+  background-size: 10px !important;
+}
+
+/* Widgets */
+.wp-block-archives-dropdown label{
+  margin-bottom: 10px;
+}
+.wp-block-archives.wp-block-archives-list li:not(:last-child), .wp-block-categories.wp-block-categories-list li:not(:last-child), .wp-block-latest-comments li:not(:last-child), ul.wp-block-latest-posts:not(.is-grid) li:not(:last-child) {
+  border-bottom: none;
+}
+html body .widget td, html body .widget th{
+  border-color: var(--vamtam-default-line-color) !important;
+}
+html body .widget th {
+  background-color: var(--vamtam-default-line-color) !important;
+  color: var(--vamtam-default-line-color-hc) !important;
+}
+.vamtam-body-sidebar .widget.widget_block .wp-block-page-list, .vamtam-body-sidebar .widget.widget_block .wp-block-page-list ul {
+  margin: 0.5em 1.5em 0em 1.5em;
+  list-style: initial;
+}
+.vamtam-body-sidebar .widget.widget_block .wp-block-page-list, .vamtam-body-sidebar .widget.widget_block .wp-block-page-list ul li:last-child{
+  padding-bottom: 0;
+}
+.wp-block-latest-comments__comment-excerpt p {
+  font-size: inherit;
+}
+.wp-block-search__label {
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+.wp-block-rss__item-author, .wp-block-rss__item-publish-date {
+  display: inline-block;
+  font-size: 0.8em;
+  margin: 0.7em 0;
+}
+.vamtam-body-sidebar  .widget_rss .rss-date, .vamtam-body-sidebar  .widget_rss li cite {
+  text-transform: none;
+  margin: 0.7em 0;
+}
+.widget_calendar #wp-calendar caption {
+  padding: .4em 1em;
+}
+.wc-block-grid__product .wc-block-grid__product-image:not(.wc-block-components-product-image), .wc-block-grid__product .wc-block-grid__product-title {
+  margin: 0;
+}
+
+/* Woo */
+body .woocommerce-store-notice, body p.demo_store {
+  background-color: var(--vamtam-accent-color-3);
+  color: var(--vamtam-accent-color-3-hc);
+}
+body.woocommerce-store-notice a, p.demo_store a {
+  color: var(--vamtam-accent-color-3-hc)
+}
+body.woocommerce .vamtam-product-cat-btn {
+  font-size: 14px;
+}
+body .page-header .page-header-line {
+  border: 0;
+}
+body.woocommerce.archive .page-header {
+  text-align: center;
+}
+.woocommerce div.product .woocommerce-product-rating, .woocommerce .summary p.price {
+  margin-bottom: var(--vamtam-content-space-s);
+}
+.woocommerce .summary p.price {
+  padding-bottom: 2px;
+}
+.woocommerce .woocommerce-product-details__short-description{
+  font-size: 12px;
+}
+
+.vamtam-limited-layout.single-product .main-container {
+  border: none;
+}
+.woocommerce .woocommerce-ordering select {
+  min-height: 30px!important;
+}
+.woocommerce .woocommerce-result-count {
+  font-size: max(14px);
+  line-height: 3.1em;
+}
+.wc-block-sort-select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wc-block-grid__product,
+.widget .wc-block-grid li.wc-block-grid__product:first-child,
+.widget .wc-block-grid li.wc-block-grid__product:last-child,
+.widget li:not(:last-child) {
+  border-bottom: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+
+}
+.wc-block-grid__product .wc-block-grid__product-image, .wc-block-grid__product .wc-block-grid__product-title {
+  margin: 0;
+}
+.wc-block-grid__product .wc-block-grid__product-title {
+  transform: scale(0.8);
+  transform-origin: center left;
+  padding: .4em 0 .1em 0;
+}
+span.product-title {
+  display: inline-block;
+  transform: scale(0.8);
+  transform-origin: center left;
+  padding: initial !important;
+}
+span.product-title:hover {
+  text-decoration: inherit;
+}
+.wc-block-grid__product .wc-block-grid__product-rating {
+  display: inline-block;
+  margin: auto;
+}
+.widget .wc-block-grid li.wc-block-grid__product {
+  padding: 0;
+  text-align: left;
+}
+
+.widget .wc-block-grid.has-1-columns li.wc-block-grid__product {
+    border-width: 0;
+}
+.widget .wc-block-grid:not(.has-1-columns) li.wc-block-grid__product .wp-block-button__link {
+  padding: 12px 5px;
+  width: 100%;
+}
+body .vamtam-body-sidebar .wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link {
+  font-size: 10px !important;
+}
+.wc-block-featured-category .wc-block-featured-category__title, .wc-block-featured-product .wc-block-featured-product__title, .wc-block-featured-product .wc-block-featured-product__variation {
+  font-size: max(50px);
+  line-height: 1.0em;
+}
+.wc-block-featured-product.has-background-dim .woocommerce-Price-amount.amount {
+  color: var(--vamtam-accent-color-5);
+}
+.wc-block-grid.has-aligned-buttons .wc-block-grid__product>:last-child {
+  margin: 0;
+}
+.wc-block-attribute-filter .wc-block-attribute-filter-list li label {
+  margin-left: 10px;
+  font-size: inherit;
+}
+body .widget ul li a, .wp-block-latest-comments__comment-meta a {
+  text-decoration: underline;
+}
+body .widget ul li a:hover {
+  text-decoration: underline;
+}
+.wc-block-active-filters .wc-block-active-filters__list li ul {
+  border-bottom: 1px solid var(--vamtam-default-line-color);
+  margin: 0 0 .7em;
+  padding: 0px 0px 1em 0px;
+}
+.wc-block-active-filters .wc-block-active-filters__list li {
+  padding-bottom: .3em;
+}
+.wc-block-active-filters .wc-block-active-filters__list-item-name {
+  font-weight: 600;
+}
+.wc-block-active-filters .wc-block-active-filters__clear-all {
+  font-size: 12px;
+  color: var(--vamtam-body-link-regular);
+}
+.wc-block-active-filters .wc-block-active-filters__clear-all:hover {
+  color: var(--vamtam-body-link-hover);
+}
+.widget .wc-block-components-dropdown-selector {
+  max-width: 340px;
+}
+.widget .wc-block-components-dropdown-selector__input-wrapper,
+.is-single.has-checked.is-open .wc-block-components-dropdown-selector__input {
+  border-radius: 0;
+  padding: 10px 20px;
+  border: 1px solid var(--vamtam-default-line-color);
+}
+.widget .wc-block-components-dropdown-selector__input {
+  margin: 0.4em 0;
+  padding: 0.4em 0.2em;
+}
+.wc-block-components-dropdown-selector__list:not(:empty) {
+  border-color: var(--vamtam-default-line-color);
+}
+.widget li.wc-block-components-dropdown-selector__list-item,
+.widget li.wc-block-components-dropdown-selector__list-item:first-child {
+  padding: 0.5em 1.5em !important;
+}
+.wc-block-components-dropdown-selector__list-item.is-selected {
+  background-color: var(--vamtam-default-line-color);
+  color: var(--vamtam-widget-text-darker);
+}
+.wc-block-components-dropdown-selector__list-item.is-highlighted, .wc-block-components-dropdown-selector__list-item:active, .wc-block-components-dropdown-selector__list-item:focus, .wc-block-components-dropdown-selector__list-item:hover {
+  background-color: var(--vamtam-accent-color-6);
+  color: var(--vamtam-accent-color-6-hc);
+}
+.wc-block-components-dropdown-selector .wc-block-components-dropdown-selector__selected-value__label {
+  font-weight: 600;
+  font-size: 14px;
+}
+.wc-block-components-review-list-item__author, .wc-block-components-review-list-item__product {
+  margin-bottom: 2px;
+  font-weight: 500;
+}
+.wc-block-components-review-list-item__info {
+  margin-bottom: 10px;
+}
+
+.wc-block-components-dropdown-selector .wc-block-components-dropdown-selector__selected-value {
+  color: inherit;
+}
+.wc-block-active-filters .wc-block-active-filters__list-item-remove svg {
+  width: 14px;
+  height: auto;
+}
+body .vamtam-body-sidebar .widget select {
+  font-size: 12px;
+}
+.vamtam-body-sidebar, .vamtam-body-sidebar .widget select, .wc-block-product-categories {
+  margin-bottom: 0 !important;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.wc-block-product-categories__button {
+  padding: 0 1.0em;
+  margin-left: 10px;
+}
+.wc-block-components-review-list-item__rating>.wc-block-components-review-list-item__rating__stars span:before {
+  color: var(--vamtam-accent-color-6);
+}
+.widget .wc-block-sort-select {
+  margin-bottom: 1.5em;
+}
+.widget .wc-block-sort-select select {
+  min-height: 40px!important;
+  line-height: 26px;
+}
+.vamtam-limited-layout .vamtam-body-sidebar .wc-block-product-search form input {
+  border-right: 0;
+}
+.vamtam-limited-layout .vamtam-body-sidebar .wc-block-product-search form button {
+  padding: 0 1.3em 0 1em;
+}
+.wc-block-product-search .wc-block-product-search__field {
+  padding: 6px 0px;
+}
+.vamtam-limited-layout .vamtam-body-sidebar .wc-block-product-search form button svg {
+  display: none;
+}
+.vamtam-limited-layout .vamtam-body-sidebar .wc-block-product-search form button:after {
+  content: "\e935";
+  font: 400 20px/1 vamtam-theme;
+}
+.vamtam-limited-layout .vamtam-body-sidebar .wc-block-product-search form button:hover {
+    color: var(--vamtam-body-link-hover);
+}
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+  text-align: center;
+}
+.woocommerce ul.products li.product .star-rating {
+  margin: 0 auto 1em auto !important;
+}
+.woocommerce ul.products li.product-category.product .woocommerce-loop-category__title {
+  padding: 20px 0  5px 0;
+}
+.woocommerce ul.products li.product-category.product .woocommerce-loop-category__title mark {
+  background: none;
+  font-weight: inherit;
+  color: inherit;
+}
+
+body.woocommerce ul.products li.product-category.product .vamtam-product-cat-content {
+  background: none;
+}
+.wp-block-button__link:active, .wp-block-button__link:focus, .wp-block-button__link:hover, .wp-block-button__link:visited {
+  color: inherit;
+}
+.woocommerce.woocommerce-cart table.shop_table, .woocommerce.woocommerce-cart table.shop_table td, .woocommerce.woocommerce-cart table.shop_table th {
+  color: var(--vamtam-accent-color-6);
+}
+.woocommerce.woocommerce-cart table.shop_table .order-total th, .woocommerce.woocommerce-cart table.shop_table.woocommerce-table--order-details tfoot tr:last-child th, .woocommerce.woocommerce-checkout table.shop_table .order-total th, .woocommerce.woocommerce-checkout table.shop_table.woocommerce-table--order-details tfoot tr:last-child th, .woocommerce.woocommerce-cart table.shop_table strong, .woocommerce.woocommerce-checkout table.shop_table strong{
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--vamtam-accent-color-2);
+}
+.woocommerce.woocommerce-checkout .cart_item b, .woocommerce.woocommerce-checkout .cart_item strong {
+  font-weight: inherit !important;
+}
+body .select2-container--focus .select2-dropdown, body .select2-container--focus.select2-container--default .select2-selection--single, body .select2-container--open .select2-dropdown, body .select2-container--open.select2-container--default .select2-selection--single {
+  border-width: 1px !important;
+}
+
+.woocommerce.woocommerce-cart table.shop_table .order-total td strong, .woocommerce.woocommerce-checkout table.shop_table .order-total td strong {
+  color: var(--vamtam-accent-color-2);
+}
+
+.woocommerce div.product .summary p.price, .woocommerce div.product .summary p.price ins, .woocommerce div.product .summary span.price, .woocommerce div.product .summary span.price ins {
+  color: var(--vamtam-accent-color-6);
+  font-family: var(--vamtam-h5-font-family);
+  font-size: max(20px);
+}
+.woocommerce.single-product form.cart #quantity+button, .woocommerce.single-product form.cart .quantity+button {
+  flex: none;
+  margin-left: 10px;
+}
+.woocommerce ul.products li.product a.button{
+  text-decoration: underline;
+}
+.woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h3, .edit-post-visual-editor .editor-block-list__block .wc-block-grid__product-title, .editor-styles-wrapper .wc-block-grid__product-title, .wc-block-grid__product-title, span.product-title {
+  font: var(--vamtam-h4-font-style,normal) var(--vamtam-h4-font-weight,normal) var(--vamtam-h4-font-size-desktop)/var(--vamtam-h4-line-height-desktop) var(--vamtam-h4-font-family);
+  padding: .6em 0 .4em 0;
+}
+.woocommerce-Price-amount, .woocommerce.woocommerce-cart table.shop_table .order-total .woocommerce-Price-amount.amount, .woocommerce.woocommerce-cart table.shop_table.woocommerce-table--order-details tfoot tr:last-child .woocommerce-Price-amount.amount, .woocommerce.woocommerce-checkout table.shop_table .order-total .woocommerce-Price-amount.amount, .woocommerce.woocommerce-checkout table.shop_table.woocommerce-table--order-details tfoot tr:last-child .woocommerce-Price-amount.amount {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--vamtam-accent-color-6);
+}
+.woocommerce.woocommerce-cart .woocommerce-Price-amount{
+  font-weight: inherit;
+}
+ins {
+  color: inherit;
+}
+.woocommerce div.product form.variations_form table.variations tr {
+  border: none !important;
+}
+.woocommerce div.product form.cart .variations td, .woocommerce div.product form.cart .variations th {
+  display: block;
+  padding: 1.0em 0px 0.5em 0px;
+}
+.woocommerce div.product form.cart .variations label {
+  font-weight: 600;
+  font-size: 14px;
+}
+.wp-block-table.is-style-stripes tr:first-child,
+table:not(.wp-calendar-table) tr:first-child,
+.wp-block-table.is-style-stripes tr,
+table:not(.wp-calendar-table) tr {
+  border: 0;
+}
+.woocommerce-grouped-product-list-item label {
+  font-size: 14px;
+}
+
+.woocommerce .products.vamtam-wc .product span.price {
+  margin-bottom: .3em;
+}
+.woocommerce .products.vamtam-wc .product span.price ins{
+  color: inherit;
+}
+.woocommerce.widget_price_filter .price_slider_amount .button{
+  padding: 15px 30px 15px 30px;
+}
+.woocommerce #reviews #comments ol.commentlist li .comment-text, .woocommerce #reviews #comments ol.commentlist li img.avatar,
+.woocommerce table.shop_attributes td:last-child, .woocommerce table.shop_attributes th:last-child {
+  border-color: var(--vamtam-default-line-color);
+}
+.woocommerce div.product p.price del {
+  margin-right: .2em;
+}
+.woocommerce div.product .product_title {
+  margin-bottom: var(--vamtam-content-space-l);
+}
+
+body.woocommerce ul.products li.product span.onsale, .woocommerce .product-category .vamtam-product-cat-info, .woocommerce .product-category .vamtam-product-cat-info>span, .woocommerce span.onsale, .wc-block-grid__product-onsale {
+  max-width: 40px;
+  min-height: 16px;
+  line-height: 26px;
+  right: 0;
+  top: 0;
+  margin: 0px;
+  padding: 0px 10px;
+  transform-origin: 0 0;
+  letter-spacing: 0px;
+  font-size: 10px;
+  font-weight: 500;
+  background-color: var(--vamtam-accent-color-1);
+  color: var(--vamtam-accent-color-1-hc);
+}
+.woocommerce .page-content span.onsale {
+  left: 0;
+}
+.wc-block-grid__product-onsale {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0;
+  border: none;
+}
+.woocommerce .star-rating {
+  float: none;
+  display: block;
+}
+.woocommerce .star-rating span::before, .woocommerce .star-rating::before {
+  color: var(--vamtam-accent-color-1);
+}
+.woocommerce .product_meta .posted_in, .woocommerce .product_meta .sku_wrapper, .woocommerce .product_meta .tagged_as {
+  font-size: 14px;
+  margin-bottom: .8em;
+}
+.woocommerce .product_meta .posted_in span, .woocommerce .product_meta .sku_wrapper span, .woocommerce .product_meta .tagged_as span {
+  text-transform: none;
+  padding-left: 10px;
+}
+.woocommerce .product_meta .posted_in a, .woocommerce .product_meta .tagged_as a {
+	color: var(--vamtam-accent-color-2-hc);
+  background: var(--vamtam-accent-color-2);
+  padding: 4px 10px;
+	text-decoration: none;
+}
+.woocommerce .product_meta .posted_in a, .woocommerce .product_meta .tagged_as a:first-child {
+  margin-left: 10px;
+}
+.woocommerce .product_meta .posted_in a:hover, .woocommerce .product_meta .tagged_as a:hover {
+  color: var(--vamtam-accent-color-1-hc);
+  background: var(--vamtam-accent-color-1);
+  text-decoration: none;
+}
+
+.select2-search--dropdown, .select2.select2-container .select2-selection[role=combobox], input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea {
+  padding: 5px 0px;
+  min-height: 47px;
+  line-height: inherit;
+  font-size: 12px;
+  caret-color: auto !important;
+  border-width: 0px 0px 1px 0px;
+  border-color: var(--vamtam-default-line-color);
+  background-color: transparent !important;
+
+}
+body .select2.select2-container .select2-selection[role=combobox], body select {
+  background-position: center right 16px !important;
+}
+.vamtam-main .select2-search--dropdown, .vamtam-main .select2.select2-container .select2-selection[role=combobox], .vamtam-main input[type=date], .vamtam-main input[type=email], .vamtam-main input[type=number], .vamtam-main input[type=password], .vamtam-main input[type=range], .vamtam-main input[type=search], .vamtam-main input[type=tel], .vamtam-main input[type=text], .vamtam-main input[type=url], .vamtam-main select, .vamtam-main textarea {
+  color: var(--vamtam-accent-color-6);
+  border-width: 1px;
+  padding: 12px 16px;
+  line-height: initial;
+}
+.vamtam-main .select2.select2-container .select2-selection[role=combobox] {
+  padding: 0 7px;
+}
+
+.select2-search--dropdown-input:focus input, body .select2-search--dropdown:hover input, body .select2.select2-container .select2-selection[role=combobox]:focus, body .select2.select2-container .select2-selection[role=combobox]:hover, body input[type=date]:focus, body input[type=date]:hover, body input[type=email]:focus, body input[type=email]:hover, body input[type=number]:focus, body input[type=number]:hover, body input[type=password]:focus, body input[type=password]:hover, body input[type=range]:focus, body input[type=range]:hover, body input[type=search]:focus, body input[type=search]:hover, body input[type=tel]:focus, body input[type=tel]:hover, body input[type=text]:focus, body input[type=text]:hover, body input[type=url]:focus, body input[type=url]:hover, body select:focus, body select:hover, body textarea:focus, body textarea:hover {
+  border-color: var(--vamtam-accent-color-6);
+}
+
+.woocommerce div.product .woocommerce-tabs .panel {
+  padding: 2em 0 2em 0;
+}
+.woocommerce div.product .woocommerce-tabs>ul.tabs li a {
+  border: solid 1px var(--vamtam-default-line-color);
+  color: var(--vamtam-accent-color-1);
+  text-align: center;
+  padding: 15px 40px;
+  background-color: transparent;
+  margin: 0 5px;
+  font-size: max(14px);
+  font-weight: 600;
+  color:  var(--vamtam-accent-color-6);
+}
+
+.woocommerce div.product .woocommerce-tabs>ul.tabs li.active a, .woocommerce div.product .woocommerce-tabs>ul.tabs li a:hover {
+  background-color: var(--vamtam-accent-color-1);
+  border-color: var(--vamtam-accent-color-1);
+  color: var(--vamtam-accent-color-1-hc);
+}
+
+.woocommerce .products.related>h2 {
+  font: var(--vamtam-h3-font-style,normal) var(--vamtam-h3-font-weight,normal) var(--vamtam-h3-font-size-desktop)/var(--vamtam-h3-line-height-desktop) var(--vamtam-h3-font-family);
+}
+
+.woocommerce table.shop_table th,
+.woocommerce-MyAccount-content mark,
+.woocommerce-MyAccount-content strong,
+.woocommerce table.shop_table tbody th, .woocommerce table.shop_table tfoot td, .woocommerce table.shop_table tfoot th {
+  font-weight: 500;
+}
+.woocommerce.woocommerce-account .woocommerce-MyAccount-navigation ul li {
+  margin: 0;
+}
+.woocommerce table.my_account_orders td, .woocommerce table.my_account_orders th {
+  padding: 0.6em 1em;
+  border-bottom: 1px solid var(--vamtam-default-line-color);
+}
+.woocommerce-order-received .woocommerce .woocommerce-customer-details address, .woocommerce-view-order .woocommerce .woocommerce-customer-details address {
+  border-radius: 0;
+  padding: 1em;
+}
+
+.woocommerce table.shop_table th,
+.woocommerce.woocommerce-account table thead th {
+  padding: 1em;
+}
+.woocommerce table.shop_table td {
+  padding: 0.5em 1em ;
+}
+/* pagination */
+
+.post-type-archive-product .page-content .vamtam-pagination-wrapper {
+  border: none;
+}
+.navigation a, .navigation span, .navigation .current {
+  width: 22px;
+  font-size: 12px;
+  font-weight: normal;
+  height: 30px;
+  line-height: 30px;
+  margin: 0px!important;
+}
+.navigation a, .navigation .next, .navigation .prev {
+  border: none;
+  background: none;
+}
+.navigation .next, .navigation .prev {
+  width: 28px;
+  height: 30px;
+  line-height: 18px;
+  margin: 0 !important;
+}
+.navigation .next:after, .navigation .prev:after {
+  content: "→";
+  font-size: inherit;
+  font-weight: inherit!important;
+}
+.navigation .prev:after {
+  content: "←";
+}
+.navigation .current, .navigation a:not(.prev):not(.next):hover, .navigation .next:hover, .navigation .prev:hover {
+  border: none;
+  background: var(--vamtam-accent-color-2);
+  color: var(--vamtam-accent-color-2-hc);
+}
+
+#scroll-to-top {
+  width: 45px;
+  height: 54px;;
+  bottom: 30px;
+  right: 0px;
+  border-radius: 0;
+  background: var(--vamtam-accent-color-5);
+  display: none;
+}
+
+#scroll-to-top #scroll-to-top-text {
+  font-size: 14px;
+  font-family: var(--vamtam-h6-font-family);
+  font-weight: var(--vamtam-h6-font-weight);
+  color: var(--vamtam-accent-color-1);
+  text-transform: uppercase;
+}
+#scroll-to-top:hover {
+  color: var(--vamtam-body-link-hover);
+}
+
+/* Cart */
+html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main .product-remove a {
+  color: rgba(var(--vamtam-accent-color-6-rgb),.4);
+}
+html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main .product-remove a:hover {
+  color: var(--vamtam-accent-color-6);
+}
+html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main .product-price .quantity .vamtam-quantity select {
+  transition: none;
+}
+
+html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-collaterals .cart-collaterals, html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-collaterals .coupon, html body.woocommerce.woocommerce-checkout form.checkout.woocommerce-checkout .col2-set .col-2 {
+  background-color: var(--vamtam-accent-color-5);
+  border: none;
+}
+html body.woocommerce.woocommerce-checkout .woocommerce-form-login.login, html body.woocommerce.woocommerce-checkout .checkout_coupon {
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+html body.woocommerce .cart-collaterals {
+  padding: 40px 40px 30px 40px;
+}
+html body.woocommerce .vamtam-cart-collaterals .coupon details .content {
+  padding: 0 40px 40px 40px;
+}
+
+.checkout-breadcrumb {
+  line-height: 1.0em;
+}
+body.woocommerce #sub-header .checkout-breadcrumb {
+  font-weight: 600;
+  font-family: var(--vamtam-primary-font-font-family) !important;
+  text-transform: uppercase;
+  font-size: max(18px) !important;
+}
+
+html body.woocommerce .checkout-breadcrumb .title-part-inactive, html body.woocommerce .checkout-breadcrumb .title-part-inactive a:not(:hover),
+html body.woocommerce .checkout-breadcrumb .icon.shortcode {
+  color: rgba(var(--vamtam-accent-color-6-rgb),.7);
+}
+html body.woocommerce.woocommerce-checkout form.checkout.woocommerce-checkout .col2-set .col-2 {
+  padding: 0;
+  background: var(--vamtam-accent-color-5);
+}
+html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main {
+  padding: 50px 0 20px 0;
+}
+html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main .vamtam-cart__header {
+  padding-bottom: 5px;
+}
+.woocommerce .vamtam-cart-collaterals .cart_totals>h4, .woocommerce .vamtam-cart__header .font-h4, body.woocommerce.woocommerce-checkout form.checkout.woocommerce-checkout .woocommerce-billing-fields h3, body.woocommerce.woocommerce-checkout form.checkout.woocommerce-checkout .woocommerce-shipping-fields h3, .woocommerce #order_review_heading, .woocommerce .woocommerce-billing-fields h3, .woocommerce .woocommerce-shipping-fields h3{
+  color: var(--vamtam-accent-color-6);
+  font: var(--vamtam-h3-font-style,normal) var(--vamtam-h4-font-weight,normal) var(--vamtam-h3-font-size-desktop)/var(--vamtam-h4-line-height-desktop) var(--vamtam-h3-font-family);
+}
+html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main .cart_item {
+  grid-row-gap: 0;
+  padding: 20px 0;
+}
+html body.woocommerce .vamtam-cart-main .cart_item:not(:last-of-type), .woocommerce .cart-collaterals td, .woocommerce .cart-collaterals th, .woocommerce .cart-collaterals tr, .woocommerce.woocommerce-checkout table.shop_table tr td, .woocommerce.woocommerce-checkout table.shop_table tr th {
+  border-color: var(--vamtam-accent-color-7) !important;
+}
+body.woocommerce.woocommerce-checkout form.checkout.woocommerce-checkout .woocommerce-billing-fields h3 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+body.woocommerce .col2-set.woocommerce-Addresses .woocommerce-Address, .woocommerce-page .col2-set.woocommerce-Addresses .woocommerce-Address {
+  border: solid 1px var(--vamtam-default-line-color);
+  padding: 3%;
+  width: 42%;
+}
+.woocommerce #payment div.payment_box:before {
+  margin-top: -9px;
+}
+html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main .product-name {
+  padding: .9em 25px 0 25px;
+}
+body .woocommerce .vamtam-cart-main .product-remove {
+  padding-top: 0;
+}
+
+body .woocommerce .vamtam-cart-main .product-remove a svg {
+  margin-top: 1rem;
+}
+body .woocommerce #quantity input.qty, .woocommerce .quantity input.qty {
+  max-width: 100px;
+  padding: 6px 20px !important;
+  border: solid 1px var(--vamtam-default-line-color);
+  font-weight: 400;
+  min-height: 49px;
+}
+body .woocommerce.single-product form.cart .quantity+button {
+  flex: none;
+}
+body .select2-container--focus .select2-dropdown,
+body .select2-container--focus.select2-container--default .select2-selection--single,
+body .select2-container--open .select2-dropdown,
+body .select2-container--open.select2-container--default .select2-selection--single {
+  border-radius: var(--vamtam-input-border-radius);
+  overflow: hidden;
+  border: 2px solid;
+}
+body .select2-search--dropdown .select2-search__field {
+  padding: 6px 20px;
+}
+body .select2.select2-container .select2-selection[role=combobox] {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+body #add_payment_method .cart-collaterals .shipping-calculator-form  td p,
+body .woocommerce-cart .cart-collaterals .shipping-calculator-form  td p,
+body .woocommerce-checkout .cart-collaterals .shipping-calculator-form  td p{
+  margin: 0;
+}
+body .select2-container--default .select2-selection--single .select2-search--dropdown,
+body .select2-dropdown .select2-search--dropdown {
+  margin: 20px;
+  width: calc(100% - 40px);
+}
+body .select2-container--default .select2-search--dropdown {
+  border-left: inherit;
+  border-right: inherit;
+}
+.select2-search--dropdown-input:focus input, .select2-search--dropdown:hover input, .select2.select2-container .select2-selection[role=combobox]:focus, .select2.select2-container .select2-selection[role=combobox]:hover, input[type=date]:focus, input[type=date]:hover, input[type=email]:focus, input[type=email]:hover, input[type=number]:focus,
+input[type=number]:hover, input[type=password]:focus, input[type=password]:hover, input[type=range]:focus, input[type=range]:hover, input[type=search]:focus, input[type=search]:hover, input[type=tel]:focus, input[type=tel]:hover, input[type=text]:focus,
+input[type=text]:hover, input[type=url]:focus, input[type=url]:hover, select:focus, select:hover, textarea:focus, textarea:hover {
+  border-color: var(--vamtam-default-line-color);
+}
+body .select2-container--open .select2-dropdown--above {
+  margin-top: -0px;
+}
+body .select2-container--open .select2-dropdown--below {
+  margin-top: 0px;
+}
+body.woocommerce.woocommerce-checkout label:not([for^=shipping_method]) {
+  font-size: 14px;
+  font-weight: inherit;
+}
+body.woocommerce.woocommerce-checkout :is( #sub-header .checkout-breadcrumb,.checkout-breadcrumb .title-part-inactive a,form.checkout.woocommerce-checkout .col2-set .col-2 .woocommerce-checkout-review-order table.shop_table .order-total th,form.checkout.woocommerce-checkout .col2-set .col-2 .woocommerce-checkout-review-order #payment ul.payment_methods li label,table.woocommerce-table--order-details tfoot td,table.woocommerce-table--order-details tfoot td ) {
+  font-size: var(--vamtam_primary_font-font-size);
+  font-weight: 600;
+  font-family: var(--vamtam_primary_font-font-family);
+  text-transform: var(--vamtam_h6-text-transform);
+  line-height: var(--vamtam_primary_font-font-line-height);
+  text-transform: uppercase;
+  line-height: 2.1em;
+  color: var(--vamtam-accent-color-6);
+}
+.woocommerce form .form-row .required {
+  font-weight: 400;
+  color: var(--vamtam-accent-color-1);
+}
+/* Notification styles */
+body .woocommerce .woocommerce-error,
+body .woocommerce .woocommerce-info,
+body .woocommerce .woocommerce-message,
+body.woocommerce.single-product .woocommerce-message {
+  border: 1px solid;
+  border-top-width: 3px;
+  margin: 0em 0 1em 0;
+}
+.woocommerce.woocommerce-checkout .page-content, .woocommerce.woocommerce-checkout .woocommerce-notices-wrapper {
+  margin-top: 0;
+}
+body ul.woocommerce-error li:first-child {
+  margin-block-start: 0;
+}
+.woocommerce .woocommerce-error:not(form.login):not(form.register), .woocommerce .woocommerce-info:not(form.login):not(form.register), .woocommerce .woocommerce-message:not(form.login):not(form.register), .woocommerce form.login:not(form.login):not(form.register), .woocommerce form.register:not(form.login):not(form.register) {
+  border-width: 1px;
+}
+body .woocommerce .woocommerce-info {
+  border-color: #1e85be;
+}
+body .woocommerce .woocommerce-info::before {
+  color: #1e85be;
+}
+body .woocommerce .woocommerce-message,
+body.woocommerce.single-product .woocommerce-message {
+  border-color: #8fae1b;
+}
+body .woocommerce .woocommerce-message::before {
+  color: #8fae1b;
+}
+body .woocommerce .woocommerce-error {
+  border-color: #b81c23;
+}
+body .woocommerce .woocommerce-error::before {
+  color: #b81c23;
+}
+
+body header.main-header.layout-single-row .first-row {
+  min-height: 74px;
+}
+
+body header.main-header.layout-single-row .header-contents {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+body header.main-header.layout-single-row .header-contents .first-row{
+  /* flex: 1 1 auto; */
+  order: 1;
+}
+body header.main-header.layout-single-row .header-contents .second-row {
+  order: 3;
+  /* width: 100%; */
+  min-height: 12px;
+}
+body header.main-header.layout-single-row .header-contents .cart-dropdown {
+  order: 1;
+  margin-left: -40px;
+  min-width: 40px;
+}
+
+body header.main-header.layout-single-row .first-row .logo-wrapper {
+  text-align: center;
+}
+.woocommerce.woocommerce-checkout header.main-header .first-row {
+  padding: 0;
+}
+
+/* Order details - I can't make this changes visible on the .vamtam.. https://www.dropbox.com/s/lb2m5gwsy1lzka5/Screenshot%202021-05-31%20at%200.25.01.png?dl=0 */
+
+html body.woocommerce.woocommerce-checkout form.checkout.woocommerce-checkout .col2-set .col-2 .woocommerce-checkout-review-order #payment ul.payment_methods {
+  padding: 0;
+}
+html body.woocommerce.woocommerce-checkout form.checkout.woocommerce-checkout .col2-set .col-2 .woocommerce-checkout-review-order #payment .woocommerce-terms-and-conditions-wrapper p {
+  line-height: 1.4;
+}
+html body.woocommerce.woocommerce-checkout form.checkout.woocommerce-checkout .form-row {
+  margin: 0 0 20px 0;
+}
+
+body:not(.single-post) .page-header h1 {
+  font-size: 36px;
+}
+body .fixed-header-box .logo-wrapper .logo.text-logo, body .fixed-header-box .logo-wrapper .logo.text-logo:hover {
+  font-size: 25px;
+  line-height: 120%;
+  color: var(--vamtam-accent-color-6);
+  font-weight: normal;
+  text-align: center;
+	text-transform: uppercase;
+}
+#main-menu .menu>.menu-item .sub-menu {
+  width: 215px;
+}
+label {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.3em;
+}
+.button, .vamtam-cart-collaterals input[name=apply_coupon], .woocommerce #content input.button, .woocommerce #place_order, .woocommerce #respond input#submit, .woocommerce #respond input#submit.alt, .woocommerce .button.wc-backward, .woocommerce .cross-sells .add_to_cart_button, .woocommerce .woocommerce-Button.button, .woocommerce .woocommerce-button.button, .woocommerce .woocommerce-form-login .woocommerce-form-login__submit, .woocommerce .woocommerce-message .vamtam-close-notice-btn, .woocommerce a.added_to_cart, .woocommerce a.button, .woocommerce a.button.alt, .woocommerce button.button, .woocommerce button.button.alt, .woocommerce button.button.alt.disabled, .woocommerce input.button, .woocommerce input.button.alt, .woocommerce-page #content input.button, .woocommerce-page #respond input#submit, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce.widget_shopping_cart .widget_shopping_cart_content .buttons a.button, .woocommerce.woocommerce-cart .cart-collaterals .wc-proceed-to-checkout .checkout-button, .woocommerce.woocommerce-cart .vamtam-cart-collaterals .coupon button[name=apply_coupon], .woocommerce.woocommerce-checkout .checkout_coupon .button[name=apply_coupon], a.comment-reply-link, button, input[type=button], input[type=submit], .wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link, .wp-block-button__link, .wp-block-search__button {
+  background: var(--vamtam-accent-color-6);
+  color: var(--vamtam-accent-color-6-hc) !important;
+  text-decoration: none !important;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 17px 36px 17px 36px;
+  border-radius: 0;
+  letter-spacing: 1px;
+  border: none;
+}
+.woocommerce ul.products li.product .button {
+  font-weight: 500 !important;
+}
+.button:hover, .vamtam-cart-collaterals input[name=apply_coupon]:hover, .woocommerce #content input.button:hover, .woocommerce #place_order:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce #respond input#submit:hover, .woocommerce .button.wc-backward:hover, .woocommerce .cross-sells .add_to_cart_button:hover, .woocommerce .woocommerce-Button.button:hover, .woocommerce .woocommerce-button.button:hover, .woocommerce .woocommerce-form-login .woocommerce-form-login__submit:hover, .woocommerce .woocommerce-message .vamtam-close-notice-btn:hover, .woocommerce a.added_to_cart:hover, .woocommerce a.button.alt:hover, .woocommerce a.button:hover, .woocommerce button.button.alt.disabled:hover, .woocommerce button.button.alt:hover, .woocommerce button.button:hover, .woocommerce input.button.alt:hover, .woocommerce input.button:hover, .woocommerce-page #content input.button:hover, .woocommerce-page #respond input#submit:hover, .woocommerce-page a.button:hover, .woocommerce-page button.button:hover, .woocommerce-page input.button:hover, .woocommerce.widget_shopping_cart .widget_shopping_cart_content .buttons a.button:hover, .woocommerce.woocommerce-cart .cart-collaterals .wc-proceed-to-checkout .checkout-button:hover, .woocommerce.woocommerce-cart .vamtam-cart-collaterals .coupon button[name=apply_coupon]:hover, .woocommerce.woocommerce-checkout .checkout_coupon .button[name=apply_coupon]:hover, a.comment-reply-link:hover, button:hover, input[type=button]:hover, input[type=submit]:hover, .wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link:hover, .wp-block-button__link:hover, .woocommerce .vamtam-cart-collaterals .coupon details .content>button[type=submit]:hover, .woocommerce.woocommerce-page #payment #place_order:hover, .woocommerce.woocommerce-page .cart-collaterals .wc-proceed-to-checkout .checkout-button:hover, .woocommerce.woocommerce-page .checkout_coupon .button[name=apply_coupon]:hover {
+  background: var(--vamtam-accent-color-1);
+  color: var(--vamtam-accent-color-1-hc) !important;
+  text-decoration: inherit !important;
+}
+
+html body .wp-block-search .wp-block-search__button {
+  padding: .125em 1.2em !important;
+}
+.wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper {
+  border-color: var(--vamtam-default-line-color);
+}
+
+html body.vamtam-limited-layout .vamtam-body-sidebar .widget .widgettitle {
+  font-size: 1.5em;
+  color: inherit;
+  font-weight: inherit;
+}
+
+html body .vamtam-body-sidebar .widget.widget_product_search .woocommerce-product-search, html body .vamtam-body-sidebar .widget.widget_search .searchform {
+  width: auto;
+  margin-top: 0;
+}
+body .select2-container--default .select2-results__option--highlighted[aria-selected], body .select2-container--default .select2-results__option--highlighted[data-selected] {
+  background: var(--vamtam-accent-color-1);
+  color: var(--vamtam-accent-color-1-hc);
+}
+html body .vamtam-body-sidebar .widget.widget_product_categories .select2-selection--single .select2-selection__clear {
+  margin-right: 30px;
+}
+html body .vamtam-body-sidebar .widget.widget_product_search .woocommerce-product-search:before, html body .vamtam-body-sidebar .widget.widget_search .searchform:before {
+  margin: 0;
+  height: 50px;
+  padding: 0 15px;
+  bottom: 2px;
+  right: 1px;
+  top: initial;
+  background: var(--vamtam-accent-color-2);
+  color: var(--vamtam-accent-color-2-hc);
+}
+
+html body .vamtam-body-sidebar .widget.widget_product_search .woocommerce-product-search input[name="s"], html body .vamtam-body-sidebar .widget.widget_search .searchform input[name="s"] {
+  padding: 0px 10px;
+}
+html body .vamtam-body-sidebar .widget_nav_menu .menu>li:first-child {
+  margin-top: 5px;
+}
+html body .vamtam-body-sidebar .widget_nav_menu .menu li a:hover {
+  color: var(--vamtam-body-link-hover);
+}
+html body .vamtam-body-sidebar .widget .tagcloud {
+  margin-top: 0;
+}
+html body .vamtam-body-sidebar .widget caption{
+  margin-top: 0px;
+}
+html body .wp-block-group__inner-container .vgblk-rw-wrapper.limit-wrapper .wc-block-product-search .wc-block-product-search__fields {
+  padding: 0 !important;
+}
+html body .wp-block-group__inner-container .vgblk-rw-wrapper.limit-wrapper .wc-block-product-search form label {
+  padding: 0;
+  background: transparent;
+  font: inherit;
+  text-transform: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.3em;
+}
+html body .select2-container--default .select2-selection--multiple {
+  border-radius: 0;
+  border-color: var(--vamtam-default-line-color);
+}
+
+.woocommerce.widget_shopping_cart .widget_shopping_cart_content .amount, .woocommerce.widget_shopping_cart .widget_shopping_cart_content .quantity {
+  font-weight: 500;
+}
+#main-menu .menu>.menu-item .sub-menu.invert-position {
+  left: -86%;
+}
+
+.comments .avatar, .woocommerce #reviews #comments .avatar {
+  max-width: 80px!important;
+  max-height: 80px;
+  width: 80px;
+}
+.comments .comment-author img, .woocommerce #reviews #comments .comment-author img {
+  margin-right: calc(var(--vamtam-content-space-m) + 10px);
+}
+
+body #header-404 .line-1 {
+  font-family: var(--vamtam-h1-font-family);
+  font-size: 100px;
+  font-weight: 600;
+  line-height: 1.2em;
+  padding-left: 0;
+  color: var(--vamtam-accent-color-6);
+}
+body #header-404 .line-2 {
+  font-family: var(--vamtam-h2-font-family);
+  font-size: 46px;
+}
+body .page-404 input[name=s] {
+  font-size: 14px;
+  padding-right: 160px;
+}
+body .page-404 input[type=submit] {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 0em 3em !important;
+  height: 60px;
+  font-size: 14px;
+}
+
+
+@media (min-width: 1026px) and (max-width: 1360px) {
+  .vamtam-box-outer-padding, .limit-wrapper, .header-padding {
+  }
+}
+@media (min-width: 1025px) {
+  body.single-post:not(.layout-left-only):not(.layout-right-only) .single-post-meta-wrapper .meta-top .meta-left {
+    justify-content: center;
+  }
+  body.single-post .meta-header .meta-header-inside {
+    padding-bottom: 0;
+  }
+  .woocommerce .vamtam-cart-collaterals .coupon details>summary {
+    padding: 20px 40px;
+  }
+  html body.woocommerce-checkout .meta-header .meta-header-inside, html body.woocommerce-cart .meta-header .meta-header-inside {
+    min-height: auto;
+    padding: var(--vamtam-content-space-xl) 0 var(--vamtam-content-space-m) 0;
+  }
+  body:not(.single-post) .meta-header .meta-header-inside {
+    padding: var(--vamtam-content-space-l) 0 0 0;
+  }
+}
+@media (max-width: 1024px) {
+  body.layout-full:not(.single-post) .page-header {
+    text-align: center;
+    align-items: center;
+  }
+  body.responsive-layout #sub-header header.page-header {
+    text-align: left;
+    align-items: baseline;
+  }
+  .meta-header-inside {
+    min-height: 12vh;
+  }
+  html body.single-post.layout-full .limit-wrapper {
+    --vamtam-site-max-width: auto;
+  }
+  body.responsive-layout.single-post .single-post-wrapper .post-media .media-inner {
+    max-width: 100%;
+  }
+  body .page-wrapper>aside.left {
+    margin-right: 0;
+    border-right: 0;
+  }
+  body.responsive-layout.has-page-header article>.page-content {
+    padding-top: var(--vamtam-sidebar-content-margin); /* Remove this ?*/
+  }
+
+  html .responsive-layout #sub-header .meta-header-inside .vamtam-meta-tax,
+  html body.responsive-layout #sub-header .meta-header-inside .vamtam-meta-tax a {
+    text-align: left;
+  }
+  body .meta-header .meta-header-inside {
+    padding-bottom: 0;
+  }
+  body.single-post:not(.layout-left-only):not(.layout-right-only) .meta-header .meta-header-inside::after {
+    margin-left: 0;
+  }
+
+  body.single-post.layout-left-only .loop-wrapper .meta-top .vamtam-meta-author,
+  body.single-post.layout-left-only .loop-wrapper .meta-top .vamtam-meta-comments,
+  body.single-post.layout-left-only .loop-wrapper .meta-top .vamtam-meta-date,
+  body.single-post.layout-left-only .loop-wrapper .meta-top .vamtam-meta-tax {
+    line-height: 2.5em !important;
+  }
+  body #sub-header {
+    border-top: 0;
+  }
+  html .woocommerce .vamtam-cart-main .product-remove a svg {
+    margin-top: 1rem;
+  }
+  html body.responsive-layout .comments .avatar, body.responsive-layout .woocommerce #reviews #comments .avatar {
+    max-width: initial !important;
+    margin-right: var(--vamtam-content-space-l);
+  }
+  body.responsive-layout .comments .comment .comment, body.responsive-layout .woocommerce #reviews #comments .comment .comment {
+    padding-top: var(--vamtam-content-space-l);
+  }
+  body.responsive-layout .comments .comment .comment .comment-content, body.responsive-layout .woocommerce #reviews #comments .comment .comment .comment-content {
+    padding: inherit;
+  }
+  body.responsive-layout.single-post .single-post-wrapper p {
+    margin: 0 0 1em 0;
+  }
+  body.responsive-layout .loop-wrapper.regular .post-article .post-media {
+    margin-bottom: 0;
+  }
+  body.responsive-layout .checkout-breadcrumb {
+      margin-bottom: 0;
+  }
+}
+@media (max-width: 768px) {
+  body.responsive-layout .page-wrapper>.vamtam-body-sidebar, body.responsive-layout .vamtam-main:not(.layout-full) .vamtam-related-content, body.responsive-layout .vamtam-main:not(.layout-full) article, body.responsive-layout header.main-header .header-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  body.responsive-layout ul.products li.product-category.product .vamtam-product-cat-content {
+    padding: 0;
+  }
+  body.responsive-layout.woocommerce ul.products li.product-category.product .woocommerce-loop-category__title {
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+}
+
+@media (max-width: 959px) {
+  html body.responsive-layout header.main-header {
+    border: 0;
+  }
+  html body.responsive-layout header.main-header .logo-wrapper {
+    padding: 0;
+  }
+  html body.responsive-layout header.main-header .first-row {
+    min-height: 60px;
+    padding-left: 0 !important;
+  }
+  html body.responsive-layout header.main-header.layout-single-row .first-row {
+    padding-right: 20px;
+  }
+  html body.responsive-layout header.main-header .first-row .logo-tagline {
+    order: 2;
+    width: 100%;
+    text-align: left;
+  }
+  html body.responsive-layout header.main-header .first-row .mobile-logo-additions {
+    display: flex;
+    order: 10;
+    padding-left: 0;
+    text-align: initial;
+  }
+  html body.responsive-layout header.main-header .first-row .logo-wrapper .text-logo {
+		font-family: Syne, sans-serif;
+    font-size: 200%;
+    line-height: 110%;
+    text-align: left;
+  }
+  body header.main-header.layout-single-row .header-contents .second-row {
+    min-height: inherit;
+  }
+  html body.responsive-layout #vamtam-fallback-main-menu-toggle {
+    height: 44px;
+    width: auto;
+    padding-top: 15px;
+    transform: scale(0.8);
+  }
+  html body.responsive-layout .page-header h1 {
+    /* font-size: 40px; */
+  }
+
+  html body.responsive-layout #vamtam-fallback-main-menu-toggle {
+    margin-top: 0;
+  }
+  html body.responsive-layout #main-menu .menu {
+    background: var(--vamtam-accent-color-5);
+    border: none !important;
+    /* border-bottom: solid 1px var(--vamtam-default-line-color); */
+  }
+
+  html body #main-menu .menu>.menu-item:not(:last-child) {
+    /* border-bottom: 0px solid rgba(var(--vamtam-accent-color-3-rgb),.1) !important; */
+  }
+  .responsive-layout #main-menu .menu .menu-item .sub-menu .menu-item:not(:last-child) a {
+    /* border-bottom: 1px solid var(--vamtam-default-line-color) !important; */
+  }
+  html body #main-menu .menu>.menu-item>.sub-menu-wrapper>.sub-menu {
+    /* border-bottom: 0px solid var(--vamtam-default-line-color) !important; */
+  }
+
+  html body #main-menu .menu>.menu-item.menu-item-has-children:hover>a,
+  html body #main-menu .menu>.menu-item.current-menu-item>a,
+  html body #main-menu .menu>.menu-item.menu-item-has-children.current-menu-ancestor>a,
+  html body.responsive-layout #main-menu .menu>.menu-item .sub-menu .menu-item:hover a,
+  html body.responsive-layout #main-menu .menu>.menu-item .sub-menu .menu-item.current-menu-item>a,
+  html body #main-menu .menu>.menu-item:is( .current-menu-item,.current_page_item,.current-menu-ancestor .current-menu-parent .current_page_parent,.current_page_ancestor,:hover )>a {
+    border-radius: 0;
+    background: var(--vamtam-accent-color-5);
+    color: var(--vamtam-body-link-regular);
+  }
+  html body #main-menu .menu>.menu-item .sub-menu-wrapper .sub-menu {
+    border: 0;
+    background: var(--vamtam-accent-color-5);
+  }
+  html body #main-menu .menu>.menu-item>.sub-menu-wrapper>.sub-menu{
+    border-bottom: none;
+  }
+  html body.responsive-layout #main-menu .menu>.menu-item>a, html body.responsive-layout #main-menu .menu>.menu-item:last-child>a {
+    font-size: 12px;
+    line-height: 1.6em;
+    padding: 1.0em 20px;
+    border-bottom: 0;
+    /* border-top: solid 1px var(--vamtam-default-line-color); */
+  }
+  html body.responsive-layout #main-menu .menu>.menu-item:first-child>a{
+    border: 0;
+  }
+  html body.responsive-layout #main-menu .menu>.menu-item:is( .current-menu-item, html body.responsive-layout .current_page_item, html body.responsive-layout .current-menu-ancestor .current-menu-parent .current_page_parent, html body.responsive-layout .current_page_ancestor)>a {
+    color: var(--vamtam-accent-color-5);
+  }
+
+  html body.responsive-layout #main-menu .menu>.menu-item:is( .current-menu-item, html body.responsive-layout .current_page_item, html body.responsive-layout .current-menu-ancestor .current-menu-parent .current_page_parent, html body.responsive-layout .current_page_ancestor)>a:hover,
+  html body.responsive-layout #main-menu .menu>.menu-item>a:hover,
+  body.responsive-layout #main-menu .menu>.menu-item .sub-menu .menu-item:hover a:hover,
+  html body.responsive-layout #main-menu .menu>.menu-item.current-menu-item>a,
+  html body.responsive-layout #main-menu .menu>.menu-item.current-menu-ancestor>a {
+    color: var(--vamtam-accent-color-1) !important;
+    background: var(--vamtam-accent-color-5) !important;
+  }
+
+  html body.responsive-layout #main-menu .menu>.menu-item:focus-within .sub-menu .menu-item a, html body.responsive-layout #main-menu .menu>.menu-item:hover .sub-menu .menu-item a {
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 2.2em;
+    font-weight: 500;
+    padding-left: 40px;
+  }
+  html body.responsive-layout #vamtam-fallback-main-menu-toggle::before {
+    content: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'><path d='M3.328 10.656h25.344c1.056 0 1.984-.928 1.984-1.984s-.928-2.016-1.984-2.016H3.328c-1.056 0-1.984.928-1.984 2.016s.928 1.984 1.984 1.984zm0 8h25.344c1.056 0 1.984-.928 1.984-1.984s-.928-2.016-1.984-2.016H3.328c-1.056 0-1.984.928-1.984 2.016s.928 1.984 1.984 1.984zm0 8h25.344c1.056 0 1.984-.928 1.984-1.984s-.928-2.016-1.984-2.016H3.328c-1.056 0-1.984.928-1.984 2.016s.928 1.984 1.984 1.984z'/></svg>");
+    }
+  html body.responsive-layout #vamtam-fallback-main-menu-toggle.mega-menu-open::before {
+    content: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'><path d='M23.744 5.344 16 13.056 8.256 5.344c-.384-.416-.8-.544-1.312-.544-.672 0-1.216.256-1.6.544-.416.384-.544.928-.544 1.44 0 .544.128.96.672 1.344L13.056 16l-7.712 7.744c-.928.928-.928 1.856 0 2.784s1.856.928 2.784 0l7.744-7.744 7.744 7.744c.384.416.928.544 1.44.544.544 0 1.088-.128 1.472-.544.416-.384.544-.8.544-1.472 0-.512-.128-1.056-.544-1.472L18.816 16l7.84-7.744c.96-.928.96-1.856 0-2.784-.928-1.088-1.856-1.088-2.912-.128z'/></svg>");
+  }
+  .woocommerce .vamtam-cart-collaterals .coupon details>summary {
+    padding: 20px 20px;
+  }
+  html body.woocommerce .vamtam-cart-collaterals .coupon details .content {
+    padding: 0 20px 20px 20px;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    padding: 0;
+  }
+  .woocommerce div.product .woocommerce-tabs>ul.tabs li {
+    display: block;
+  }
+  .woocommerce div.product .woocommerce-tabs>ul.tabs li a {
+    margin: 10px 0;
+  }
+  html body.responsive-layout .woocommerce .cart-collaterals, body.responsive-layout.woocommerce .cart-collaterals {
+    margin-left: 0px;
+    margin-right: 0;
+    width: auto;
+  }
+  html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main {
+    padding: 20px 0 20px 0;
+  }
+  html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main .cart_item {
+    padding: 30px 0;
+    grid-template-columns: min(25%,70px) auto auto;
+  }
+  html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main .product-thumbnail {
+    grid-row: 1/3;
+  }
+  html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main .product-name {
+    grid-column: 2/3;
+    padding: 0 20px 0 20px;
+  }
+  html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main .product-price {
+    grid-column: 1/4;
+    margin-top: 10px;
+  }
+  html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main .product-remove {
+    grid-row: 1/2;
+    grid-column: 3/4;
+  }
+  html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main .product-remove a svg {
+    margin-top: 0;
+  }
+  html body.woocommerce.woocommerce div.product .woocommerce-product-rating {
+    margin-bottom: 1.0em;
+  }
+  html body.woocommerce.woocommerce #quantity input.qty, .woocommerce .quantity input.qty {
+    min-height: 40px;
+    max-width: 90px;
+  }
+  html body.responsive-layout .woocommerce .products.vamtam-wc .product span.onsale, body.responsive-layout.woocommerce .products.vamtam-wc .product span.onsale {
+    top: 0;
+    left: 0;
+    right: initial;
+  }
+  html body.responsive-layout .comments .comment-author {
+    display: block;
+  }
+  html body.responsive-layout .comments .comment-author img {
+    max-width: 40px!important;
+    margin-top: 5px;
+    margin-right: 10px!important;
+  }
+  html body.responsive-layout .loop-wrapper.regular .list-item header h4 {
+    margin: 0px;
+    font: var(--vamtam-h3-font-style,normal) var(--vamtam-h3-font-weight,normal) var(--vamtam-h3-font-size-desktop)/var(--vamtam-h3-line-height-desktop) var(--vamtam-h3-font-family);
+  }
+  body.woocommerce .col2-set.woocommerce-Addresses .woocommerce-Address, .woocommerce-page .col2-set.woocommerce-Addresses .woocommerce-Address {
+    padding: 3%;
+    width: 94%;
+    margin-bottom: var(--vamtam-content-space-l);
+  }
+}

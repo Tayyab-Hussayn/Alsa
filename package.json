@@ -1,0 +1,50 @@
+{
+	"name": "numerique",
+	"version": "1.0.0",
+	"description": "Please find our support system and documentation here:",
+	"devDependencies": {
+		"@babel/core": "^7.4.3",
+		"@babel/preset-env": "^7.4.3",
+		"@japont/unicode-range": "^1.0.0",
+		"babelify": "^10.0.0",
+		"browserify": "^16.2.3",
+		"font-ranger": "^3.0.5",
+		"grunt": "^1.0.4",
+		"grunt-browserify": "^5.3.0",
+		"grunt-contrib-clean": "^2.0.0",
+		"grunt-contrib-compress": "^1.4.3",
+		"grunt-contrib-concat": "^1.0.1",
+		"grunt-contrib-copy": "^1.0.0",
+		"grunt-contrib-jshint": "^3.0.0",
+		"grunt-contrib-less": "^2.0.0",
+		"grunt-contrib-uglify": "^5.1.0",
+		"grunt-contrib-watch": "^1.1.0",
+		"grunt-parallel": "^0.5.1",
+		"grunt-phpcs": "^0.4.0",
+		"grunt-replace": "^1.0.1",
+		"grunt-ttf2woff2": "^1.0.1",
+		"grunt-wp-i18n": "^1.0.3",
+		"less-plugin-autoprefix": "^2.0.0",
+		"less-plugin-clean-css": "^1.5.1",
+		"less-plugin-glob": "^3.0.0",
+		"matchdep": "^2.0.0",
+		"ttf2woff2": "^2.0.3"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/veniko/numerique.git"
+	},
+	"author": "Vamtam",
+	"license": "dual GPL/Envato",
+	"readmeFilename": "readme.txt",
+	"customizerLocation": "vamtam/customizer/lib/",
+	"reduxLocation": "vamtam/redux/extensions/",
+	"jsLocation": "vamtam/assets/js/",
+	"adminJsLocation": "vamtam/admin/assets/js/",
+	"cssLocation": "vamtam/assets/css/",
+	"gitHead": "1a7a729b760381ff207c78a9888afbeb89937e5d",
+	"vamtamApi": "20201008"
+}

@@ -1,0 +1,74 @@
+.vamtam-animated {
+	animation-duration: .5s;
+	animation-fill-mode: both;
+	// animation-timing-function: ease-out;
+}
+
+@keyframes vamtam-fadein-title {
+  from {
+	opacity: 0.9;
+  }
+}
+
+@keyframes vamtam-zoomin {
+	from {
+		opacity: 0;
+		transform: scale3d(.3, .3, .3);
+	}
+
+	50% {
+		opacity: 1;
+	}
+}
+
+.vamtam-zoomin {
+	animation-name: vamtam-zoomin;
+}
+
+@keyframes vamtam-zoomout {
+	from {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+		transform: scale3d(.3, .3, .3);
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+.vamtam-zoomout {
+	animation-name: vamtam-zoomout;
+}
+
+@keyframes vamtam-fadein {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+.vamtam-fadein {
+	animation-name: vamtam-fadein;
+}
+
+@keyframes vamtam-fadeout {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+.vamtam-fadeout {
+	animation-name: vamtam-fadeout;
+}
+

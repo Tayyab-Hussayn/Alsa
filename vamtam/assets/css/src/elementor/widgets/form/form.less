@@ -1,0 +1,418 @@
+// Form.
+.elementor-widget-form {
+	// Base Theme Widget Styles.
+	&.vamtam-has-theme-widget-styles {
+		.flatpickr-mobile {
+			&:is([type=date],[type=time]) {
+				-webkit-appearance: initial;
+			}
+		}
+
+		&.vamtam-booking-form {
+			.elementor-field-group {
+				&:not(.elementor-field-group.e-form__buttons__wrapper) {
+					padding: 20px 25px;
+					border-radius: 18px;
+					background-color: var(--vamtam-accent-color-5);
+				}
+
+				&:not(.elementor-field-group.e-form__buttons__wrapper).elementor-field-type-html {
+					border-bottom-left-radius: 0;
+					border-bottom-right-radius: 0;
+					background-color: var(--vamtam-accent-color-4);
+					text-align: center;
+					margin-bottom: -20px;
+					padding-bottom: 25px;
+
+					p {
+						line-height: 1.4em;
+						font-size: 90%;
+						strong {
+							font-size: 110%;
+							font-weight: 600;
+						}
+					}
+				}
+
+				.elementor-field-label {
+					padding-left: 0;
+					flex-basis: 100%;
+				}
+
+				.elementor-field-subgroup {
+					-ms-flex-preferred-size: auto;
+					flex-basis: auto;
+				}
+
+				>.elementor-select-wrapper {
+					-ms-flex-preferred-size: auto;
+					flex-basis: auto;
+				}
+
+				> input {
+					-ms-flex-preferred-size: auto;
+					flex-basis: auto;
+				}
+
+				> textarea {
+					-ms-flex-preferred-size: auto;
+					flex-basis: auto;
+				}
+			}
+
+			.elementor-field-subgroup.elementor-subgroup-inline {
+				.elementor-field-option {
+					padding-right: 20px;
+				}
+			}
+
+			form.elementor-form {
+				.elementor-field-option {
+					label {
+						padding-left: 30px;
+					}
+				}
+			}
+
+			.e-form__buttons__wrapper__button-next {
+				&::after {
+					content: "\e919";
+					font-family: 'theme-icons' !important;
+					margin-left: 5px;
+					display: inline-block;
+				}
+			}
+
+			.e-form__buttons__wrapper__button-previous {
+				&::before {
+					content: "\e919";
+					font-family: 'theme-icons' !important;
+					margin-right: 5px;
+					display: inline-block;
+					transform: rotate(180deg);
+				}
+			}
+
+			.e-form__indicators__indicator__separator {
+				max-width: 60px;
+				margin-top: 0;
+				transform: rotate(270deg);
+			}
+
+			.e-form__indicators.e-form__indicators--type-number_text {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.e-form__indicators__indicator {
+				flex-basis: auto;
+				flex-direction: row;
+			}
+		}
+
+		@media (min-width: 768px) {
+			&.vamtam-booking-form {
+				.e-form__indicators__indicator {
+					flex-direction: row;
+				}
+
+				.e-form__indicators__indicator__number {
+					margin-bottom: 0;
+					margin-right: 5px;
+					border-width: 2px;
+				}
+
+				.elementor-field-group {
+					.elementor-field-label {
+						max-width: 150px;
+					}
+				}
+
+				.elementor-field-subgroup.elementor-subgroup-inline {
+					.elementor-field-option {
+						width: auto;
+					}
+				}
+			}
+		}
+
+		&.vamtam-input-fields {
+			[type="checkbox"] {
+				&:not(:checked)+label {
+					position: relative;
+					padding-left: 2.3em;
+					cursor: pointer;
+				}
+				&:checked+label {
+					position: relative;
+					padding-left: 2.3em;
+					cursor: pointer;
+				}
+			}
+			[type="radio"] {
+				&:not(:checked)+label {
+					position: relative;
+					padding-left: 2.3em;
+					cursor: pointer;
+				}
+				&:checked+label {
+					position: relative;
+					padding-left: 2.3em;
+					cursor: pointer;
+				}
+			}
+			input[type="checkbox"] {
+				&:not(:checked)+label {
+					&:before {
+						content: '';
+						position: absolute;
+						left: 0;
+						top: 0;
+						width: 1.3em;
+						height: 1.3em;
+						border: solid 1px var(--vamtam-accent-color-7);
+						border-radius: 0;
+						transition: all .275s;
+					}
+					&:after {
+						font-family: 'theme-icons';
+						content: var(--vamtam-icon-check);
+						position: absolute;
+						top: .7em;
+						left: .25em;
+						font-size: 0.9em;
+						color: var(--vamtam-accent-color-6);
+						line-height: 0;
+						transition: all .2s;
+						opacity: 0;
+						transform: scale(0);
+					}
+				}
+				&:checked+label {
+					&:before {
+						content: '';
+						position: absolute;
+						left: 0;
+						top: 0;
+						width: 1.3em;
+						height: 1.3em;
+						border-radius: 0;
+						border: solid 1px var(--vamtam-accent-color-6);
+					    background-color: var(--vamtam-accent-color-6);
+						transition: all .275s;
+					}
+					&:after {
+						font-family: 'theme-icons';
+						content: var(--vamtam-icon-check);
+						position: absolute;
+						top: .7em;
+						left: .25em;
+						font-size: 0.9em;
+						color: var(--vamtam-accent-color-5);
+						line-height: 0;
+						transition: all .2s;
+						opacity: 1;
+						transform: scale(1);
+					}
+				}
+			}
+			input[type="radio"] {
+				&:not(:checked)+label {
+					&:before {
+						content: '';
+						position: absolute;
+						left: 0;
+						top: 0;
+						width: 1.3em;
+						height: 1.3em;
+						border-radius: 4px;
+						border: solid 2px var(--vamtam-accent-color-6);
+						transition: all .275s;
+						border-radius: 100px;
+					}
+					&:after {
+						font-family: 'theme-icons';
+						content: var(--vamtam-icon-check);
+						position: absolute;
+						top: .7em;
+						left: .25em;
+						font-size: 0.9em;
+						color: var(--vamtam-accent-color-6);
+						line-height: 0;
+						transition: all .2s;
+						opacity: 0;
+						transform: scale(0);
+					}
+				}
+				&:checked+label {
+					&:before {
+						content: '';
+						position: absolute;
+						left: 0;
+						top: 0;
+						width: 1.3em;
+						height: 1.3em;
+						border-radius: 4px;
+						border: solid 2px var(--vamtam-accent-color-6);
+						transition: all .275s;
+						border-radius: 100px;
+					}
+					&:after {
+						font-family: 'theme-icons';
+						content: var(--vamtam-icon-check);
+						position: absolute;
+						top: .7em;
+						left: .25em;
+						font-size: 0.9em;
+						color: var(--vamtam-accent-color-6);
+						line-height: 0;
+						transition: all .2s;
+						opacity: 1;
+						transform: scale(1);
+						color: var(--vamtam-accent-color-1);
+					}
+				}
+			}
+
+			// Making the whole radio/checkbox area clickable.
+			:is(
+				.elementor-field-type-radio,
+				.elementor-field-type-checkbox,
+				.elementor-field-type-acceptance
+			) {
+				.elementor-field-option {
+					position: relative;
+					:is(input[type="radio"], input[type="checkbox"]) {
+						z-index: 1;
+						cursor: pointer;
+						position: absolute;
+						left: 0;
+						right: 0;
+						top: 0;
+						bottom: 0;
+						opacity: .01;
+					}
+
+ 				}
+			}
+
+			.elementor-field-subgroup.elementor-subgroup-inline {
+				margin-bottom: -20px;
+			}
+		}
+
+		&.vamtam-form {
+			.e-form__buttons__wrapper__button {
+				&-previous,
+				&-next {
+					display: flex;
+					align-items: center;
+
+					&:empty {
+						justify-content: center;
+					}
+				}
+
+				&-next {
+					&:not(:empty) {
+						justify-content: flex-start;
+
+						&::after {
+							margin-left: auto;
+						}
+					}
+				}
+				&-previous {
+					&:not(:empty) {
+						justify-content: flex-end;
+
+						&::before {
+							margin-right: auto;
+						}
+					}
+				}
+
+				&[type="submit"] {
+					.elementor-button-icon {
+						&.elementor-align-icon {
+							&-right {
+								order: 2;
+								+ .elementor-button-text {
+									order: 1;
+									margin-right: auto;
+								}
+							}
+
+							&-left {
+								order: 1;
+								+ .elementor-button-text {
+									order: 2;
+									margin-left: auto;
+								}
+							}
+						}
+					}
+				}
+			}
+
+			.elementor-field-subgroup.elementor-subgroup-inline {
+				.elementor-field-option {
+					padding: 15px 20px 15px 15px;
+					background-color: var(--vamtam-accent-color-5);
+					margin-right: 20px;
+    				margin-bottom: 20px;
+					border: 1px solid;
+					border-color: var(--vamtam-accent-color-7);
+
+					&:last-of-type {
+						margin-right: 0px;
+					}
+				}
+			}
+		}
+
+		@media (pointer:fine) {
+			&.vamtam-has-underline-anim {
+				.elementor-button {
+					@tran-time: .5s; // If changed, please update the timeout timer value in the JS handler as well.
+					@width: var(--vamtam-underline-width, var(--vamtam-global-underline-width, 1px));
+					@spacing: var(--vamtam-underline-spacing, var(--vamtam-global-underline-spacing, 1px));
+					@color: linear-gradient(var(--vamtam-underline-bg-color, var(--vamtam-global-underline-bg-color, currentColor)) 0 0);
+
+					.vamtam-btn-text-wrap {
+						display: block;
+					}
+
+					.vamtam-btn-text {
+						display: inline; // We need this for the milti-line underline anim follow the line breaks properly.
+						padding-bottom: @spacing;
+						background-image: @color;
+						background-repeat: no-repeat ;
+						transition:
+							background-size @tran-time,
+							background-position 0s @tran-time; // Change after the size immediately (@tran-time is used as delay here).
+					}
+
+					// This class is added from the JS hadler of the widget.
+					&.hovered, &:hover {
+						.vamtam-btn-text {
+							background-position: 100% 100%; // Bottom right.
+							background-size: 100% @width;
+						}
+					}
+					// Doing it like this allows us to have a minimum exit transition time (set in js handler) between hover ons/offs and avoid flickers caused by fast :hover state changes.
+					&:not(:hover):not(.hovered) {
+						.vamtam-btn-text {
+							background-position: 0 100%; // Bottom left.
+							background-size: 0% @width;
+						}
+					}
+				}
+			}
+		}
+	}
+}

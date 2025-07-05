@@ -1,0 +1,202 @@
+@import '../mixins.less';
+
+.widget {
+	margin: 0 auto 30px;
+	padding: 0;
+	line-height: 1.3;
+
+	&,
+	ul li,
+	ul li a {
+		font-size: 1em !important;
+		line-height: 1.4em;
+	}
+
+	ul li a {
+		text-decoration: underline;
+		text-underline-offset: 3px;
+		text-decoration-skip-ink: all;
+	}
+
+	.widgettitle {
+		position: relative;
+		overflow: hidden;
+		text-transform: none;
+		margin-bottom: var(--vamtam-content-space-m);
+
+		&, a {
+			word-wrap: break-word;
+		}
+
+		a {
+			color: inherit;
+		}
+
+		> .icon {
+			margin-right: 10px;
+			vertical-align: baseline;
+		}
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+		padding-bottom: 0;
+		border-bottom: 0;
+		background: transparent;
+	}
+	&.widget_recent_entries {
+		a {
+			display: inline;
+		}
+		.post-date {
+			&:extend(.vamtam-font-h6);
+			display: block;
+			padding-top: 5px;
+		}
+	}
+
+	&.widget_recent_comments {
+		li {
+			padding: 0 0 0.7em 0;
+			line-height: 1.7em;
+		}
+	}
+
+	ul,
+	ol {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	li {
+		position: relative;
+		margin: 0;
+		padding: 0.43em 0;
+		transition: all 0.2s ease;
+		text-overflow: ellipsis;
+		word-wrap: break-word;
+
+		&:first-child {
+			padding-top: 0 !important;
+		}
+
+		&:not(:last-child) {
+			border: none;
+		}
+
+		.widget_archive&,
+		.widget_categories& {
+			border-bottom: 0;
+		}
+
+		.count {
+			color: inherit;
+			font-size: inherit;
+		}
+	}
+
+	input[type=text],
+	select {
+		max-width: 100%;
+		min-height: 52px !important;
+		line-height: 52px;
+		font-size: 1em;
+	}
+
+	.entry-caption,
+	.gallery-caption,
+	.wp-block-image figcaption,
+	.wp-caption .wp-caption-text,
+	figure figcaption {
+		line-height: 1.4;
+	}
+
+	.lang_sel_click li {
+		overflow: visible;
+	}
+}
+
+/* Widgets in sidebars ------------------------------------------------------ */
+.vamtam-body-sidebar {
+	--widget-whitespace: .43em;
+
+	&,
+	.widget select {
+		font-size: 14px;
+		color: var( --vamtam-widget-text-lighter );
+		font-weight: normal;
+	}
+
+	.widget {
+		margin: 0 0 var(--vamtam-content-space-xl) 0;
+		padding: 0;
+
+		.widgettitle {
+			margin-bottom: 1.4em;
+			margin-top: 0;
+			font-size: 1.3em;
+			line-height: 1.3em;
+			font-weight: 600;
+			border: none;
+			padding: 0;
+
+			.vamtam-limited-layout & {
+				color: var( --vamtam-widget-text-darker );
+			}
+
+			> .icon {
+				margin-top: -3px;
+
+				&.shortcode {
+					color: var( --vamtam-accent-color-7 );
+				}
+			}
+
+			+ ul,
+			+ ol,
+			+ div,
+			+ form {
+				border: none;
+			}
+		}
+
+		ul.children {
+	        margin-bottom: -5px;
+	        margin-top: 15px;
+	        margin-left: 15px;
+
+		    li {
+			    &:last-child {
+				    border-bottom: none;
+			    }
+		    }
+		}
+		> ul,
+		> ol,
+		> div,
+		> h4+form {
+			&:after {
+				position: relative;
+				top: 10px;
+				display: block;
+				clear: both;
+				margin: 0 -10px;
+				height: 1px;
+				content: "";
+			}
+		}
+	}
+
+	.textwidget {
+		p br {
+			content: "";
+			display: block;
+			margin-bottom: 0.5em;
+		}
+	}
+
+	p {
+		line-height: 1.6em;
+	}
+}

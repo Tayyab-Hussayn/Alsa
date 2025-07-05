@@ -1,0 +1,83 @@
+.vamtam-stand-out {
+	z-index: 1;
+	position: relative;
+}
+
+.vamtam-grayscale {
+	filter: grayscale( 100% );
+}
+
+.vamtam-mask-image-sider-1  {
+
+	&:before {
+		content: " ";
+		background: var( --vamtam-accent-color-1 );
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		mask-image: url(../../images/blob-mask-slider-bg-1.svg);
+		mask-mode: alpha;
+		mask-repeat: no-repeat;
+		mask-size: contain;
+		mask-position: center;
+	}
+
+	img {
+		mask-image: url(../../images/blob-mask-slider-1.svg);
+		mask-mode: alpha;
+		mask-repeat: no-repeat;
+		mask-size: contain;
+		mask-position: center;
+		text-align: center;
+
+		margin: 60px;
+	}
+}
+
+.vamtam-overlap-top-row {
+	display: inline-block;
+	margin-top: -150px;
+	width: 100%;
+}
+
+.vamtam-disable-scroll {
+	overflow: hidden;
+	max-height: 100vh;
+}
+// iOS-only. 🤮
+html.ios-safari .vamtam-disable-scroll {
+	position: fixed;
+	width: 100%;
+}
+
+.vamtam-overlay-trigger--overlay {
+	> .vamtam-overlay-element {
+		pointer-events: none;
+		position: fixed;
+		display: block;
+		width: 100vw;
+		height: 100vh;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba(0,0,0,0.5);
+		z-index: 100;
+	}
+}
+
+@media (max-width: 460px) {
+	body.responsive-layout {
+		.vamtam-mobile-left {
+			h1,h2,h3,h4,h5,h6,
+			p,
+			.vamtam-button-wrap, .wp-block-button {
+				text-align: start !important;
+				justify-content: initial !important;
+			}
+		}
+	}
+}

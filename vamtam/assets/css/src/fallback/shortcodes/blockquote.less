@@ -1,0 +1,226 @@
+blockquote {
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	margin: 0 0 1em 0;
+	padding: 0.2em 1.5em;
+	font-style: italic;
+	text-align: start;
+	border-left: 5px solid var( --vamtam-accent-color-2 ) !important;
+	background-color: var(--vamtam-accent-color-5);
+
+	.wp-block-pullquote.has-background > & {
+		background: none !important;
+		border: 0 !important;
+	}
+
+	&.wp-block-quote {
+		text-align: inherit;
+		box-sizing: border-box;
+
+		&.is-large {
+			border-left-width: 10px !important;
+		}
+	}
+
+	#main.layout-left-only & {
+		margin-left: 0;
+	}
+
+	p, cite {
+		margin: 1em 0em !important;
+	}
+
+	&.small {
+		p, & {
+			&:extend(.vamtam-font-primary-font);
+			margin-bottom: 0;
+		}
+	}
+
+	&.simple {
+		overflow: auto;
+		margin: 0;
+		padding-left: 0;
+		border-left: 0 !important;
+		text-align: center;
+		display: flex;
+
+		&.alignment-center {
+			flex-flow: column;
+		}
+
+		&.alignment-left {
+			flex-flow: row;
+
+			.quote-text {
+				text-align: start;
+			}
+			.quote-thumbnail {
+				width: 17%;
+				margin: 0px 3% 0px 0px;
+			}
+		}
+
+		&.alignment-right {
+			flex-flow: row-reverse;
+
+			.quote-text {
+				text-align: end;
+			}
+			.quote-thumbnail {
+				width: 17%;
+				margin-left: 3%;
+				margin: 0px 0px 0px 3%;
+			}
+		}
+
+		.quote-thumbnail {
+			width: 120px;
+			margin: auto auto 20px auto;
+			text-align: center;
+
+			img {
+				display: block;
+				margin: 0px;
+				width: 100%;
+				height: auto;
+				border-radius: var( --vamtam-border-radius );
+			}
+		}
+
+		.quote-text {
+			&:extend(.vamtam-font-primary-font);
+			overflow: hidden;
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		.quote-summary {
+			margin-top: 0;
+		}
+		h3.quote-summary {
+			font-weight: 300;
+			font-size: calc( var( --vamtam-h3-font-size-desktop ) - 4px );
+			color: var( --vamtam-accent-color-6 );
+		}
+		.quote-title-wrapper {
+			margin: 10px 0 0 0;
+		}
+
+		.quote-title {
+			width: auto;
+			color: var( --vamtam-accent-color-6 );
+			border: none;
+			padding: 0px;
+			border-radius: 0px;
+			margin: 0px 0px 15px 0px;
+			font-size: 10px;
+			font-weight: normal;
+			letter-spacing: 0.1em;
+			line-height: 20px;
+
+			a {
+				color: var( --vamtam-body-link-regular );
+			}
+
+			.the-title:not(:last-child) {
+				padding-right: 3px;
+			}
+			.the-title {
+				padding-left: 5px;
+			}
+
+			.icon {
+				font-size: 20px;
+				vertical-align: top;
+				margin-right: 5px;
+				color: var( --vamtam-accent-color-3 );
+
+				&:last-child {
+					margin-right: 100px;
+				}
+			}
+		}
+	}
+
+	cite,
+	.wp-block-pullquote__citation,
+	.wp-block-quote__citation {
+		display: block;
+		margin: 20px 0 0 0;
+		text-transform: none;
+
+		&, a {
+			&:extend(.vamtam-font-primary-font);
+			color: var( --vamtam-body-link-regular );
+		}
+
+		a {
+			vertical-align: middle;
+		}
+
+		&:before {
+			display: inline-block;
+			margin-right: 10px;
+			width: 30px;
+			height: 0;
+			border-bottom: 1px solid currentColor;
+			content: "";
+			vertical-align: middle;
+		}
+	}
+
+	&:last-child {
+		cite:empty {
+			display: none;
+		}
+	}
+
+	p {
+		&:first-child { margin-top: 0; }
+
+		&:last-child { margin-bottom: 0; }
+	}
+
+	.wp-block-pullquote__citation,
+	.wp-block-quote__citation,
+	cite {
+		margin: 0;
+	}
+}
+
+.wp-block-pullquote {
+	padding-top: 0;
+	padding-bottom: 0;
+	border: solid;
+	border-width: 2px 0;
+
+	> blockquote {
+		margin-top: 50px;
+		margin-bottom: 50px;
+		border: 0 !important;
+		padding-left: 0;
+		text-align: center;
+	}
+
+	&.alignleft,
+	&.alignright {
+		& + p {
+			padding-top: 50px;
+		}
+	}
+
+	&.is-style-solid-color {
+		padding: 30px 10%;
+
+		> blockquote {
+			padding-left: 0;
+			border-left: 0 !important;
+
+			p {
+				font-size: 2.25em;
+			}
+		}
+	}
+}

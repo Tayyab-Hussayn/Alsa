@@ -1,0 +1,122 @@
+.wpforms-container {
+	&.vamtam-one-row {
+		margin-bottom: 0;
+		display: flex;
+		justify-content: center;
+
+		.wpforms-form {
+			display: flex;
+			justify-content: center;
+			margin-bottom: 0;
+			background: var( --vamtam-accent-color-8 );
+
+			.wpforms-field-container {
+				display: flex;
+
+				.wpforms-field {
+					width: auto;
+					margin: 0 20px 0 0;
+					padding: 0;
+				}
+			}
+
+			.wpforms-submit-container {
+				padding: 0;
+
+				.wpforms-submit {
+					.button-gen-common();
+					.button-gen-solid();
+
+					&:hover {
+						background: var( --vamtam-accent-color-6 );
+						color: var( --vamtam-accent-color-5 );
+					}
+				}
+			}
+
+			.wpforms-field input,
+			.wpforms-submit {
+				border-radius: var( --vamtam-border-radius-oval );
+				box-sizing: border-box;
+				height: auto;
+				font-size: 14px;
+				line-height: 16px;
+				padding: 16px 32px;
+				margin-bottom: 15px;
+			}
+		}
+	}
+
+	&.vamtam-jom-form {
+		margin-bottom: 0;
+
+		form.wpforms-form {
+			* {
+				padding: 0;
+				margin: 0;
+			}
+			display: flex;
+
+			input[type="number"] {
+				appearance: textfield;
+			}
+			input[type=number]::-webkit-inner-spin-button,
+			input[type=number]::-webkit-outer-spin-button {
+				-webkit-appearance: none;
+				margin: 0;
+			}
+
+			.wpforms-field-container {
+				display: flex;
+
+				>div:first-of-type {
+					width: 55%;
+					+ div input {
+						max-width: 80%;
+  						margin-left: 10%;
+					}
+				}
+
+				input {
+					background-color: white;
+					border-radius: 0;
+					color: black;
+					&::placeholder {
+						color: var(--vamtam-primary-font-color);
+						opacity: 1;
+					}
+					padding: 13px 10px;
+				}
+			}
+
+			button[type="submit"] {
+				background-color: #283191;
+				padding: 17px 30px;
+				width: max-content;
+				text-transform: capitalize;
+				font-size: var(--vamtam-primary-font-font-size-desktop);
+				&:hover {
+					background: var(--vamtam-accent-color-6);
+				}
+			}
+
+			@media only screen and (max-width: 480px){
+				flex-direction: column;
+				align-items: center;
+
+				.wpforms-field-container > div:first-of-type + div input {
+					max-width: 90%;
+				}
+
+				.wpforms-submit-container {
+					margin-top: 20px;
+					width: 100%;
+
+					button {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+}

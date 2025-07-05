@@ -1,0 +1,12 @@
+// Posts / Archive Posts - Desktop.
+
+// Theme-dependant.
+.posts-base-desktop() {
+
+	&[data-widget_type="posts.vamtam_classic"],
+	&[data-widget_type="archive-posts.vamtam_classic"] {
+		[data-elementor-device-mode="desktop"] &:not(.elementor-element-edit-mode).elementor-hidden-desktop {
+			display: none;
+		}
+	}
+}

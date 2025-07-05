@@ -1,0 +1,50 @@
+// Login.
+.elementor-widget-login {
+	// Base Theme Widget Styles.
+    &.vamtam-has-theme-widget-styles {
+		// Login Popup
+		&.vamtam-popup-login-form {
+			form.elementor-form {
+				.elementor-column.elementor-field-type-submit {
+					margin-top: 40px;
+					margin-bottom: 40px;
+				}
+				.elementor-lost-password,
+				.elementor-register,
+				.vamtam-account-text {
+					&:extend( .vamtam-font-primary-font );
+				}
+				.elementor-lost-password {
+					position: absolute;
+					right: 0;
+					color: #FFFFFF;
+					font-family: var( --vamtam-primary-font-font-family );
+					font-size: 12px;
+					font-weight: 300;
+					letter-spacing: 0;
+					line-height: 18px;
+				}
+
+				.vamtam-account-text,
+				.elementor-register {
+					white-space: nowrap;
+    				flex-grow: 1;
+				}
+
+				.vamtam-account-text {
+					text-align: end;
+				}
+
+				.elementor-register {
+					margin-left: 5px;
+					text-align: start;
+					text-decoration: underline;
+				}
+
+				input::placeholder {
+					color: var(--vamtam-accent-color-5);
+				}
+			}
+		}
+    }
+}

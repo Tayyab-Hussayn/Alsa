@@ -1,0 +1,78 @@
+@import "mixins";
+
+@import "general-typography";
+
+.wp-block-freeform.block-library-rich-text__tinymce {
+	// this might look pointless,
+	// but it is needed so that we can avoid Gutenberg trying to be clever
+	h1:extend( h1 ) {}
+	h2:extend( h2 ) {}
+	h3:extend( h3 ) {}
+	h4:extend( h4 ) {}
+	h5:extend( h5 ) {}
+	h6:extend( h6 ) {}
+
+	a:extend( a ) {}
+	a:visited:extend( a:visited ) {}
+	// end of not-pointless extends
+}
+
+.mce-content-body {
+	line-height: var( --vamtam-primary-font-line-height-desktop );
+}
+
+@import "shortcodes/blockquote";
+@import "shortcodes/table";
+@import "wp.less";
+
+.editor-post-title__input {
+	&:extend( .vamtam-font-h1 );
+	color: var(--vamtam-h1-color);
+}
+
+hr {
+	border-bottom: 1px solid #ccc;
+	clear: both;
+}
+
+pre {
+    border: 1px solid var(--vamtam-default-line-color);
+    background: var(--vamtam-accent-color-5);
+    font-size: var(--vamtam-primary-font-font-size-desktop);
+    line-height: 1.5em;
+}
+
+.wp-block {
+	max-width: var( --vamtam-site-max-width );
+}
+
+/* Width of "wide" blocks */
+.wp-block[data-align="wide"] {
+	max-width: 90%;
+}
+
+/* Width of "full-wide" blocks */
+.wp-block[data-align="full"] {
+	max-width: none;
+}
+
+.wp-block-cover-image .wp-block-cover__inner-container p,
+.wp-block-cover .wp-block-cover__inner-container p {
+	color: #f8f9f9;
+}
+
+.block-editor-block-list__layout .block-editor-block-list__block[data-align="left"] .block-editor-block-list__block-edit {
+	margin-right: 1.5em;
+
+	.alignleft {
+		margin-right: 0;
+	}
+}
+
+.block-editor-block-list__layout .block-editor-block-list__block[data-align="right"] .block-editor-block-list__block-edit {
+	margin-left: 1.5em;
+
+	.alignleft {
+		margin-left: 0;
+	}
+}

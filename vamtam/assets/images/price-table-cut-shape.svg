@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000px" height="300px" viewBox="0 0 1000 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
+    <title>price-table-cut-shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Elements" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="price-table-cut-shape">
+            <rect id="Rectangle-10-Copy" fill-opacity="0.399994339" fill="#DFDFDF" x="475" y="30" width="50" height="10" rx="5"></rect>
+            <path d="M0,0 L1000,0 L1000,300 L0,300 L0,0 Z M480,30 C477.238576,30 475,32.2385763 475,35 C475,37.7614237 477.238576,40 480,40 L520,40 C522.761424,40 525,37.7614237 525,35 C525,32.2385763 522.761424,30 520,30 L480,30 Z" fill="#000000"></path>
+        </g>
+    </g>
+</svg>

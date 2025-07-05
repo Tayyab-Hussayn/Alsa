@@ -1,0 +1,43 @@
+.widget_rss {
+	.widgettitle {
+		a.rsswidget {
+			color: var( --vamtam-widget-text-darker ) !important;
+
+			&:first-child {
+				float: right;
+
+				img {
+					display: none;
+				}
+			}
+		}
+	}
+
+	ul li {
+		padding: 10px 0;
+
+		&:first-child {
+			border-top: none;
+			padding-top: 0;
+		}
+	}
+
+	li .rsswidget {
+		font-weight: inherit;
+		display: inline;
+	}
+
+	.rss-date,
+	li cite {
+		margin: 1em 0;
+		font-size: 0.8em;
+		font-style: normal;
+		line-height: normal;
+		text-transform: uppercase;
+		display: block;
+	}
+
+	.rssSummary {
+		margin-bottom: 0.5em;
+	}
+}

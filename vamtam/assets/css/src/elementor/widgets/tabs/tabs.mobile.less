@@ -1,0 +1,77 @@
+// Tabs - Desktop.
+.elementor-widget-tabs {
+	// Base Theme Widget Styles.
+    &.vamtam-has-theme-widget-styles {
+
+		&.vamtam-tabs {
+			&.elementor-tabs-view-vertical {
+
+				.elementor-tabs {
+					padding: 30px 20px;
+				}
+
+				.elementor-tab-mobile-title {
+					background-color: var(--vamtam-accent-color-6);
+				}
+
+				.elementor-tab-mobile-title {
+					position: relative;
+					padding: 20px 50px 20px 20px; // right = 20px + 30px
+
+					&::after {
+						content: var(--vamtam-icon-plus);
+						position: absolute;
+						right: 20px;
+						width: 30px;
+						height: 30px;
+						font-family: 'theme-icons';
+						line-height: 1;
+						top: 50%;
+						transform: translateY(-50%);
+						font-size: 20px;
+						background: var(--vamtam-accent-color-4);
+						color: var(--vamtam-accent-color-1);
+						border-radius: 50%;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+
+					&.elementor-active {
+						border-radius: 50px;
+						background-color: var(--vamtam-accent-color-1);
+						z-index: 1;
+						&::after {
+							content: var(--vamtam-icon-minus);
+						}
+					}
+				}
+
+				.elementor-tab-content.elementor-active {
+					background-color: var(--vamtam-accent-color-2);
+					margin: 10px 0;
+					padding: 30px 20px;
+					border-radius: 40px;
+				}
+
+				.elementor-tabs-content-wrapper {
+					margin: 0;
+					padding: 0;
+					border-radius: 50px;
+					background-color: var(--vamtam-accent-color-6);
+				}
+			}
+
+			&.elementor-tabs-view-horizontal {
+				.elementor-tab-title {
+					padding: 30px 30px 30px 30px;
+					text-align: start;
+					border-top-width: 1px !important;
+				}
+				.elementor-tab-content {
+					padding: 0px 30px 20px 30px;
+				}
+			}
+		}
+    }
+}

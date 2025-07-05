@@ -1,0 +1,237 @@
+/* Clearfix */
+
+.clearfix() {
+	&:before,
+	&:after {
+		content: " "; /* 1 */
+		display: block; /* 2 */
+	}
+
+	&:after {
+		clear: both;
+	}
+}
+
+/* Absolute Fill Container */
+
+.vamtam-absolute-fill() {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+/* buttons */
+
+// common styles for dynamically generated buttons (to be used with .button-gen())
+.button-gen-common() {
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	position: relative;
+	z-index: 0;
+	vertical-align: middle;
+	user-select: none;
+	text-decoration: none;
+	text-shadow: none;
+	-webkit-font-smoothing: auto;
+	transition: all .3s !important; // !important necessary for RevSlider compatibility (>=5.1)
+
+	font: bold 16px/1em var(--vamtam-primary-font-font-family);
+
+	&:focus {
+		outline: none;
+		opacity: 0.8;
+	}
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.button-gen-solid-common() {
+	border-radius: 0;
+	border: none;
+	padding: var( --vamtam-button-solid-padding, 22px 27px );
+}
+
+.button-gen-solid() {
+	.button-gen-common();
+	.button-gen-solid-common();
+}
+
+// mixins for generating button styles based on their background color
+//
+// this MUST include only colors
+
+.button-gen( @bgcolor ) {
+	background: var( e( @bgcolor ) );
+	color: var( e( "@{bgcolor}-hc" ) );
+}
+
+/////////////////
+
+.button-gen-hover( @bgcolor ) {
+	&:hover {
+		background: var( e( @bgcolor ) );
+		color: var( e( "@{bgcolor}-hc" ) );
+	}
+}
+
+.button-gen-elementor() {
+	background: var( --vamtam-btn-bg-color );
+	color: var( --vamtam-btn-text-color );
+	&:hover {
+		background: var( --vamtam-btn-hover-bg-color );
+		color: var( --vamtam-btn-hover-text-color );
+	}
+}
+
+.standard-button() {
+	.button-gen-common();
+	.button-gen-solid-common();
+
+	// Backup.
+	.button-gen( '--vamtam-accent-color-6' );
+	.button-gen-hover( '--vamtam-accent-color-1' );
+	// From Elementor opts.
+	.button-gen-elementor();
+
+	text-transform: uppercase;
+
+	&.disabled {
+		opacity: .3;
+		pointer-events: none !important;
+	}
+}
+
+/* Fonts */
+
+/* !! Attention !!
+	When you use this rule, remember to add the relevant equivalent styles
+	to layout-below-max.less (tablet) and layout-small.less (phone).
+*/
+.vamtam-font( @prefix: primary-font-; @device: desktop ) {
+	@font-family: e( "var( --vamtam-@{prefix}font-family )" );
+	@font-weight: e( "var( --vamtam-@{prefix}font-weight, normal )" );
+	@font-style: e( "var( --vamtam-@{prefix}font-style, normal )" );
+	@font-size: e( "var( --vamtam-@{prefix}font-size-@{device} )" );
+	@line-height: e( "var( --vamtam-@{prefix}line-height-@{device} )" );
+
+	font: e( %( '%s %s %s/%s %s', @font-style, @font-weight, @font-size, @line-height, @font-family ) );
+	letter-spacing: e( "var( --vamtam-@{prefix}letter-spacing-@{device}, normal )" );
+	text-transform: e( "var( --vamtam-@{prefix}transform, none )" );
+	text-decoration: e( "var( --vamtam-@{prefix}decoration, none )" );
+}
+
+.responsive-override-fonts( @prefix, @device: tablet ) {
+	--vamtam-@{prefix}font-size-desktop: e( "var( --vamtam-@{prefix}font-size-@{device} )" );
+	--vamtam-@{prefix}line-height-desktop: e( "var( --vamtam-@{prefix}line-height-@{device} )" );
+	--vamtam-@{prefix}letter-spacing-desktop: e( "var( --vamtam-@{prefix}letter-spacing-@{device}, normal )" );
+}
+
+// Base font rules to extend.
+// !! Use :extend() when you want to apply a certain font, NOT a mixin !!
+.vamtam-font-primary-font {.vamtam-font(primary-font-);}
+.vamtam-font-primary-font-tablet {.vamtam-font(primary-font-, tablet);}
+.vamtam-font-primary-font-phone {.vamtam-font(primary-font-, phone);}
+
+.vamtam-font-h1 {.vamtam-font(h1-);}
+.vamtam-font-h1-tablet {.vamtam-font(h1-, tablet);}
+.vamtam-font-h1-phone {.vamtam-font(h1-, phone);}
+
+.vamtam-font-h2 {.vamtam-font(h2-);}
+.vamtam-font-h2-tablet {.vamtam-font(h2-, tablet);}
+.vamtam-font-h2-phone {.vamtam-font(h2-, phone);}
+
+.vamtam-font-h3 {.vamtam-font(h3-);}
+.vamtam-font-h3-tablet {.vamtam-font(h3-, tablet);}
+.vamtam-font-h3-phone {.vamtam-font(h3-, phone);}
+
+.vamtam-font-h4 {.vamtam-font(h4-);}
+.vamtam-font-h4-tablet {.vamtam-font(h4-, tablet);}
+.vamtam-font-h4-phone {.vamtam-font(h4-, phone);}
+
+.vamtam-font-h5 {.vamtam-font(h5-);}
+.vamtam-font-h5-tablet {.vamtam-font(h5-, tablet);}
+.vamtam-font-h5-phone {.vamtam-font(h5-, phone);}
+
+.vamtam-font-h6 {.vamtam-font(h6-);}
+.vamtam-font-h6-tablet {.vamtam-font(h6-, tablet);}
+.vamtam-font-h6-phone {.vamtam-font(h6-, phone);}
+
+.vamtam-checkbox() {
+	/* Base for label styling */
+	[type="checkbox"] {
+		position: absolute;
+		left: -9999px;
+	}
+	[type="checkbox"] + span,
+	[type="checkbox"] + label {
+		position: relative;
+		padding-left: 2.5em;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+	}
+
+	/* checkbox aspect */
+	[type="checkbox"] + span:before,
+	[type="checkbox"] + label:before {
+		content: '';
+		position: absolute;
+		left: 0;
+		width: 24px;
+		height: 24px;
+		background: #e4e6eb;
+		box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+	}
+	/* checked mark aspect */
+	[type="checkbox"] + span:after,
+	[type="checkbox"] + label:after {
+		content: '\2713';
+		position: absolute;
+		left: .2em;
+		font-size: 1.3em;
+		line-height: 0.8;
+		color: #09ad7e;
+		transition: all .2s;
+	}
+	/* checked mark aspect changes */
+	[type="checkbox"]:not(:checked) + span:after,
+	[type="checkbox"]:not(:checked) + label:after {
+		opacity: 0;
+		transform: scale(0);
+	}
+	[type="checkbox"]:checked + span:after,
+	[type="checkbox"]:checked + label:after {
+		opacity: 1;
+		transform: scale(1);
+	}
+	/* disabled checkbox */
+	[type="checkbox"]:disabled + span:before,
+	[type="checkbox"]:disabled + label:before {
+		box-shadow: none;
+		border-color: #bbb;
+		background-color: #ddd;
+	}
+	[type="checkbox"]:disabled:checked + span:after,
+	[type="checkbox"]:disabled:checked + label:after {
+		color: #999;
+	}
+	[type="checkbox"]:disabled + span,
+	[type="checkbox"]:disabled + label {
+		color: #aaa;
+	}
+}
+
+.vamtam-line-clamp-2() {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	/* autoprefixer: off */
+    -webkit-box-orient: vertical;
+    /* autoprefixer: on */
+    overflow: hidden;
+}

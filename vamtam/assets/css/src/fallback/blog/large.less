@@ -1,0 +1,217 @@
+@icon-height: 20px;
+@icon-offset: 0px;
+
+@blog-title-font: 700 20px / 24px Syne, sans-serif;
+@blog-title-color: #242627;
+
+@blog-read-more-font: 600 12px / 15.6px "Syne", sans-serif;
+@blog-read-more-color: #242627;
+
+@blog-meta-font: 300 16px / 24px Kanit, sans-serif;
+@blog-meta-color: #adadad;
+
+@blog-excerpt-font: 16px / 22.4px Helvetica, sans-serif;
+@blog-excerpt-color: #242627;
+
+
+.loop-wrapper {
+	&.regular {
+		&.masonry {
+			opacity: 0;
+			transition: opacity .3s ease-out;
+
+			&.masonry-loaded {
+				opacity: 1;
+			}
+		}
+
+		.list-item {
+			width: calc( 50% - 60px/2 );
+			box-sizing: border-box;
+			margin-bottom: 40px !important;
+			transition: background-color .25s;
+			display: inline-block;
+
+			body.layout-full & {
+				width: calc( 33% - 2*60px/3 );
+				padding: 0 15px;
+			}
+
+			&.sticky {
+				padding: 0 !important;
+				left: 15px !important;
+				.post-content-outer {
+					background-color: var(--vamtam-accent-color-4);
+					padding: 43px 50px 55px 50px;
+					border-radius: 30px;
+				}
+				.post-article {
+					border: none !important;
+					padding: 0 !important;
+				}
+			}
+
+			.vamtam-meta-author,
+			.vamtam-meta-date,
+			.vamtam-meta-comments,
+			.vamtam-meta-tax {
+				margin-right: 20px;
+				font-weight: 500;
+			}
+
+			&:first-child {
+				.post-article .post-content-outer {
+					&.vamtam-full-width-thumb {
+						.vamtam-meta-tax.the-categories {
+							top: 0;
+						}
+					}
+				}
+			}
+
+			.post-article .post-content-outer {
+				&.vamtam-full-width-thumb {
+					.vamtam-meta-tax.the-categories {
+						position: absolute;
+						padding: 15px;
+						top: 45px;
+					}
+				}
+			}
+
+			.post-article {
+				padding: 0;
+				border: 1px solid var(--vamtam-accent-color-7);
+				background-color: var(--vamtam-accent-color-5);
+				border-radius: 30px;
+				transition: background-color .3s ease;
+				.wp-post-image {
+					border-radius: 30px 30px 0px 0px;
+				}
+
+				&:hover {
+					background-color: var(--vamtam-accent-color-2);
+				}
+			}
+
+			.post-content-outer {
+				box-sizing: border-box;
+				background-color: transparent;
+				padding: 35px 35px 25px 35px;
+
+				&:not(:first-child) {
+					padding-top: 20px;
+				}
+
+				.post-meta {
+					width: 100%;
+					margin-top: 10px;
+					margin-bottom: 0;
+				}
+
+				.post-content {
+					font-size: 16px;
+					line-height: 24px;
+				}
+
+				.excerpt {
+					word-break: break-word;
+
+					&:not(:last-child) {
+						margin-bottom: var(--vamtam-content-space-s);
+					}
+				}
+
+				.read-more {
+					font: @blog-read-more-font;
+					color: @blog-read-more-color;
+					&:hover {
+						color: #010ED0;
+					}
+				}
+
+				.vamtam-excerpt p {
+					color: @blog-title-color;
+					font: 16px / 25.6px Helvetica, "Helvetica Neue", Helvetica, Arial, sans-serif;
+					margin-bottom: 20px;
+				}
+
+				.vamtam-categories {
+					margin-bottom: 20px;
+					// text-transform: uppercase;
+					&, a {
+						font: @blog-meta-font;
+						color: @blog-meta-color;
+						&:hover {
+							color: var(--vamtam-accent-color-1);
+						}
+					}
+				}
+			}
+
+			header h4 {
+				margin: 0 0 var(--vamtam-content-space-xs) 0;
+				overflow-wrap: break-word;
+				font: @blog-title-font;
+				color: @blog-title-color;
+				&:hover {
+					&, a {
+						color: var(--vamtam-accent-color-1);
+					}
+				}
+			}
+
+			.media-inner {
+				> div {
+					margin: 0;
+				}
+
+				.wp-post-image {
+					display: block;
+					width: 100%;
+				}
+			}
+
+			.post-row {
+				border-radius: 0;
+				overflow: hidden;
+
+				.media-inner {
+					&.vamtam-has-post-thumb-shape {
+						> a {
+							display: flex;
+							flex-direction: column;
+							justify-content: center;
+							align-items: center;
+						}
+					}
+				}
+
+				.navigation:last-child,
+				.post-actions-wrapper:last-child {
+					margin-bottom: 0;
+					padding-bottom: 0;
+				}
+
+				.vamtam-meta-date {
+					margin-bottom: var(--vamtam-content-space-m);
+					line-height: 24px !important;
+					display: none;
+
+					a {
+						color: var( --vamtam-accent-color-1 );
+						font: 500 16px/24px inherit;
+						letter-spacing: 2px;
+					}
+				}
+			}
+
+			.post-media {
+				margin-bottom: 0;
+				max-width: none;
+				padding-right: 0;
+				width: 100%;
+			}
+		}
+	}
+}

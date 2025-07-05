@@ -1,0 +1,80 @@
+.tparrows.custom {
+	transition: background .3s ease;
+	border-radius: var( --vamtam-border-radius-oval );
+	background: rgba(255,255,255,0.10);
+	width: 48px;
+	height: 48px;
+	box-shadow: 0 0px 10px 0 rgba(0,0,0,0.05);
+	text-align: center;
+
+	&:before {
+		font-size: 22px;
+		line-height: 48px;
+		content: "\e824";
+		transition: margin .2s ease;
+	}
+
+	&:hover {
+		background: var( --vamtam-accent-color-1 );
+	}
+}
+
+
+
+.hesperiden .tp-tab {
+	border: none;
+	transition: background 0.3s ease-out;
+	transition-delay: 0.1s;
+	border-radius: var( --vamtam-border-radius-oval );
+	font:var(--vamtam-h5-font-weight) var(--vamtam-h5-font-size-desktop)/var(--vamtam-h5-line-height-desktop) var(--vamtam-h5-font-family);
+}
+.hesperiden .tp-tab-image {
+	border-radius: var( --vamtam-border-radius-oval );
+	transition: transform 0.2s ease-out;
+}
+.hesperiden .tp-tab-title {
+	color: var( --vamtam-accent-color-6 );
+	opacity: 0.7;
+	padding-top: 5px;
+	transition: opacity 0.2s ease-out;
+}
+.hesperiden .tp-tab:hover,
+.hesperiden .tp-tab.selected {
+	background: rgba(0, 0, 0, 0.05);
+
+	.tp-tab-title {
+		opacity: 1;
+	}
+
+	.tp-tab-image {
+		transform: scale(1.1)
+	}
+}
+
+
+
+.erinyen .tp-tab {
+	opacity: 1;
+	border-top: solid 1px var( --vamtam-accent-color-4 );
+	padding-top: 40px;
+	text-align: center;
+	transition: border-color .3s ease;
+
+	&:hover {
+		.tp-tab-title {
+			color: var( --vamtam-accent-color-1 );
+		}
+	}
+
+	&.selected {
+		border-color: var( --vamtam-accent-color-1 );
+
+		.tp-tab-title {
+			color: var( --vamtam-accent-color-1 );
+		}
+	}
+}
+.erinyen .tp-tab .tp-tab-title {
+    text-transform: none;
+	transition: color .3s ease;
+}

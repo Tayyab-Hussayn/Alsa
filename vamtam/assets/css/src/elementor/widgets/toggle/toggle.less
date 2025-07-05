@@ -1,0 +1,41 @@
+// Toggle.
+.elementor-widget-toggle {
+	// Base Theme Widget Styles.
+	&.vamtam-has-theme-widget-styles {
+
+		.elementor-tab-title {
+			transition: all .3s, border-bottom-width 0s 0.4s;
+		}
+
+		&.vamtam-center-align-toggle .elementor-toggle-item .elementor-tab-title {
+			text-align: center;
+		}
+
+		&.vamtam-toggle-service {
+			.elementor-toggle-item .elementor-tab-content {
+				> ul {
+					list-style: none;
+					padding: 0;
+					margin: 0;
+
+					> li {
+						border-bottom: 1px solid #ccc;
+						padding: 15px 0;
+
+						&:first-child {
+							padding-top: 0;
+						}
+
+						&:last-child {
+							margin-bottom: 35px;
+						}
+					}
+
+					+ img {
+						margin-bottom: 15px;
+					}
+				}
+			}
+		}
+	}
+}

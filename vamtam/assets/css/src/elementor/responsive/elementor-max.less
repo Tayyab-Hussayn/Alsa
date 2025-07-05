@@ -1,0 +1,99 @@
+// Vamtam Sticky Header.
+body:not(.elementor-editor-active) .vamtam-sticky-header {
+	@top_with_sticky: calc(var(--vamtam-sticky-offset,0px) + var(--wp-admin--admin-bar--height,0px));
+	@top_without_sticky: var(--wp-admin--admin-bar--height,0px);
+	@opacity_tran_time: .15s;
+	@transform_tran_time: .15s;
+	@bg_color_tran_time: .35s;
+
+	transition: opacity @opacity_tran_time,
+				top @transform_tran_time linear,
+				transform @transform_tran_time linear !important;
+
+	will-change: transform, opacity;
+
+	position: fixed;
+	left: 0;
+	right: 0;
+
+	// TODO: Animating top is not a good idea (performance-wise). Better include this in the transformations.
+	top: @top_with_sticky;
+
+	z-index: 100;
+
+	// This fade-in is added for the case of initial scroll during page load.
+	// It serves as safeguard against the quick flickering of the header going to a fixed hidden state.
+	> .elementor-container {
+		opacity: 0;
+		// Added here to avoid conflicts with other anims on section.
+		@keyframes vamtam-sticky-header-fadein {
+			0%   { opacity: 0; }
+			90%  { opacity: 0; }
+			99%  { opacity: 1; }
+			100% { opacity: 1; }
+		}
+		animation: vamtam-sticky-header-fadein 1s ease forwards;
+	}
+
+	&.vamtam-sticky-header--transparent-header {
+		transition: opacity @opacity_tran_time,
+					top @transform_tran_time linear,
+					transform @transform_tran_time linear,
+					background-color @bg_color_tran_time ease !important;
+
+		will-change: transform, opacity, background-color;
+	}
+
+	&.vamtam-sticky-header--fixed-shown,
+	&.vamtam-sticky-header--fixed-hidden {
+		&:not(.vamtam-sticky-header--offset-on-sticky) {
+			top: @top_without_sticky;
+		}
+	}
+
+	&.vamtam-sticky-header--fixed-shown {
+		transform: translateY(0);
+
+		&.vamtam-sticky-header--transparent-header {
+			background-color: var(--vamtam-sticky-header-bg-color) !important;
+		}
+	}
+
+	&.vamtam-sticky-header--fixed-hidden {
+		transform: translateY(-100%);
+	}
+
+	// Spacer.
+	&.vamtam-sticky-header--spacer {
+		position: static !important;
+		animation: none !important;
+		transform: none !important;
+		transition: none !important;
+		visibility: hidden !important;
+		opacity: 0 !important;
+		will-change: auto !important;
+	}
+}
+// Vamtam Sticky Header - Body padding normalization.
+[data-elementor-type="header"] {
+	margin-left: var(--vamtam-sticky-mleft);
+	margin-right: var(--vamtam-sticky-mright);
+}
+
+// WC Store Notice.
+.woocommerce-demo-store {
+	.demo_store {
+		padding-right: 50px;
+		.woocommerce-store-notice__dismiss-link {
+			&::before {
+				position: absolute;
+				right: 25px;
+			}
+		}
+	}
+}
+
+
+/* --- Widgets --- */
+// Glob import all max widget styles.
+@import '../../elementor/widgets/**/*.desktop.less';

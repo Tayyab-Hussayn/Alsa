@@ -1,0 +1,156 @@
+// Testimonial Carousel.
+.elementor-widget-testimonial-carousel {
+	// Base Theme Widget Styles.
+	&.vamtam-has-theme-widget-styles {
+		&.elementor-arrows-yes {
+			user-select: none;
+
+			@nav-btn-width: 36px;
+			@nav-btn-height: 36px;
+
+			&.vamtam-testimonial-carousel-navigation .elementor-swiper-button {
+				background-color: var(--vamtam-accent-color-7);
+			}
+
+			.elementor-swiper-button {
+				cursor: pointer;
+				pointer-events: all;
+				position: absolute;
+				display: inline-block;
+				height: @nav-btn-height;
+				width: @nav-btn-width;
+				top: 50%;
+				transform: translateY(-50%);
+				background-color: var(--vamtam-accent-color-5);
+				border-radius: 50%;
+				z-index: 1;
+				opacity: 1;
+				transition: opacity .15s ease;
+
+				display: flex;
+				flex-flow: column nowrap;
+				align-content: center;
+				justify-content: center;
+
+				&.elementor-swiper-button-prev {
+					left: -30px;
+
+					.vamtam-theme-arrow-left {
+						&::before {
+							content: var(--vamtam-icon-arrow-left);
+						}
+					}
+				}
+
+				&.elementor-swiper-button-next {
+					right: -30px;
+
+					.vamtam-theme-arrow-right {
+						&::before {
+							content: var(--vamtam-icon-arrow-right);
+						}
+					}
+				}
+
+				i {
+					pointer-events: none;
+					text-align: center;
+					font-size: var(--vamtam-arrows-size, 18px);
+					font-weight: 900;
+   					font-family: "theme-icons";
+				}
+
+				.eicon-chevron-left::before {
+					content: var(--vamtam-icon-arrow-left);
+				}
+
+				.eicon-chevron-right::before {
+					content: var(--vamtam-icon-arrow-right);
+				}
+			}
+
+
+
+			&.vamtam-nav-pos- {
+				@nav-btns-gap: var(--vamtam-nav-btns-gap, 20px);
+				@nav-btns-spacing: var(--vamtam-nav-btns-spacing, 10px);
+
+				&top-,
+				&bottom- {
+					&left {
+						.elementor-swiper-button-prev {
+							left: 0;
+							right: auto;
+						}
+						.elementor-swiper-button-next {
+							left: calc(@nav-btn-width + @nav-btns-gap);
+							right: auto;
+						}
+					}
+
+					&right {
+						.elementor-swiper-button-prev {
+							left: auto;
+							right: calc(@nav-btn-width + @nav-btns-gap);
+						}
+						.elementor-swiper-button-next {
+							left: auto;
+							right: 0;
+						}
+					}
+
+					&center {
+						.elementor-swiper-button-prev {
+							left: calc(50% - @nav-btn-width - (@nav-btns-gap / 2));
+							right: auto;
+						}
+						.elementor-swiper-button-next {
+							left: auto;
+							right: calc(50% - @nav-btn-width - (@nav-btns-gap / 2));
+						}
+					}
+				}
+
+				&top- {
+					&left,
+					&right,
+					&center {
+						.elementor-swiper-button {
+							top: 0;
+							bottom: auto;
+							transform: translateY(calc((100% + @nav-btns-spacing) * -1));
+						}
+					}
+				}
+
+				&bottom- {
+					&left,
+					&right,
+					&center {
+						.elementor-swiper-button {
+							top: auto;
+							bottom: 0;
+							transform: translateY(calc(100% + @nav-btns-spacing));
+						}
+					}
+				}
+
+				&custom {
+					.elementor-swiper-button-prev {
+						left: var(--vamtam-nav-prev-x, -30px);
+						top: var(--vamtam-nav-prev-y, 50%);
+						right: auto;
+						bottom: auto;
+					}
+					.elementor-swiper-button-next {
+						right: var(--vamtam-nav-next-x, -30px);
+						top: var(--vamtam-nav-next-y, 50%);
+						left: auto;
+						bottom: auto
+					}
+				}
+			}
+		}
+	}
+}
+

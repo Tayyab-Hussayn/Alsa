@@ -1,0 +1,216 @@
+html, body, th, td {
+	color: var(--vamtam-widget-text-lighter);
+}
+
+.color-accent-1,
+.hover-color-accent-1:hover {
+	color: var( --vamtam-accent-color-1 ) !important;
+}
+
+.color-accent-2,
+.hover-color-accent-2:hover {
+	color: var( --vamtam-accent-color-2 ) !important;
+}
+
+.color-accent-3,
+.hover-color-accent-3:hover {
+	color: var( --vamtam-accent-color-3 ) !important;
+}
+
+.color-accent-4,
+.hover-color-accent-4:hover {
+	color: var( --vamtam-accent-color-4 ) !important;
+}
+
+.color-accent-5,
+.hover-color-accent-5:hover {
+	color: var( --vamtam-accent-color-5 ) !important;
+}
+
+.color-accent-6,
+.hover-color-accent-6:hover {
+	color: var( --vamtam-accent-color-6 ) !important;
+}
+
+.color-accent-7,
+.hover-color-accent-7:hover {
+	color: var( --vamtam-accent-color-7 ) !important;
+}
+
+.color-accent-8,
+.hover-color-accent-8:hover {
+	color: var( --vamtam-accent-color-8 ) !important;
+}
+
+body {
+	&:extend(.vamtam-font-primary-font);
+}
+
+p.has-large-font-size {
+	font-size: 36px;
+}
+
+em { font-style: italic; }
+
+h1,
+.font-h1 {
+	&:extend(.vamtam-font-h1);
+}
+
+h2,
+.font-h2 {
+	&:extend(.vamtam-font-h2);
+}
+
+h3,
+.font-h3 {
+	&:extend(.vamtam-font-h3);
+}
+
+h4,
+.font-h4 {
+	&:extend(.vamtam-font-h4);
+}
+
+h5,
+.font-h5 {
+	&:extend(.vamtam-font-h5);
+}
+
+h6,
+.font-h6 {
+	&:extend(.vamtam-font-h6);
+}
+
+h1,
+.color-h1 {
+	color: var( --vamtam-h1-color )
+}
+
+h2,
+.color-h2 {
+	color: var( --vamtam-h2-color )
+}
+
+h3,
+.color-h3 {
+	color: var( --vamtam-h3-color )
+}
+
+h4,
+.color-h4 {
+	color: var( --vamtam-h4-color )
+}
+
+h5,
+.color-h5 {
+	color: var( --vamtam-h5-color )
+}
+
+h6,
+.color-h6 {
+	color: var( --vamtam-h6-color )
+}
+
+a,
+.vamtam-is-link .elementor-image-box-title,
+.vamtam-is-link .elementor-icon-box-title,
+.elementor-widget-toggle .elementor-tab-title {
+	text-decoration: none;
+	color: var( --vamtam-body-link-regular );
+	transition: all .3s;
+
+	.icon.shortcode.use-hover {
+		transition: all .3s ease-out;
+		padding: 0.3em;
+		border-radius: 20em;
+		line-height: 1em;
+	}
+
+	&:where(:visited) {
+		color: var( --vamtam-body-link-visited );
+	}
+
+	&:active {
+		color: var( --vamtam-body-link-active );
+	}
+
+	&:hover {
+		color: var( --vamtam-body-link-hover );
+
+		.icon.shortcode.use-hover {
+			color: var( --vamtam-body-link-hover ) !important;
+			background: var( --vamtam-accent-color-5 );
+		}
+	}
+}
+
+// Apply directly to <a> so local option and hover from global options can work ok together.
+.vamtam-is-link {
+	.elementor-image-box-title,
+	.elementor-icon-box-title {
+		> a {
+			&:hover {
+				color: var( --vamtam-body-link-hover );
+
+				.icon.shortcode.use-hover {
+					color: var( --vamtam-body-link-hover ) !important;
+					background: var( --vamtam-accent-color-5 );
+				}
+			}
+		}
+	}
+}
+
+// Fix for toggle widget active link.
+.elementor-toggle .elementor-tab-title.elementor-active,
+#elementor .elementor-toggle .elementor-tab-title.elementor-active  {
+	color: var( --vamtam-body-link-active );
+}
+
+// Fix for toggle widget hover state.
+.elementor-widget-toggle .elementor-tab-title a,
+#elementor .elementor-widget-toggle .elementor-tab-title a {
+	&:hover {
+		color: var( --vamtam-body-link-hover );
+	}
+}
+
+.vamtam-main {
+	a {
+		.icon.shortcode.border {
+			color: var( --vamtam-body-link-regular );
+		}
+
+		&:hover .icon.shortcode.border {
+			border-color: var( --vamtam-body-link-hover );
+			color: var( --vamtam-body-link-hover ) !important;
+		}
+	}
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+
+p:empty {display: none}
+
+strong, b {
+	font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0.6em;
+	margin-bottom: 0.3em;
+}
+
+.comment-edit-link:extend( .comment-author-link a all ) {}
+
+.vamtam-font-smoothing {
+	:is(p, h1, h2, h3, h4, h5, h6, a, em, strong, i, b, u, s, span,
+	sub, sup, mark, small, del, ins, q, blockquote, cite, dfn, abbr,
+	address, time, code, pre) {
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+}

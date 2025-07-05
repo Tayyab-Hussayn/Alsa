@@ -1,0 +1,68 @@
+@footer-border-color: rgba(0, 0, 0, .4);
+
+.footer-wrapper {
+	position: relative;
+}
+
+.main-footer {
+	.widget {
+		li {
+			background: transparent;
+			border-bottom: none !important;
+		}
+
+		&.widget_nav_menu {
+			#menu-horizontal-footer {
+				text-align: center;
+
+				li {
+					display: inline-block;
+					vertical-align: top;
+
+					a {
+						padding: 5px 20px;
+						font-size: 14px;
+					}
+				}
+			}
+
+			.menu {
+				li {
+					&:last-child { border-bottom: none; }
+
+					a {
+						border: none;
+						padding-top: 5px;
+						padding-bottom: 5px;
+
+						&:hover {
+							background: none;
+						}
+					}
+
+					&:hover,
+					&.current_page_item {
+						position : relative;
+
+						a {
+							background: none;
+							color: var( --vamtam-accent-color-1 ) !important;
+						}
+					}
+				}
+			}
+		}
+
+		.widgettitle {
+			border: none;
+			text-align: start;
+			padding: 0;
+			margin: 0 0 10px;
+			&:extend( .vamtam-font-h5 );
+
+			> .icon {
+				margin-bottom: 17px;
+			}
+		}
+	}
+}

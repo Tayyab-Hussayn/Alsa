@@ -1,0 +1,1812 @@
+# <!=Copyright (C) 2024 VamTam
+# This file is distributed under the Envato.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Numerique 4.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/numerique\n"
+"POT-Creation-Date: 2024-07-23 18:09:10+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: 404.php:18
+msgid "Holy guacamole!"
+msgstr ""
+
+#: 404.php:19
+msgid ""
+"Looks like this page is on vacation. Or just playing hard to get. At any "
+"rate... it is not here."
+msgstr ""
+
+#: 404.php:20
+msgid "&larr; Go to the home page or just search..."
+msgstr ""
+
+#: attachment.php:8
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:150
+msgid "Attachment"
+msgstr ""
+
+#: attachment.php:74
+msgid "Original size is %s pixels"
+msgstr ""
+
+#: attachment.php:77
+msgid "Link to full-size image"
+msgstr ""
+
+#: attachment.php:86
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: author.php:29
+msgid "About %s"
+msgstr ""
+
+#: author.php:38
+msgid "%s has not published any posts yet"
+msgstr ""
+
+#: comments.php:45
+msgid "0 Comments:"
+msgstr ""
+
+#: comments.php:45
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:45
+msgid "% Comments:"
+msgstr ""
+
+#: comments.php:62
+msgid "%d Trackbacks:"
+msgstr ""
+
+#: comments.php:62
+msgid "One Trackback:"
+msgstr ""
+
+#: comments.php:78
+msgid "Previous"
+msgstr ""
+
+#: comments.php:79 vamtam/classes/templates.php:76
+msgid "Next"
+msgstr ""
+
+#: comments.php:85
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:101
+msgid "CSS cache is <strong style=\"color:#f66;font-weight:bold\">%s</strong> old"
+msgstr ""
+
+#: index.php:8
+msgid "Blog"
+msgstr ""
+
+#: page.php:26 templates/post/content.php:35
+msgid "Pages:"
+msgstr ""
+
+#: samples/dependencies.php:20
+msgid "Elementor"
+msgstr ""
+
+#: samples/dependencies.php:28
+msgid "Vamtam Elementor Integration (%s)"
+msgstr ""
+
+#: samples/dependencies.php:37
+msgid "Vamtam Importers (E)"
+msgstr ""
+
+#: samples/dependencies.php:48
+msgid "Wordpress SEO"
+msgstr ""
+
+#: samples/dependencies.php:58
+msgid "Really Simple SSL"
+msgstr ""
+
+#: samples/dependencies.php:65
+msgid "Loco Translate"
+msgstr ""
+
+#: samples/dependencies.php:72
+msgid "UpDraftPlus"
+msgstr ""
+
+#: samples/dependencies.php:79
+msgid "WP Super Cache"
+msgstr ""
+
+#: samples/dependencies.php:86
+msgid "Limit Login Attempts Reloaded"
+msgstr ""
+
+#: samples/dependencies.php:93
+msgid "Wordfence"
+msgstr ""
+
+#: samples/dependencies.php:100
+msgid "CookieYes | GDPR Cookie Consent & Compliance Notice (CCPA Ready)"
+msgstr ""
+
+#: samples/dependencies.php:122 vamtam/admin/classes/plugin-manager.php:207
+msgid "Name"
+msgstr ""
+
+#: samples/dependencies.php:123 vamtam/admin/classes/plugin-manager.php:209
+msgid "Description"
+msgstr ""
+
+#: samples/dependencies.php:124 vamtam/admin/classes/plugin-manager.php:211
+#: vamtam/classes/class-tgm-plugin-activation.php:2702
+msgid "Status"
+msgstr ""
+
+#: samples/dependencies.php:125 vamtam/admin/classes/plugin-manager.php:213
+#: vamtam/classes/class-tgm-plugin-activation.php:2701
+msgid "Version"
+msgstr ""
+
+#: samples/dependencies.php:183
+msgid "A simple WordPress Plugin."
+msgstr ""
+
+#: samples/dependencies.php:186
+msgid "Theme Exclusive."
+msgstr ""
+
+#: samples/dependencies.php:257 vamtam/admin/classes/plugin-manager.php:301
+#: vamtam/admin/classes/purchase-helper.php:358
+#: vamtam/classes/class-tgm-plugin-activation.php:341
+msgid "Install Plugins"
+msgstr ""
+
+#: search.php:8 templates/header/sub-header.php:28
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:30
+msgid "Sorry, nothing found"
+msgstr ""
+
+#: search.php:32
+msgid "Maybe you should check your spelling..."
+msgstr ""
+
+#: searchform.php:9
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:10 searchform.php:11
+msgid "Search"
+msgstr ""
+
+#: templates/comment-small.php:12 templates/comment.php:39
+msgid "Reply"
+msgstr ""
+
+#: templates/comment-small.php:13 templates/comment.php:40
+msgid "Log in to reply."
+msgstr ""
+
+#: templates/comment-small.php:24 templates/comment.php:26
+#: templates/post/main/part-actions.php:22 templates/post/meta.php:19
+msgid "Edit"
+msgstr ""
+
+#: templates/comment-small.php:26 templates/comment.php:30
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: templates/header/sub-header.php:38
+msgid "Order Complete"
+msgstr ""
+
+#: templates/header/top/main-menu.php:3
+msgid "Skip to content"
+msgstr ""
+
+#: templates/post/meta/categories.php:9
+msgid "Category"
+msgstr ""
+
+#: templates/post/meta/comments.php:9
+msgid "0 <span class=\"comment-word \">Comments</span>"
+msgstr ""
+
+#: templates/post/meta/comments.php:10
+msgid "1 <span class=\"comment-word \">Comment</span>"
+msgstr ""
+
+#: templates/post/meta/comments.php:11
+msgid "% <span class=\"comment-word \">Comments</span>"
+msgstr ""
+
+#: templates/post/meta/tags.php:6 templates/post/meta-loop.php:14
+msgid "Tags:"
+msgstr ""
+
+#: templates/side-buttons.php:11
+msgid "top"
+msgstr ""
+
+#: vamtam/admin/classes/admin.php:47
+msgid ""
+"Hey, just a polite reminder that if you update WordPress you will also need "
+"to update your theme and plugins."
+msgstr ""
+
+#: vamtam/admin/classes/admin.php:55
+msgid "VamTam theme resources: "
+msgstr ""
+
+#: vamtam/admin/classes/admin.php:58
+msgid "Sample child themes"
+msgstr ""
+
+#: vamtam/admin/classes/admin.php:61 vamtam/options/help/docs.php:50
+msgid "Changelog"
+msgstr ""
+
+#: vamtam/admin/classes/admin.php:70
+msgid "Filter icons"
+msgstr ""
+
+#: vamtam/admin/classes/help-page.php:21 vamtam/admin/options/help.php:3
+#: vamtam/admin/options/help.php:8 vamtam/admin/options/help.php:14
+msgid "Help"
+msgstr ""
+
+#: vamtam/admin/classes/help-page.php:37 vamtam/options/help/docs.php:70
+msgid "Enable System Status Information Gathering"
+msgstr ""
+
+#: vamtam/admin/classes/help-page.php:60
+#: vamtam/customizer/lib/controls/class-vamtam-customize-switch-control.php:12
+msgid "On"
+msgstr ""
+
+#: vamtam/admin/classes/help-page.php:61
+#: vamtam/customizer/lib/controls/class-vamtam-customize-switch-control.php:13
+msgid "Off"
+msgstr ""
+
+#: vamtam/admin/classes/help-page.php:63
+msgid ""
+"By enabling this option you will opt in to automatically send our support "
+"system detailed information about your website. Please note that we might "
+"be able to respond more quickly if you leave this disabled. We advise you "
+"to turn on this option before opening a support ticket."
+msgstr ""
+
+#: vamtam/admin/classes/plugin-manager.php:186
+msgid "Recommended Plugins"
+msgstr ""
+
+#: vamtam/admin/classes/plugin-manager.php:201
+msgid "Select All"
+msgstr ""
+
+#: vamtam/admin/classes/plugin-manager.php:271
+msgid "Exclusive"
+msgstr ""
+
+#: vamtam/admin/classes/plugin-manager.php:280
+#: vamtam/classes/class-tgm-plugin-activation.php:2463
+msgid "Not Installed"
+msgstr ""
+
+#: vamtam/admin/classes/plugin-manager.php:282
+msgid "Not Activated"
+msgstr ""
+
+#: vamtam/admin/classes/plugin-manager.php:307
+msgid "All plugins are already installed and up to date."
+msgstr ""
+
+#: vamtam/admin/classes/plugin-manager.php:420
+msgid "No Slug Found"
+msgstr ""
+
+#: vamtam/admin/classes/plugin-manager.php:436
+msgid "Activating..."
+msgstr ""
+
+#: vamtam/admin/classes/plugin-manager.php:451
+msgid "Installing..."
+msgstr ""
+
+#: vamtam/admin/classes/plugin-manager.php:461
+msgid "Activated"
+msgstr ""
+
+#: vamtam/admin/classes/plugin-manager.php:473
+#: vamtam/classes/class-tgm-plugin-activation.php:2421
+msgid "Required"
+msgstr ""
+
+#: vamtam/admin/classes/plugin-manager.php:478
+#: vamtam/classes/class-tgm-plugin-activation.php:2424
+msgid "Recommended"
+msgstr ""
+
+#: vamtam/admin/classes/plugin-manager.php:484
+msgid "Why required plugins?"
+msgstr ""
+
+#: vamtam/admin/classes/plugin-manager.php:486
+msgid ""
+"A plugin offers additional functionality and features beyond a typical "
+"WordPress installation. You do not need additional licensing in order to "
+"use the plugins below with your theme."
+msgstr ""
+
+#: vamtam/admin/classes/plugin-manager.php:490
+msgid ""
+"Please note that the theme doesn't depend on the plugins in this list to "
+"function properly. Nor does the demo content importer. Install them only if "
+"you are going to use them, otherwise, they may impact the performance of "
+"the site or put an unnecessary burden on your hosting."
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:64
+msgid "PHP Version"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:67
+msgid ""
+"While this theme works with all PHP versions supported by WordPress Core, "
+"PHP versions 5.5 and older are no longer maintained by their developers. "
+"Consider switching your server to PHP 5.6 or newer."
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:70
+msgid "PHP Time Limit"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:73
+msgid ""
+"The PHP time limit should be at least 30 seconds. Note that in some "
+"configurations your server (Apache/nginx) may have a separate time limit. "
+"Please consult with your hosting provider if you get a time out while "
+"importing the demo content."
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:76
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:79
+msgid ""
+"You need a minimum of 96MB memory to use the theme and the bundled plugins. "
+"For non-US English websites you need a minimum of 128MB in order to "
+"accomodate the translation features which are otherwise disabled."
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:82
+msgid "PHP ZipArchive Extension"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:85
+msgid "ZipArchive is a requirement for importing the demo sliders."
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:115
+#: vamtam/classes/class-tgm-plugin-activation.php:407
+#. translators: 1: dashboard link.
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:116
+msgid "Continue with theme setup."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "VamTam"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:131
+#: vamtam/admin/classes/purchase-helper.php:133
+msgid "Dashboard"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:138
+msgid "Import Demo Content"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:146
+msgid ""
+"Please activate your license to get theme updates, premium support, and "
+"access to demo content."
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:148
+#: vamtam/classes/framework.php:595
+msgid "Register Now"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:218 vamtam/classes/enqueues.php:168
+msgid ""
+"Enter your purchase code from ThemeForest to receive theme updates and "
+"support."
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:267
+msgid "All done."
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:274
+msgid "Thanks for the verification!"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:276
+msgid "You can now enjoy %s and build great websites."
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:293
+msgid "Licensing Terms"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:295
+msgid ""
+"You need to register a separate license for each domain on which you will "
+"use the theme. A single license is limited to a single domain/application. "
+"For more information, please refer to these articles - "
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:297
+msgid "Licensing Terms Envato Market"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:300
+msgid "Licensing Terms Envato Elements"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:310
+msgid "System Status"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:312
+msgid "(%d potential issue)"
+msgid_plural "(%d potential issues)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vamtam/admin/classes/purchase-helper.php:341
+msgid "WELCOME TO"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:343
+msgid "VER. %s"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:349
+#: vamtam/admin/classes/purchase-helper.php:573
+#: woocommerce/myaccount/form-login.php:38
+#: woocommerce/myaccount/form-login.php:122
+msgid "Register"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:366
+msgid "Import Demo"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:374
+msgid "Help & Support"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:395
+msgid "Imported."
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:396
+msgid ""
+"Failed to import. Please <a href=\"{fullimport}\" target=\"_blank\">click "
+"here</a> in order to see the full error message."
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:402
+msgid "Posts, Pages and Site Layout"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:403
+msgid ""
+"This theme requires Elementor Pro. If you don't have Elementor Pro, please "
+"<a href='https://be.elementor.com/visit/?bta=13981&nci=5383' "
+"target='_blank'>download it here</a>. Install and activate it, and then "
+"proceed with importing the demo content. If you have any issues with the "
+"importer please <a "
+"href='https://elementor.support.vamtam.com/support/solutions/articles/245218"
+"-vamtam-elementor-themes-how-to-install-the-theme-via-the-admin-panel-' "
+"target='_blank'>read this article</a> or reach out to us using <a "
+"href='https://themeforest.net/user/vamtam' target='_blank'>the form on this "
+"page</a>."
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:420
+msgid "checking..."
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:426
+msgid "Dummy Content Import"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:428
+msgid "You are advised to use this importer only on new WordPress sites."
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:429
+msgid "Import"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:435
+msgid ""
+"Main content imported. Image import progress: <span "
+"class=\"vamtam-image-import-progress\">%s</span>."
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:436
+msgid ""
+"Failed to import. We recommend that you contact your hosting provider for "
+"advice, as solving this issue is often specific to each server."
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:437
+msgid ""
+"Failed to import. This is most likely caused by a timeout. Please contact "
+"your hosting provider for advice as to how you can increase the time limit "
+"on your server."
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:439
+msgid ""
+"<p class=\"vamtam-description\">Please make sure to <a href=\"%s\" "
+"target=\"_blank\">backup</a> any existing content that you need as it will "
+"be removed by the import procedure (affects Posts, Pages and Menus).</p><p "
+"class=\"vamtam-description\">We recommend that you use the <a href=\"%s\" "
+"target=\"_blank\">Post Name permalink structure</a></p><p "
+"class=\"vamtam-description\">Images will be downloaded in the background "
+"after the main import is complete. Depending on your server, this may take "
+"several minutes.<br> In the meantime you may notice that some images are "
+"not visible."
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:507
+msgid "XXXXXX-XXX-XXXX-XXXX-XXXXXXXX"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:526
+#: vamtam/admin/classes/purchase-helper.php:532
+msgid "Valid"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:536
+msgid "Invalid"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:554
+msgid "I downloaded the theme from Envato Elements."
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:557
+msgid ""
+" <a href=\"%s\" target=\"_blank\">Where can I find my Item Purchase "
+"Code?</a>"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:560
+msgid ""
+" <a href=\"%s\" target=\"_blank\">Follow this link to generate a new Envato "
+"Elements Token.</a>"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:577
+msgid "Continue to required plguins"
+msgstr ""
+
+#: vamtam/admin/classes/purchase-helper.php:581
+msgid "Continue to demo import"
+msgstr ""
+
+#: vamtam/admin/helpers/base.php:53
+msgid ""
+"The theme must be installed in a directory which is a direct child of "
+"wp-content/themes/"
+msgstr ""
+
+#: vamtam/admin/helpers/base.php:62
+msgid "There were some some errors with your Vamtam theme setup:"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:340
+msgid "Install Required Plugins"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:343
+#. translators: %s: plugin name.
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:345
+#. translators: %s: plugin name.
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:346
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:348
+#. translators: 1: plugin name(s).
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:354
+#. translators: 1: plugin name(s).
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:360
+#. translators: 1: plugin name(s).
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:366
+#. translators: 1: plugin name(s).
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:372
+#. translators: 1: plugin name(s).
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:378
+#. translators: 1: plugin name(s).
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:383
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:393
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:398
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:399
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:400
+#: vamtam/classes/class-tgm-plugin-activation.php:3311
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:401
+#: vamtam/classes/class-tgm-plugin-activation.php:3103
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:403
+#. translators: 1: plugin name.
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:405
+#. translators: 1: plugin name.
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:408
+msgid "Dismiss this notice"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:409
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:410
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:616
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:617
+msgid "Update Required"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:735
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:1042
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:1042
+#: vamtam/classes/class-tgm-plugin-activation.php:1052
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:1052
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2112
+#. translators: %s: version number
+msgid "TGMPA v%s"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2440
+msgid "WordPress Repository"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2443
+msgid "External Source"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2446
+msgid "Pre-Packaged"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2467
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2469
+msgid "Active"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2475
+msgid "Required Update not Available"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2478
+msgid "Requires Update"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2481
+msgid "Update recommended"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2540
+#. translators: 1: number of plugins.
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2544
+#. translators: 1: number of plugins.
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2548
+#. translators: 1: number of plugins.
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2638
+msgid "Installed version:"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2646
+msgid "Minimum required version:"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2658
+msgid "Available version:"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2681
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2695
+msgid "Plugin"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2696
+msgid "Source"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2697
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:158
+msgid "Type"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2751
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Install %2$s"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2756
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Update %2$s"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2762
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Activate %2$s"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2834
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2867
+msgid "Install"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2873
+msgid "Update"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2876
+msgid "Activate"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2907
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2909
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2950
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2952
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:3059
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:3085
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:3310
+msgid "Plugin activation failed."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:3655
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:3658
+#. translators: 1: plugin name, 2: error message.
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:3660
+#. translators: 1: plugin name.
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:3664
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:3666
+#. translators: 1: plugin name.
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:3667
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:3669
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:3672
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:3674
+#. translators: 1: plugin name.
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:3675
+msgid "All installations have been completed."
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:3677
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:3682
+msgid "Show Details"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:3682
+msgid "Hide Details"
+msgstr ""
+
+#: vamtam/classes/elementor-bridge.php:140
+msgid "Sticky Header Bg Color"
+msgstr ""
+
+#: vamtam/classes/elementor-bridge.php:492
+msgid "Accent %s"
+msgstr ""
+
+#: vamtam/classes/elementor-bridge.php:544
+msgid "Primary Font"
+msgstr ""
+
+#: vamtam/classes/elementor-bridge.php:545
+msgid "H1"
+msgstr ""
+
+#: vamtam/classes/elementor-bridge.php:546
+msgid "H2"
+msgstr ""
+
+#: vamtam/classes/elementor-bridge.php:547
+msgid "H3"
+msgstr ""
+
+#: vamtam/classes/elementor-bridge.php:548
+msgid "H4"
+msgstr ""
+
+#: vamtam/classes/elementor-bridge.php:549
+msgid "H5"
+msgstr ""
+
+#: vamtam/classes/elementor-bridge.php:550
+msgid "H6"
+msgstr ""
+
+#: vamtam/classes/elementor-bridge.php:609
+msgid "%s"
+msgstr ""
+
+#: vamtam/classes/elementor-bridge.php:721
+msgid "Page Title"
+msgstr ""
+
+#: vamtam/classes/elementor-bridge.php:1366
+msgid "Button"
+msgstr ""
+
+#: vamtam/classes/elementor-bridge.php:1367
+msgid "Form"
+msgstr ""
+
+#: vamtam/classes/elementor-bridge.php:1368
+msgid "Tabs"
+msgstr ""
+
+#: vamtam/classes/elementor-bridge.php:1369
+msgid "Testimonial Carousel"
+msgstr ""
+
+#: vamtam/classes/elementor-bridge.php:1370
+msgid "Toggle"
+msgstr ""
+
+#: vamtam/classes/elementor-bridge.php:1371
+msgid "Nav Menu"
+msgstr ""
+
+#: vamtam/classes/elementor-bridge.php:1372
+msgid "Section"
+msgstr ""
+
+#: vamtam/classes/elementor-bridge.php:1373
+msgid "Archive Posts"
+msgstr ""
+
+#: vamtam/classes/elementor-bridge.php:1374
+msgid "Loop Carousel"
+msgstr ""
+
+#: vamtam/classes/elementor-bridge.php:1375
+msgid "Loop Grid"
+msgstr ""
+
+#: vamtam/classes/elementor-bridge.php:1376
+msgid "Posts"
+msgstr ""
+
+#: vamtam/classes/elementor-bridge.php:1377
+msgid "Post Comments"
+msgstr ""
+
+#: vamtam/classes/elementor-bridge.php:1378
+msgid "Image Carousel"
+msgstr ""
+
+#: vamtam/classes/elementor-bridge.php:1379
+msgid "Popup"
+msgstr ""
+
+#: vamtam/classes/elementor-bridge.php:1542
+msgid "Could not unzip or empty archive."
+msgstr ""
+
+#: vamtam/classes/enqueues.php:160
+msgid "Add New Icon"
+msgstr ""
+
+#: vamtam/classes/enqueues.php:161
+msgid "Icon"
+msgstr ""
+
+#: vamtam/classes/enqueues.php:162
+msgid "Text"
+msgstr ""
+
+#: vamtam/classes/enqueues.php:163
+msgid "Link"
+msgstr ""
+
+#: vamtam/classes/enqueues.php:164
+msgid "Change"
+msgstr ""
+
+#: vamtam/classes/enqueues.php:167
+msgid "Enter your Envato Elements Token."
+msgstr ""
+
+#: vamtam/classes/enqueues.php:169
+msgid ""
+"You are about to unregister your purchase code. Are you sure you want to "
+"continue?"
+msgstr ""
+
+#: vamtam/classes/enqueues.php:170
+msgid ""
+"You are about to unregister your Envato Elements Token. Are you sure you "
+"want to continue?"
+msgstr ""
+
+#: vamtam/classes/framework.php:324
+msgid "Menu Header"
+msgstr ""
+
+#: vamtam/classes/framework.php:475
+msgid "Valid Purchase Key."
+msgstr ""
+
+#: vamtam/classes/framework.php:477
+msgid "Congratulations! You have succesfully registered your product."
+msgstr ""
+
+#: vamtam/classes/framework.php:484
+msgid "Incorrect Purchase Key."
+msgstr ""
+
+#: vamtam/classes/framework.php:486
+msgid "Please check your purchase code and re-enter."
+msgstr ""
+
+#: vamtam/classes/framework.php:493
+msgid ""
+"Cannot validate Purchase Key. Please try again later. If the problem "
+"persists your server might not have the curl PHP extension enabled."
+msgstr ""
+
+#: vamtam/classes/framework.php:516 vamtam/classes/framework.php:548
+msgid " <a href=\"%s\" target=\"_blank\"> this link</a>"
+msgstr ""
+
+#: vamtam/classes/framework.php:564
+msgid "Unregistered Token."
+msgstr ""
+
+#: vamtam/classes/framework.php:570
+msgid ""
+"Failed to unregister token. Please try again later. If this issue persists "
+"please contact support."
+msgstr ""
+
+#: vamtam/classes/framework.php:576
+msgid "Unregistered Key."
+msgstr ""
+
+#: vamtam/classes/sidebars.php:38
+msgid "Main Widget Area"
+msgstr ""
+
+#: vamtam/classes/sidebars.php:42
+msgid "WooCommerce Widget Area"
+msgstr ""
+
+#: vamtam/classes/templates.php:68
+msgid "Page %1$d of %2$d"
+msgstr ""
+
+#: vamtam/classes/templates.php:75
+msgid "Prev"
+msgstr ""
+
+#: vamtam/classes/templates.php:153
+msgid "Untitled"
+msgstr ""
+
+#: vamtam/classes/templates.php:255
+msgid "Posts by %s"
+msgstr ""
+
+#: vamtam/customizer/lib/class-vamtam-customizer.php:459
+msgid "Not a number"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:54
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:59
+msgid "Select Image"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:55
+msgid "Change Image"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:56
+msgid "Remove"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:57
+#: vamtam/customizer/lib/controls/class-vamtam-customize-color-row-control.php:29
+#: vamtam/customizer/lib/controls/class-vamtam-customize-responsive-box-fields-control.php:24
+#: vamtam/customizer/lib/controls/class-vamtam-customize-responsive-position-control.php:26
+msgid "Default"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:58
+msgid "No image selected"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:60
+msgid "Choose Image"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:74
+msgid "No repeat"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:75
+msgid "Repeat horizontally"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:76
+msgid "Repeat vertically"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:77
+msgid "Repeat both"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:80
+msgid "scroll"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:81
+msgid "fixed"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:84
+msgid "auto"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:85
+msgid "cover"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:86
+msgid "contain"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:89
+msgid "left top"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:90
+msgid "left center"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:91
+msgid "left bottom"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:92
+msgid "center top"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:93
+msgid "center center"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:94
+msgid "center bottom"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:95
+msgid "right top"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:96
+msgid "right center"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:97
+msgid "right bottom"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:143
+msgid "Medium-sized attachment"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:144
+msgid "Full-sized attachment"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:147
+msgid "Background Type"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:148
+msgid "Repeat"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:149
+#: vamtam/options/core/core.php:18
+msgid "Image"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:151
+msgid "Size"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:152
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:159
+msgid "Position"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:153
+msgid "Color"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:155
+msgid "Color 1"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:156
+msgid "Color 2"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:157
+msgid "Location"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:160
+msgid "Angle"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:167
+msgid "Linear"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:168
+msgid "Radial"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:171
+msgid "Center Center"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:172
+msgid "Center Left"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:173
+msgid "Center Right"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:174
+msgid "Top Center"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:175
+msgid "Top Left"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:176
+msgid "Top Right"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:177
+msgid "Bottom Center"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:178
+msgid "Bottom Left"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-background-control.php:179
+msgid "Bottom Right"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-color-row-control.php:104
+msgid ""
+"Contrasting color may be hard for people to read. Try different colors with "
+"a higher brightness difference between this accent and the associated "
+"contrasting color."
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-color-row-control.php:105
+msgid ""
+"It's not possible to generate a color with high enough contrast given your "
+"chosen accent color. Consider changing accent color so that it is easier "
+"for people to read."
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-color-row-control.php:140
+msgid "Main Color"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-color-row-control.php:144
+msgid "Contrast Color"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-color-row-control.php:180
+msgid "Use automatic contrast colors"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-responsive-box-fields-control.php:38
+msgid "Top"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-responsive-box-fields-control.php:39
+msgid "Right"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-responsive-box-fields-control.php:40
+msgid "Bottom"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-responsive-box-fields-control.php:41
+msgid "Left"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-responsive-box-fields-control.php:42
+msgid "Padding"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-typography-control.php:113
+msgid "Font Family"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-typography-control.php:114
+msgid "Select Font Family"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-typography-control.php:115
+msgid "Weight"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-typography-control.php:117
+msgid "Transform"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-typography-control.php:118
+msgid "Uppercase"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-typography-control.php:119
+msgid "Lowercase"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-typography-control.php:120
+msgid "Capitalize"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-typography-control.php:121
+#: vamtam/customizer/lib/controls/class-vamtam-customize-typography-control.php:125
+msgid "Normal"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-typography-control.php:124
+msgid "Style"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-typography-control.php:126
+msgid "Italic"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-typography-control.php:127
+msgid "Oblique"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-typography-control.php:130
+msgid "Decoration"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-typography-control.php:131
+msgid "Underline"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-typography-control.php:132
+msgid "Overline"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-typography-control.php:133
+msgid "Line Through"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-typography-control.php:134
+msgid "None"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-typography-control.php:136
+msgid "Font Size"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-typography-control.php:137
+msgid "Line Height"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-typography-control.php:138
+msgid "Font Color"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-typography-control.php:139
+msgid "Letter Spacing"
+msgstr ""
+
+#: vamtam/customizer/lib/controls/class-vamtam-customize-typography-control.php:140
+msgid "Either <code>normal</code> or a length unit"
+msgstr ""
+
+#: vamtam/customizer/setup.php:57
+msgid "Page Settings"
+msgstr ""
+
+#: vamtam/options/core/core.php:12
+msgid "Header Logo Type"
+msgstr ""
+
+#: vamtam/options/core/core.php:19
+msgid "Site Title"
+msgstr ""
+
+#: vamtam/options/core/core.php:25
+msgid "Single Product Image Zoom"
+msgstr ""
+
+#: vamtam/options/core/core.php:31
+msgid "Enabled"
+msgstr ""
+
+#: vamtam/options/core/core.php:32
+msgid "Disabled"
+msgstr ""
+
+#: vamtam/options/help/docs.php:12
+msgid "Support and Documentation"
+msgstr ""
+
+#: vamtam/options/help/docs.php:15
+msgid ""
+"Thank you for purchasing our theme! Feel free to browse our knowledgebase "
+"for videos and extra help."
+msgstr ""
+
+#: vamtam/options/help/docs.php:20
+msgid "Knowledgebase"
+msgstr ""
+
+#: vamtam/options/help/docs.php:26
+msgid "Installation Guide"
+msgstr ""
+
+#: vamtam/options/help/docs.php:32
+msgid "How to Update Guide"
+msgstr ""
+
+#: vamtam/options/help/docs.php:38
+msgid "Video Guides for Beginners"
+msgstr ""
+
+#: vamtam/options/help/docs.php:44
+msgid "Child Themes"
+msgstr ""
+
+#: vamtam/options/help/docs.php:59
+msgid "Have any queries outside of the scope?"
+msgstr ""
+
+#: vamtam/options/help/docs.php:62
+msgid ""
+"Should you have any queries outside of the scope of the help materials and "
+"the video guides don't hesitate to contact us."
+msgstr ""
+
+#: vamtam/options/help/docs.php:64
+msgid "Contact Us"
+msgstr ""
+
+#: vamtam/options/help/docs.php:81
+msgid "Settings Saved Successfully"
+msgstr ""
+
+#: vamtam/options/help/docs.php:82
+msgid "There was a problem saving the settings to the database, please try again."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:51
+#. Translators: $s shipping destination.
+msgid "<strong>Shipping to:</strong> %s"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:52
+msgid "Change address"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:54
+msgid "Shipping options will be updated during checkout."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:62
+msgid "Shipping costs are calculated during checkout."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:64
+msgid "Enter your address to view shipping options."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:67
+msgid ""
+"There are no shipping options available. Please ensure that your address "
+"has been entered correctly, or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:81
+#. Translators: $s shipping destination.
+msgid "No shipping options were found for %s."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:85
+msgid "Enter a different address"
+msgstr ""
+
+#: woocommerce/cart/cart.php:28
+msgid "Thumbnail image"
+msgstr ""
+
+#: woocommerce/cart/cart.php:29 woocommerce/cart/cart.php:70
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:30 woocommerce/cart/cart.php:95
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:31 woocommerce/cart/cart.php:101
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:127
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart.php:33
+msgid "Remove item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:90
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:141
+#. translators: %s is the product name
+msgid "Remove %s from cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:162
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:162
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:162
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:167
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:29
+msgid "Shop order"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:37
+#: woocommerce/myaccount/form-login.php:69
+msgid "Sign In"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:46
+msgid "Welcome Back"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:47
+msgid "Please sign in to access your full account"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:54
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:55
+#: woocommerce/myaccount/form-login.php:94
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:58
+#: woocommerce/myaccount/form-login.php:59
+#: woocommerce/myaccount/form-login.php:108
+msgid "Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:66
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:72
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:85
+#: woocommerce/myaccount/form-login.php:122
+msgid "Create Account"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:101
+#: woocommerce/myaccount/form-login.php:102
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:114
+msgid "A link to set a new password will be sent to your email address."
+msgstr ""
+
+#: woocommerce/single-product/rating.php:38
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Theme Name of the plugin/theme
+msgid "Numerique"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://numerique.vamtam.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Welcome to Numérique, a modern Digital Marketing and SEO Theme. This lovely "
+"niche theme is built and suitable for any business operating in the Digital "
+"Marketing industry. The theme features carefully designed layouts ideal for "
+"every contemporary digital marketing agency, SEO services company, creative "
+"agency, web development agency, social media marketing agency or digital "
+"studio. It is suitable for users with zero programming skills and advanced "
+"developers."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://vamtam.com"
+msgstr ""
+
+#: 404.php:17
+msgctxt "page not found error"
+msgid "404"
+msgstr ""
+
+#: templates/post/main/single.php:8
+msgctxt "As in: \"by Author Name\""
+msgid "by"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:1243
+#: vamtam/classes/class-tgm-plugin-activation.php:3099
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2490
+#. translators: 1: install status, 2: update status
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2536
+#. translators: 1: number of plugins.
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vamtam/classes/class-tgm-plugin-activation.php:2630
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""

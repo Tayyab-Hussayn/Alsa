@@ -1,0 +1,97 @@
+/*
+
+!! --- Don't remove when initializing a new theme. --- !!
+
+These are general-purpose style fixes used across themes.
+
+*/
+
+body {
+	--vamtam-widget-text-darker: #1b1b1b;
+	--vamtam-widget-text-lighter: #383838;
+
+	--vamtam-content-space-xxl: calc(var(--vamtam-content-space-l) * 2);
+	--vamtam-content-space-xl: calc(var(--vamtam-content-space-l) * 1.5);
+	--vamtam-content-space-l: ~"min( 6vh, 50px )";
+	--vamtam-content-space-m: calc(var(--vamtam-content-space-l) * 0.4);
+	--vamtam-content-space-s: calc(var(--vamtam-content-space-l) * 0.2);
+	--vamtam-content-space-xs: calc(var(--vamtam-content-space-l) * 0.1);
+
+	--vamtam-sidebar-content-margin: var(--vamtam-content-space-l);
+
+	--vamtam-left-sidebar-width: 30%;
+	--vamtam-right-sidebar-width: 30%;
+
+	&.elementor-editor-active {
+		// fixes first section's overlay actions getting cropped.
+		.page-wrapper > article {
+			overflow: visible;
+		}
+	}
+}
+
+.vamtam-video-frame iframe {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+/* Trip Advisor Widget fix */
+
+.cdsROW .cdsRating span {
+	padding-top: 10px;
+	display: inline-block;
+}
+
+.cdsROW.wide {
+	margin: auto;
+	border: solid 1px #6aa257;
+	border-radius:60px;
+	padding: 5px 15px;
+}
+
+.rotatingrotation {
+	transform: rotate( 90deg );
+	opacity: 0;
+}
+
+body.wpb-js-composer {
+	.wpb_start_animation.animated {
+		animation-iteration-count: 1 !important;
+	}
+}
+
+.vamtam-responsive-wrapper {
+	position: relative;
+	width: 100%;
+	opacity: 0;
+	transition: opacity .2s ease-out;
+
+	&.image-loaded {
+		opacity: 1;
+	}
+}
+
+.vamtam-lazyload-noparent[srcset] {
+	opacity: 0;
+	transition: opacity .2s ease-out;
+
+	&.image-loaded {
+		opacity: 1;
+	}
+}
+
+html.ios-safari * {
+	background-attachment: scroll !important;
+}
+
+:is(input, textarea) {
+	transition-property: color, background;
+	transition-duration: 0.3s;
+	outline: none;
+
+	&::placeholder {
+		opacity: 1;
+		font-weight: normal;
+	}
+}

@@ -1,0 +1,165 @@
+body.single-post {
+	&.layout-full {
+		.single-post-wrapper {
+			max-width: none;
+		}
+
+		.limit-wrapper {
+			--vamtam-site-max-width: 900px;
+		}
+
+		#main .comments-wrapper {
+			max-width: none;
+		}
+	}
+
+	.single-post-meta-wrapper {
+		.meta-top {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			transition: all .3s ease;
+			margin: 0 auto 0 auto;
+			font-size: .9em;
+
+			.post-media .media-inner img {
+				width: 100%;
+			}
+
+			.meta-left {
+				display: grid;
+				flex: 1 1 auto;
+				grid-gap: 0 10px;
+
+				> div {
+					display: flex;
+					flex-flow: row wrap;
+					align-items: center;
+
+					&:only-of-type {
+						align-self: center;
+						grid-row: span 2/auto;
+					}
+				}
+
+				.meta-left-top {
+					align-self: end;
+					&:extend( .vamtam-font-primary-font );
+				}
+			}
+
+			.meta-right {
+				flex: 1 1 auto;
+				display: flex;
+				flex-flow: column;
+			}
+
+			.meta-right {
+				align-items: flex-end;
+			}
+
+			.with-separator {
+				padding-top: 3px;
+				padding-bottom: 2px;
+
+				.vamtam-meta-date {
+					&::before {
+						margin-right: 10px;
+					}
+				}
+
+				> :not(:last-child) {
+					margin-right: 20px;
+				}
+
+			}
+
+			.vamtam-meta-date {
+				font: inherit;
+				letter-spacing: inherit;
+			}
+		}
+
+		.author {
+			a {
+				margin-left: 5px;
+			}
+		}
+
+		+ div {
+			margin-top: var(--vamtam-sidebar-content-margin);
+			margin-bottom: var(--vamtam-sidebar-content-margin);
+		}
+	}
+
+	.media-inner {
+		margin-bottom: var( --vamtam-content-space-m );
+	}
+
+	&:not(.layout-full) {
+		#sub-header {
+			border-top: 0;
+		}
+	}
+
+	.single-post-wrapper .post-content-outer {
+		.vamtam-meta-tax {
+			&:last-child {
+				margin-right: 0px;
+				padding-top: var(--vamtam-content-space-m);
+			}
+		}
+
+		.single-post-meta-bottom {
+			clear: both;
+		}
+	}
+
+	#comments {
+		// background-color: var(--vamtam-accent-color-4);
+
+		> div {
+			padding: 20px 30px;
+
+			&.sep-text {
+				padding-top: 0;
+			}
+		}
+
+		#vamtam-comments-title {
+			text-align: center;
+			padding: 30px 30px 20px 30px;
+			margin: 0;
+		}
+
+		.comment-author-link a {
+			color: #62676c;
+		}
+
+		[id^="comment-text-"] p {
+			font-size: 16px;
+		}
+
+		a.comment-reply-link, input#submit {
+			border-radius: 18px;
+		}
+
+		#respond {
+			#reply-title {
+				border-top-color: var(--vamtam-accent-color-6) ;
+			}
+
+			p.logged-in-as {
+				font-size: 12px;
+			}
+
+			label {
+				color: var(--vamtam-accent-color-6);
+			}
+
+			label + input, label + textarea {
+				background-color: #fff !important;
+			}
+		}
+	}
+}

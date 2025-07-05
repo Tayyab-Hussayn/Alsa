@@ -1,0 +1,140 @@
+// Nav Menu.
+.elementor-widget-nav-menu {
+	// Base Theme Widget Styles.
+	&.vamtam-has-theme-widget-styles {
+		.sub-arrow {
+			font-size: 16px;
+		}
+
+		html.ios-safari & li {
+			outline: 0 !important;
+		}
+
+		&.vamtam-hr-underline .elementor-nav-menu--main .elementor-nav-menu .menu-item .elementor-item::after {
+			bottom: 20px;
+		}
+
+		&.vamtam-menu-icon {
+			&.elementor-nav-menu--toggle {
+				.eicon-menu-bar {
+					font-family: theme-icons;
+
+					&:before {
+						content: "\e90c";
+						content: "\e90c";
+					}
+				}
+
+				.eicon-close {
+					font-family: theme-icons;
+
+					&:before {
+						content: "\e904";
+					}
+				}
+			}
+		}
+
+		&.vamtam-menu-indicator {
+			ul.elementor-nav-menu {
+				> li {
+					&.menu-item-has-children,
+					&[class*="mega-menu"] {
+						@indicator-width: 10px;
+						&::before {
+							content: "\f107";
+							color: var(--vamtam-menu-color);
+							display: inline-block;
+							font-family: "Font Awesome 5 Free";
+							font-size: 16px;
+    						font-weight: 900;
+							line-height: 1;
+							position: absolute;
+							right: calc(var(--e-nav-menu-horizontal-menu-item-margin, 0px) - @indicator-width);
+							align-self: center;
+							-moz-osx-font-smoothing: grayscale;
+							-webkit-font-smoothing: antialiased;
+							transition: color .4s ease;
+						}
+						&:last-child::before {
+							right: -@indicator-width;
+						}
+						&:hover::before {
+							color: var(--vamtam-menu-color-hover);
+						}
+						&.current_page_item,
+						&:active {
+							&::before {
+								color: var(--vamtam-menu-color-active);
+							}
+						}
+						// For consecutive non-[mega-menu/dropdown] menu-items (when at least one vamtam-menu-indicator exists).
+						~:not([class*="mega-menu"]):not([class*="menu-item-has-children"]) +:not([class*="mega-menu"]):not([class*="menu-item-has-children"]) > a {
+							@indicator-diff: calc(var(--e-nav-menu-horizontal-menu-item-margin) - @indicator-width);
+							@spacing: clamp(0px, @indicator-diff, @indicator-diff); // clamp() is not needed here but max() was not working as expected due to calc().
+							margin-inline-start: @spacing;
+						}
+					}
+				}
+			}
+		}
+
+		.vamtam-menu-click-on-hover {
+			.sub-arrow .fa-chevron-down {
+				font-size: inherit;
+				&::before {
+					content: "\f107";
+				}
+			}
+		}
+
+		/* Sub Menu */
+		.elementor-nav-menu--main .elementor-nav-menu a {
+			border-radius: 12px;
+		}
+
+		@media (pointer:fine) {
+			.e--pointer-theme-underline {
+				a.elementor-item {
+					@width: var(--vamtam-underline-width, var(--vamtam-global-underline-width, 1px));
+					.vamtam-nav-text-wrap .vamtam-nav-text {
+						display: inline; // We need this for the milti-line underline anim follow the line breaks properly.
+						@tran-time: .5s; // If changed, please update the timeout timer value in the JS handler as well.
+						padding-bottom: var(--vamtam-underline-spacing, var(--vamtam-global-underline-spacing, 1px));
+						background-image: linear-gradient(var(--vamtam-pointer-color-hover, var(--vamtam-global-underline-bg-color, currentColor)) 0 0);
+						background-repeat: no-repeat ;
+						transition:
+							background-size @tran-time,
+							background-position 0s @tran-time; // Change after the size immediately (@tran-time is used as delay here).
+
+					}
+					&.elementor-item-active {
+						.vamtam-nav-text-wrap .vamtam-nav-text {
+							background-image: linear-gradient(var(--vamtam-pointer-color-active, currentColor) 0 0);
+						}
+					}
+					// This class is added from the JS hadler of the widget.
+					&.hovered, &:hover {
+						.vamtam-nav-text-wrap .vamtam-nav-text {
+							background-position: 100% 100%; // Bottom right.
+							background-size: 100% @width;
+						}
+					}
+					// Doing it like this allows us to have a minimum exit transition time (set in js handler) between hover ons/offs and avoid flickers caused by fast :hover state changes.
+					&:not(:hover):not(.hovered) {
+						.vamtam-nav-text-wrap .vamtam-nav-text {
+							background-position: 0 100%; // Bottom left.
+							background-size: 0% @width;
+						}
+					}
+				}
+			}
+		}
+
+		&:not(.vamtam-has-submenu-icon) {
+			.elementor-nav-menu .sub-arrow {
+				display: none;
+			}
+		}
+	}
+}

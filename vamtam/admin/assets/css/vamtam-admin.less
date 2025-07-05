@@ -1,0 +1,1139 @@
+/* >> The Magnificent CLEARFIX: Updated to prevent margin-collapsing on child elements << j.mp/bestclearfix */
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; visibility: hidden; }
+.clearboth, .clearfix:after { clear: both; }
+/* fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
+.clearfix { zoom: 1; }
+
+.invisible {
+	visibility: hidden;
+}
+
+#front-static-pages label[for="page_for_posts"] {
+	display: none;
+}
+
+body.toplevel_page_layerslider {
+	#wpbody-content .screen-meta-toggle a {
+		background: none;
+	}
+}
+
+.rAds {
+	display: none !important;
+}
+
+.vamtam-import-button.button {
+	vertical-align: baseline;
+	margin-right: 10px;
+
+	+ .import-success {
+		color: #46b450;
+	}
+
+	+ .import-fail {
+		color: #dc3232;
+	}
+}
+
+.form-table.vamtam-table th {
+	width: 280px;
+}
+
+.vamtam-system-status {
+	.dashicons-yes {
+		color: #46b450;
+	}
+
+	.dashicons-warning {
+		color: #ffb900;
+	}
+}
+
+.vamtam-box-button {
+	width: 200px;
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+	text-decoration: none;
+	transition: all .3s ease;
+	color: #000;
+	font-weight: 600;
+	font-size: 12px;
+
+	&:hover {
+		box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.07);
+
+		.dashicons {
+			color: #00a0d2;
+		}
+	}
+
+	.dashicons {
+		display: block;
+		width: 100%;
+		padding: 10px 0px;
+		color: #0073AA;
+		font-size: 30px;
+		font-weight: normal;
+		height: 60px;
+		line-height: 60px;
+	}
+
+	span.label {
+		width: 100%;
+		display: block;
+		background: #FAFAFA;
+		padding: 10px 0px;
+		border-top: 1px solid #E6E6E6;
+	}
+}
+
+//Vamtam Theme Setup
+.vamtam-ts {
+	margin-left: -20px;
+	margin-top: -15px;
+	display: flex;
+
+	#vamtam-ts-side {
+		flex: 0 0 25%;
+		background-color: white;
+		min-width: 300px;
+		min-height: 100%;
+		position: fixed;
+		z-index: 1;
+		width: 300px;
+	}
+
+	#vamtam-ts-main {
+		flex: 0 1 75%;
+		background-color: #f1f1f1;
+		margin-inline-start: 300px;
+		flex-basis: 100%;
+	}
+
+	#vamtam-ts-main {
+		> .main-content {
+			padding: 40px 35px;
+			.vamtam-box-btn {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+
+				span.icon {
+					color: #4270a4;
+					font-size: 35px;
+					margin-bottom: 30px;
+					width: unset;
+				}
+
+				svg {
+					fill: #4270a4;
+					margin-bottom: 30px;
+					width: 35px;
+				}
+
+				> a, a.vamtam-ts-button {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 100%;
+					padding: 10px 20px;
+					font-weight: bold;
+					min-height: 50px;
+					text-align: center;
+				}
+			}
+
+			.vamtam-box-wrap {
+				box-sizing: border-box;
+				border: 1px solid #e1e1e1;
+				background-color: white;
+
+				> header {
+					padding: 10px 20px;
+					background-color: #f8f8f8;
+					h3 {
+						font-weight: 500;
+					}
+				}
+
+				> .content {
+					padding: 20px;
+					display: flex;
+					flex-direction: column;
+					justify-content: flex-end;
+					box-sizing: border-box;
+
+					> a, a.vamtam-ts-button  {
+						border-radius: 3px;
+						min-height: auto;
+						width: max-content;
+					}
+
+					p {
+						&.vamtam-description {
+						margin-top: 0;
+						margin-bottom: 20px;
+						font-size: 14px;
+						color: #4b4b4b;
+
+						&.warning {
+							color: #f0c875;
+						}
+					}
+						&:empty {
+							display: none;
+				}
+			}
+		}
+			}
+		}
+
+		> #message {
+			margin-top: 30px;
+		}
+	}
+
+	&#vamtam-ts-homepage {
+		#vamtam-check-license-disclaimer {
+			position: absolute;
+			bottom: 0;
+			border-top: 1px solid #e5e5e5;
+			margin-top: 100px;
+			padding: 20px 20px 0 20px;
+			font-size: 1.4em;
+			color: #7b7d85;
+
+			@media (min-width: 1600px) {
+				padding-left: 20%;
+				padding-right: 20%;
+			}
+
+			> h5 {
+				color: black;
+				margin: 0;
+			}
+		}
+
+		#vamtam-envato-license-key {
+			height: 60px;
+			max-width: 60%;
+			border: 1px solid #dedede;
+			font-weight: bold;
+			margin: 0;
+			&::placeholder {
+				color: #d2d2d2;
+			}
+		}
+
+		#vamtam-check-license.unregister {
+			cursor: pointer;
+			display: flex !important;
+			background-color: #c2321f;
+			border-color: #c2321f;
+			color: white;
+			box-shadow: none;
+			border-top-right-radius: 5px;
+			border-bottom-right-radius: 5px;
+			border-top-left-radius: 0px;
+			border-bottom-left-radius: 0px;
+			height: 60px;
+			padding: 0 20px;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-left: -5px;
+			margin-bottom: 0;
+			span.icon {
+				font-size: 2em;
+			}
+			&.disabled {
+				pointer-events: none;
+			}
+		}
+
+		#vamtam-ts-main {
+			position: fixed;
+			right: 0;
+			left: 35px;
+			top: 0;
+			bottom: 0;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		body:not(.vamtam-not-verified) & {
+			.form-table {
+				th {
+					display: none;
+				}
+				td {
+					margin-top: 25px;
+				}
+			}
+		}
+	}
+
+	&#vamtam-ts-help {
+		> #vamtam-ts-main {
+			padding: 35px;
+			> .main-content {
+
+				> .vamtam-sd {
+					> .content {
+						padding: 20px 20px 0 20px;
+						> span {
+							display: block;
+							font-size: 14px;
+							margin-bottom: 20px;
+						}
+
+						> .cards-wrap {
+							display: flex;
+							flex-wrap: wrap;
+							padding: 10px;
+
+							> span {
+								flex: 1 1 calc( 33% - 40px );
+								margin: 20px;
+							}
+						}
+					}
+				}
+
+				> .vamtam-hd-ss-wrap {
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: center;
+					margin-top: 40px;
+
+					> .vamtam-hd {
+						flex: 1;
+						position: relative;
+						margin-right: 15px;
+
+						p.vamtam-description  {
+							margin-bottom: 50px;
+						}
+					 }
+
+					> .vamtam-ss {
+						flex: 1;
+						margin-left: 15px;
+
+						table.form-table {
+							&, td, tr, th {
+								padding: 0;
+								margin: 0;
+							}
+
+							td {
+								> p.description {
+									margin: 10px;
+									color: #4b4b4b;
+								}
+								> label {
+									margin: 10px;
+								}
+							}
+						}
+
+						th {
+							display: none;
+						}
+					 }
+				}
+			}
+		}
+	}
+
+	&#vamtam-ts-import-content {
+		#vamtam-ts-main {
+			> .main-content {
+				display: flex;
+				flex-wrap: wrap;
+				> .vamtam-box-wrap {
+					margin: 10px;
+					&.import-fail > header {
+						background-color: #fcf2f2;
+					}
+					#import-statuses {
+						display: flex;
+						flex-wrap: wrap;
+						margin: 0;
+						li {
+							font-size: 14px;
+							margin-bottom: 20px;
+							margin-right: 20px;
+						}
+						span.import-status {
+							width: 10px;
+							height: 10px;
+							display: inline-block;
+							border-radius: 50%;
+							margin-right: 10px;
+							&.yes { background-color: #85c43d; }
+							&.warning { background-color: #f0c875; }
+							&.no { background-color: #d5d5d5; }
+						}
+					}
+					.import-btn-wrap {
+						display: flex;
+						align-items: center;
+						margin-top: 20px;
+
+						a.vamtam-ts-button {
+							margin-right: 10px;
+						}
+
+						.import-success {
+							color: #46b450;
+						}
+
+						.import-fail {
+							color: #b5321f;
+							a {
+								text-decoration: none;
+								color: #4e7dad;
+							}
+						}
+					}
+				}
+
+				> .vamtam-box-wrap:nth-child(1) {
+					flex-basis: calc( 100% - 20px );
+				}
+
+				> .vamtam-box-wrap:not(:nth-child(1)) {
+					flex-basis: calc( 50% - 20px );
+				}
+			}
+		}
+	}
+
+	span.icon {
+		font-family: 'theme';
+		font-size: 3em;
+	}
+
+	.vamtam-ts-button {
+		cursor: pointer;
+		min-height: 46px;
+		padding: 0 40px;
+		font-size: 14px;
+		line-height: 44px;
+		font-family: sans-serif;
+		text-decoration: none;
+
+		&.disabled {
+			pointer-events: none;
+		}
+
+		&.done {
+			&::before {
+				font-family: "dashicons";
+				content: "\f147";
+				margin-right: 5px;
+				margin-left: -5px;
+				display: inline-block;
+				vertical-align: bottom;
+			}
+		}
+	}
+
+	.input {
+		margin-bottom: 20px;
+		background-color: #fff;
+		font-size: 17px;
+		width: 100%;
+		min-height: 50px;
+		padding: 15px 15px;
+		border-radius: 5px;
+		border: none;
+		text-align: center;
+		transition: box-shadow 0.3s, transform 0.3s;
+	}
+
+	#vamtam-theme-title {
+		position: relative;
+		font-weight: bold;
+		color: black;
+
+		> span {
+			display: block;
+		}
+
+		#vamtam-ts-greeter {
+			font-size: 21px;
+			margin-bottom: 8px;
+			font-weight: 500;
+		}
+		#vamtam-ts-greeter-title {
+			font-size: 32px;
+			margin-bottom: 10px;
+			line-height: 1;
+		}
+		#vamtam-ts-greeter-ver {
+			display: inline-block;
+			background-color: #f2f2f2;
+			font-size: 12px;
+			font-weight: normal;
+			padding: 3px 7px;
+			border-radius: 3px;
+			color: #4b4b4b;
+		}
+		margin-bottom: 40px;
+	}
+
+	#vamtam-ts-dash-register,
+	#vamtam-ts-import-content,
+	#tgmpa-plugins {
+		form#vamtam-register-form {
+			padding-top: 50px;
+			text-align: center;
+
+			svg#vamtam-envato-logo {
+				height: 30px;
+				width: auto;
+			}
+		}
+		.form-table {
+			tbody {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-content: center;
+			}
+
+			th, td {
+				display: block;
+				width: 100%;
+				text-align: center;
+			}
+
+			tr {
+				display: flex;
+				flex-direction: column;
+
+				input[type="text"] {
+					.input();
+				}
+
+				span button {
+					.vamtam-ts-button();
+				}
+			}
+		}
+	}
+
+	// Plugin page, filter tabs
+	#vamtam-plugins-filters {
+		 > ul {
+			display: flex;
+			flex-flow: row wrap;
+			align-items: center;
+			list-style: none;
+			padding-left: 20px;
+			margin: 0;
+
+			> li {
+				margin: 0;
+				display: inline-flex;
+
+				&:last-child {
+					margin-left: 5px;
+				}
+
+				a {
+					padding: 10px;
+					font-size: 12px;
+					font-weight: bold;
+					max-height: 30px;
+					text-decoration: none;
+					background-color: #e4e4e4;
+					color: #565656;
+					border: 1px solid #d6d6d6;
+					cursor: pointer;
+
+					&.active {
+						border-bottom: 1px solid #f1f1f1;
+						background-color: transparent;
+						color: black;
+					}
+
+					&:focus {
+						box-shadow: none;
+						outline: none;
+					}
+				}
+			}
+		}
+
+		> hr {
+			height: 1px;
+			margin-top: -1px;
+			border: 0;
+			background-color: #d6d6d6;
+		}
+	}
+
+	.submit {
+		padding: 20px;
+		input[type="submit"] {
+			.vamtam-ts-button();
+			text-shadow: unset;
+		}
+	}
+
+	#vamtam-ts-nav-menu {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		padding: 40px 35px;
+		box-sizing: border-box;
+
+		.ts-icon {
+			color: #4270a4;
+			fill: #4270a4;
+			margin-right: 20px;
+			&.dashicons {
+				font-size: 30px;
+				line-height: unset;
+			}
+		}
+
+		> ul {
+			position: relative;
+			margin-bottom: 0;
+
+			> li {
+				list-style: none;
+				margin-bottom: 15px;
+			a {
+					&.disabled {
+						opacity: 0.6;
+						pointer-events: none;
+					}
+
+					span.vamtam-step-status {
+						position: absolute;
+						right: 15px;
+						border-radius: 50%;
+						display: inline-block;
+						justify-self: flex-end;
+						width: 5px;
+						height: 5px;
+						&.success {
+							background-color: #85c43d;
+						}
+						&.error {
+							background-color: #e15741;
+						}
+						&.warning {
+							background-color: #f0c875;
+						}
+					}
+
+				}
+
+				&.is-active a {
+					background-color: #e0eff7;
+					border-color: #4b81b4;
+				}
+			}
+		}
+
+		> ul > li a,
+		> a#vamtam-hs-btn {
+			display: flex;
+			align-items: center;
+			padding: 20px;
+			color: black;
+			border: 1px solid #e5e5e5;
+			background-color: white;
+			border-radius: 5px;
+			font-size: 1.1em;
+			text-decoration: none;
+			font-weight: bold;
+			box-sizing: border-box;
+			max-height: 62px;
+		}
+
+		> #vamtam-human-menu {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			z-index: -1;
+		}
+
+		> a#vamtam-hs-btn {
+			position: absolute;
+			bottom: 50px;
+			z-index: 1;
+			background: white;
+			color: black;
+			width: 230px;
+			box-sizing: border-box;
+
+			&.is-active {
+				border: 1px solid #ff3d3b;
+			}
+			.ts-icon {
+				fill: #ff3d3b;
+			}
+		}
+	}
+
+	#vamtam-ts-dash-register {
+		.form-table {
+			th:first-of-type {
+				font-weight: normal;
+				font-size: 1.3em;
+				margin-top: 20px;
+				margin-bottom: 10px;
+			}
+
+			td, th {
+				padding: 0;
+			}
+		}
+
+		:is(p#vamtam-code-help, p#vamtam-code-help-elements) {
+			text-decoration: none;
+			font-size: smaller;
+			font-weight: bold;
+			margin-bottom: 20px;
+		}
+
+		#vamtam-verified-code p {
+			margin-bottom: -30px;
+			padding: 0 20px;
+			font-size: 20px;
+			color: #1c1b17;
+		}
+
+		#vamtam-envato-elements-cb-wrap {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: nowrap;
+			margin-bottom: 15px;
+
+			#vamtam-envato-elements-cb {
+				margin-top: 0;
+			}
+		}
+	}
+
+	#vamtam-check-license-result {
+		margin: 20px;
+		color: white;
+		p.vamtam-check-license-response	span {
+			display: block;
+			padding: 20px;
+			font-size: 18px;
+			border-radius: 5px;
+			margin-bottom: 20px;
+			&#success {
+				background-color: #85c43d;
+			}
+			&#fail, &.fail {
+				background-color: #e15741;
+			}
+		}
+	}
+
+	.vamtam-licence-wrap {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 25px;
+
+		#vamtam-license-result,
+		#vamtam-license-result-wrap > span {
+			box-sizing: border-box;
+			height: 60px;
+			padding: 20px;
+			font-size: 15px;
+			font-weight: bold;
+			border-top-left-radius: 5px;
+			border-bottom-left-radius: 5px;
+			color: white;
+			margin-right: -5px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			z-index: 1;
+
+			svg {
+				fill: currentColor;
+				margin-right: 10px;
+			}
+
+			.dashicons {
+				font-size: 30px;
+				width: auto;
+				height: auto;
+			}
+
+			&.valid {
+				background-color: #85c43d;
+			}
+			&.invalid {
+				background-color: #e15741;
+			}
+		}
+
+		#vamtam-license-result-wrap {
+			z-index: 1;
+			> span {
+				display: none;
+			}
+		}
+	}
+
+	#vamtam-post-result {
+		> p {
+			display: none;
+			padding: 0 20px;
+		}
+	}
+
+	// TGMPA Install Plugins Page
+	&#vamtam-ts-tgmpa {
+		#tgmpa-plugins{
+			padding-top: 50px;
+
+			table.wp-list-table {
+				margin: 0 20px;
+				width: calc( 100% - 40px );
+
+				thead > tr {
+					> td, > th {
+						padding-top: 15px;
+						padding-bottom: 15px;
+					}
+				}
+
+				.column-version {
+					display: none;
+				}
+			}
+
+			th#description {
+				width: 40%;
+			}
+
+			#bulk-action-selector-bottom {
+				.input();
+				font-size: 14px;
+				min-height: 0;
+				padding: 10px 15px;
+				border-radius: 3px;
+				border: initial;
+				margin-bottom: 0;
+				margin-right: 10px;
+				font-weight: 500;
+				height: 47px; //safari has a bug with min-height in flex containers.
+			}
+
+			.tablenav.bottom {
+				> .bulkactions {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					float: none;
+					padding: 20px;
+					padding-bottom: 0;
+					@media only screen and (max-width: 480px) {
+						flex-direction: column;
+						#bulk-action-selector-bottom {
+							max-width: unset;
+							margin-bottom: 10px;
+						}
+					}
+				}
+			}
+
+			#the-list tr:nth-child(odd) {
+				background-color: #f7f7f7;
+			}
+
+			.tablenav.top,
+			tfoot {
+				display: none;
+			}
+
+			#doaction2 {
+				.vamtam-ts-button();
+			}
+
+			//TGMPA logo
+			.tablenav.bottom > p {
+				display: none;
+			}
+		}
+		.subsubsub {
+			width: 100%;
+			text-align: center;
+			display: none;
+		}
+	}
+
+	.vamtam-notice-wrap {
+		flex-basis: 100%;
+		min-height: 150px;
+		background-color: white;
+		display: flex;
+		align-items: center;
+		.vamtam-notice {
+			border-left: 4px solid red;
+			padding: 5px 20px;
+			background-color: white;
+		}
+	}
+
+	#vamtam-ts-main > .vamtam-ts-notice {
+		position: absolute;
+		top: calc( var(--wp-admin--admin-bar--height, 0px) + 10px);
+		display: block;
+		left: 0;
+		right: 0;
+		margin-inline-start: 20px;
+		margin-inline-end: 20px;
+	}
+
+	@media only screen and (max-width: 360px) {
+		&#vamtam-ts-help {
+			> #vamtam-ts-main > .main-content {
+				.vamtam-box-btn {
+					> a, a.vamtam-ts-button {
+						word-wrap: break-word;
+						white-space: normal;
+					}
+				}
+			}
+		}
+	}
+
+	@media only screen and (max-width: 768px) {
+		flex-direction: column;
+
+		&#vamtam-ts-homepage {
+			#vamtam-ts-main {
+				position: static;
+			}
+			#vamtam-check-license-disclaimer {
+				position: static;
+				margin-bottom: -90px;
+			}
+
+			#vamtam-ts-dash-register {
+				padding: 20px;
+			}
+		}
+
+		&#vamtam-ts-import-content {
+			#vamtam-ts-main {
+				.main-content > .vamtam-box-wrap:not(:nth-child(1)) {
+					flex-basis: calc( 100% - 20px );
+				}
+			}
+		}
+
+		&#vamtam-ts-help {
+			> #vamtam-ts-main {
+				padding: 0;
+			}
+		}
+
+		#vamtam-ts-side {
+			min-height: auto;
+			position: relative;
+			width: auto;
+		}
+
+		#vamtam-ts-main {
+			margin-left: 0;
+			> .main-content {
+				padding: 20px;
+			}
+		}
+
+		#vamtam-ts-nav-menu {
+			> a#vamtam-hs-btn {
+				position: static;
+				width: auto;
+			}
+		}
+
+		#vamtam-ts-main > .vamtam-ts-notice {
+			position: static;
+		}
+	}
+
+	@media only screen and (max-width: 999px) {
+		&#vamtam-ts-help {
+			> #vamtam-ts-main > .main-content {
+				 .vamtam-hd-ss-wrap {
+					 flex-direction: column;
+					> div {
+						&:nth-child(1) {
+							margin-right: 0px;
+							margin-bottom: 15px;
+						}
+						&:nth-child(2) {
+							margin-left: 0px;
+							margin-top: 15px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@media only screen and (max-height: 950px) and (min-width: 768px) {
+		&#vamtam-ts-homepage {
+			#vamtam-ts-side,
+			#vamtam-ts-main {
+				position: absolute;
+				height: 100%;
+				min-height: 950px;
+			}
+
+			#vamtam-ts-dash-register {
+				margin-top: 20vh;
+			}
+			#vamtam-server-tests {
+				margin-bottom: auto;
+			}
+			#vamtam-ts-main > .vamtam-ts-notice {
+				top: 10px;
+
+				+ #vamtam-ts-dash-register {
+					margin-top: 230px;
+				}
+			}
+		}
+	}
+}
+
+#vamtam-recommended-plugins-notice {
+	display: none;
+	background-color: #f8e9a3;
+	color: #4c4834;
+	padding: 20px;
+	border-radius: 5px;
+	border: 1px solid #f4d169;
+	margin: 20px;
+	align-items: center;
+
+	@media (min-width: 1600px) {
+		& {
+			padding-left: 20%;
+			padding-right: 20%;
+		}
+	}
+
+	svg {
+		flex-shrink: 0;
+		margin-right: 20px;
+	}
+
+	ul {
+		margin: 0;
+	}
+
+	&.visible {
+		display: flex;
+	}
+
+	&.wide {
+		margin: 0 0 20px 0;
+	}
+
+	.vamtam-message {
+		margin-top: 10px;
+	}
+}
+
+#vamtam-required-plugins-notice {
+	display: none;
+	margin: 20px;
+	color: #6e6e6e;
+
+	strong {
+		color: black;
+	}
+
+	> br {
+		margin-bottom: 12px;
+	}
+}
+
+body {
+	// Hide footer on theme setup pages.
+	&.vamtam_page_vamtam_theme_setup_plugin_manager,
+	&.vamtam_page_tgmpa-install-plugins,
+	&.vamtam_page_vamtam_theme_setup_import_content,
+	&.toplevel_page_vamtam_theme_setup,
+	&.vamtam_page_vamtam_theme_help {
+		#wpfooter {
+			display: none;
+		}
+	}
+
+	&.toplevel_page_vamtam_theme_setup {
+		#wpbody {
+			position: static;
+
+			> #wpbody-content {
+				> #message {
+					position: absolute;
+					right: 0;
+					margin: 10px;
+				}
+			}
+		}
+
+		&:not(.folded) {
+			#vamtam-ts-homepage #vamtam-ts-main {
+				left: 160px;
+			}
+		}
+
+		@media only screen and (min-width: 783px ) and (max-width: 960px) {
+			&.auto-fold {
+				#vamtam-ts-homepage #vamtam-ts-main {
+					left: 35px;
+				}
+			}
+		}
+
+		@media only screen and (min-width: 769px ) and (max-width: 782px) {
+			&.auto-fold {
+				#vamtam-ts-homepage #vamtam-ts-main {
+					left: -10px;
+				}
+			}
+		}
+	}
+
+	&.vamtam_page_tgmpa-install-plugins {
+		#wpbody {
+			> #wpbody-content {
+				> #message {
+					position: absolute;
+					right: 0;
+					margin: 10px;
+				}
+			}
+		}
+	}
+}

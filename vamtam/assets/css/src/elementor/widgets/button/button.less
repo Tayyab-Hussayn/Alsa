@@ -1,0 +1,62 @@
+// Button.
+.elementor-widget-button {
+	// Base Theme Widget Styles.
+	&.vamtam-has-theme-widget-styles {
+		&.vamtam-btn-text-align {
+			.elementor-button-content-wrapper {
+				text-align: start;
+
+				.elementor-button-icon i {
+					color: transparent;
+				}
+
+				&:hover {
+					.elementor-button-icon i {
+						color: inherit;
+					}
+				}
+			}
+		}
+
+		@media (pointer:fine) {
+			&.vamtam-has-underline-anim {
+				.elementor-button {
+					@tran-time: .5s; // If changed, please update the timeout timer value in the JS handler as well.
+					@width: var(--vamtam-underline-width, var(--vamtam-global-underline-width, 1px));
+					@spacing: var(--vamtam-underline-spacing, var(--vamtam-global-underline-spacing, 1px));
+					@color: linear-gradient(var(--vamtam-underline-bg-color, var(--vamtam-global-underline-bg-color, currentColor)) 0 0);
+
+					.vamtam-btn-text {
+						display: inline; // We need this for the milti-line underline anim follow the line breaks properly.
+						padding-bottom: @spacing;
+						// Fix for sub-pixel discrepancy on Blink-based browsers.
+						body.e--ua-blink & {
+							@diff: clamp(.2px, calc(@width / 5), .5px);
+							padding-bottom: calc(@spacing + @diff);
+						}
+						background-image: @color;
+						background-repeat: no-repeat ;
+						transition:
+							background-size @tran-time,
+							background-position 0s @tran-time; // Change after the size immediately (@tran-time is used as delay here).
+					}
+
+					// This class is added from the JS hadler of the widget.
+					&.hovered, &:hover {
+						.vamtam-btn-text {
+							background-position: 100% 100%; // Bottom right.
+							background-size: 100% @width;
+						}
+					}
+					// Doing it like this allows us to have a minimum exit transition time (set in js handler) between hover ons/offs and avoid flickers caused by fast :hover state changes.
+					&:not(:hover):not(.hovered) {
+						.vamtam-btn-text {
+							background-position: 0 100%; // Bottom left.
+							background-size: 0% @width;
+						}
+					}
+				}
+			}
+		}
+	}
+}

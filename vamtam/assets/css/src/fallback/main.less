@@ -1,0 +1,342 @@
+/* Hide these as soon as possible */
+header.main-header .sub-menu {
+	display: none;
+}
+
+::selection {
+	color: var( --vamtam-accent-color-1-hc );
+	background: var( --vamtam-accent-color-1 );
+}
+
+html {
+	background: #fff;
+}
+
+body {
+	--vamtam-widget-text-darker: #1b1b1b;
+	--vamtam-widget-text-lighter: #383838;
+
+	--vamtam-content-space-xxl: calc(var(--vamtam-content-space-l) * 2);
+	--vamtam-content-space-xl: calc(var(--vamtam-content-space-l) * 1.5);
+	--vamtam-content-space-l: ~"min( 6vh, 50px )";
+	--vamtam-content-space-m: calc(var(--vamtam-content-space-l) * 0.4);
+	--vamtam-content-space-s: calc(var(--vamtam-content-space-l) * 0.2);
+	--vamtam-content-space-xs: calc(var(--vamtam-content-space-l) * 0.1);
+
+	--vamtam-sidebar-content-margin: var(--vamtam-content-space-l);
+
+	--vamtam-left-sidebar-width: 30%;
+	--vamtam-right-sidebar-width: 30%;
+
+	background-color: transparent;
+    background-image: linear-gradient(180deg, var(--vamtam-accent-color-4) 0%, var(--vamtam-accent-color-5) 80vh);
+}
+
+.vamtam-main {
+	padding-bottom: 0.009px;
+}
+
+.limit-wrapper {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: var( --vamtam-site-max-width );
+	width: auto;
+
+	> div {
+		position: relative;
+	}
+}
+
+#page {
+	margin-right: auto;
+	margin-left: auto;
+	min-width: var( --vamtam-site-max-width );
+	min-height: 100vh;
+	width: auto;
+	position: relative;
+	clear: both;
+	background-color: transparent;
+
+	body.responsive-layout & {
+		min-width: 300px;
+	}
+}
+
+#main-content {
+	position: relative;
+	z-index: 9;
+}
+
+.single-product {
+	.main-container {
+		border-top: solid 1px var( --vamtam-default-line-color );
+	}
+}
+
+.page-wrapper {
+	position: relative;
+	display: flex;
+	width: 100%;
+
+	> aside.left  {
+		padding-right: 100px;
+		padding-left: var( --vamtam-block-margin-phone-left );
+		min-width: var( --vamtam-left-sidebar-width, 30% );
+		flex: 0 1 var( --vamtam-left-sidebar-width, 30% ) ;
+		order: 1;
+	}
+
+	.vamtam-body-sidebar {
+		box-sizing: border-box;
+		min-height: 1px;
+		margin-top: 40px;
+	}
+
+	> article {
+		position: relative;
+		box-sizing: border-box;
+		padding-top: 0.035px; // the top padding prevents margins from collapsing
+		flex: 1000 1 calc( 100% - var( --vamtam-left-sidebar-width, 30% ) - var( --vamtam-right-sidebar-width, 30% ) ); // grow as much as necessary
+		order: 2;
+		max-width: 100%;
+
+		&.left-only {
+			max-width: calc( 100% - var( --vamtam-left-sidebar-width, 30% ) );
+		}
+
+		> .page-content {
+			body.woocommerce.single &,
+			& {
+				padding-bottom: var(--vamtam-sidebar-content-margin);
+			}
+		}
+	}
+}
+
+body.vamtam-limited-layout {
+	&.archive,
+	&.single-jetpack-portfolio,
+	&.woocommerce,
+	&,
+	&.single-post {
+		article > .page-content {
+			padding-top: var( --vamtam-sidebar-content-margin );
+		}
+	}
+}
+
+.archive.post-type-archive-product .page-wrapper > article {
+	margin-top: 0px;
+}
+
+.main-container {
+	.vamtam-limited-layout.single-product & {
+		border-top: solid 1px var(--vamtam-default-line-color);
+	}
+
+	img {
+		box-sizing: border-box;
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
+
+	iframe, object, embed {
+		display: block;
+		max-width: 100%;
+	}
+}
+
+.vamtam-video-frame iframe {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+code,
+kbd,
+pre,
+samp {
+	hyphens: none;
+	font-size: 14px;
+	font-family: monospace, serif;
+}
+
+pre,
+.wire-pad {
+	position: relative;
+	z-index: 1;
+	margin-bottom: 8px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+pre {
+	border: 1px solid var( --vamtam-default-line-color );
+	background: var( --vamtam-accent-color-5 );
+	font-size: var( --vamtam-primary-font-font-size-desktop );
+	line-height: 1.5em;
+
+	.toggle & {
+		padding: 0 !important;
+		border: none;
+	}
+}
+
+code {
+	padding: 0;
+}
+
+.post-article .mejs-container .mejs-controls {
+	background: var( --vamtam-accent-color-1 );
+	bottom: 15px;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.post-article .mejs-container {
+	border-radius: var( --vamtam-border-radius );
+	background: var( --vamtam-accent-color-1 );
+	height: 70px !important;
+}
+
+.post-article .mejs-controls .mejs-time-rail {
+	.mejs-time-loaded {
+		background: var( --vamtam-accent-color-5 );
+	}
+
+	.mejs-time-current {
+		background: var( --vamtam-accent-color-6 );
+	}
+}
+
+.error-message {
+	.clearfix;
+	transition: opacity .2s linear .7s !important;
+	position   : absolute;
+	top        : 0;
+	left       : 100% !important;
+	z-index    : 100000;
+	display    : block;
+	overflow   : visible;
+	margin-top : -13px;
+	margin-left: 2px;
+	padding    : 0.5em;
+	height     : 16px;
+	background : none repeat scroll 0 0 #D94729 !important;
+	box-shadow : 0 0 0 1px #D94729 inset;
+	color: #ffffff;
+	white-space: nowrap;
+	line-height: 16px;
+
+	&:before {
+		position: absolute;
+		top     : 50%;
+		left    : 0;
+		margin-top  : -6px;
+		margin-left : -8px;
+		width   : 0;
+		height  : 0;
+		border-width: 6px 6px 6px 0;
+		border-style: inset solid inset none;
+		border-color: transparent #D94729 transparent transparent;
+		content : "";
+	}
+}
+
+.author-info-box {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid var( --vamtam-default-line-color );
+
+	.author-avatar {
+		float: left;
+	}
+
+	.author-description {
+		overflow: hidden;
+		padding-left: 20px;
+
+		> h4 {
+			margin-top: 0;
+		}
+	}
+
+	+ .no-posts-by-author {
+		padding-top: 40px;
+		text-align: center;
+	}
+}
+
+.vamtam-scroll-to-top.vamtam-circle {
+	@size: 45px;
+	border-radius: 500px;
+	width: @size;
+	height: @size;
+	line-height: @size;
+	display: inline-block;
+	text-align: center;
+}
+
+.vamtam-only-title {
+	display: none;
+}
+
+body.wp-customizer-unloading {
+	&:after {
+		content: var( --vamtam-loading-animation );
+		position: absolute;
+		top: calc( ~"50% - 35px" );
+		left: calc( ~"50% - 35px" );
+	}
+}
+
+/* Trip Advisor Widget fix */
+
+.cdsROW .cdsRating span {
+	padding-top: 10px;
+	display: inline-block;
+}
+
+.cdsROW.wide {
+	margin: auto;
+	border: solid 1px #6aa257;
+	border-radius:60px;
+	padding: 5px 15px;
+}
+
+.rotatingrotation {
+	transform: rotate( 90deg );
+	opacity: 0;
+}
+
+body.wpb-js-composer {
+	.wpb_start_animation.animated {
+		animation-iteration-count: 1 !important;
+	}
+}
+
+.vamtam-responsive-wrapper {
+	position: relative;
+	width: 100%;
+	opacity: 0;
+	transition: opacity .2s ease-out;
+
+	&.image-loaded {
+		opacity: 1;
+	}
+}
+
+.vamtam-lazyload-noparent[srcset] {
+	opacity: 0;
+	transition: opacity .2s ease-out;
+
+	&.image-loaded {
+		opacity: 1;
+	}
+}
+
+html.ios-safari * {
+	background-attachment: scroll !important;
+}

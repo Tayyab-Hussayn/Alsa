@@ -1,0 +1,72 @@
+// Posts / Archive Posts - Tablet.
+
+// Theme-dependant.
+.posts-base-tablet() {
+
+	&[data-widget_type="posts.vamtam_classic"],
+	&[data-widget_type="archive-posts.vamtam_classic"] {
+		[data-elementor-device-mode="tablet"] &:not(.elementor-element-edit-mode).elementor-hidden-tablet {
+			display: none;
+		}
+	}
+
+	&.elementor-posts--thumbnail-tablet {
+		&-top {
+			.elementor-post {
+				display: block;
+			}
+			.elementor-post__thumbnail__link {
+				margin-bottom: 20px;
+			}
+
+			.elementor-post__text {
+				width: 100%;
+			}
+
+			&.elementor-posts--align {
+				&-left .elementor-post__thumbnail__link {
+					margin-right: auto;
+				}
+
+				&-right .elementor-post__thumbnail__link {
+					margin-left: auto;
+				}
+
+				&-center .elementor-post__thumbnail__link {
+					margin-right: auto;
+					margin-left: auto;
+				}
+			}
+		}
+
+		&-left,
+		&-right {
+			.elementor-post {
+				display: flex;
+
+				.elementor-post__thumbnail__link {
+					margin-bottom: 0;
+				}
+			}
+
+			.elementor-post__thumbnail__link {
+				flex-shrink: 0;
+				width: 25%;
+			}
+		}
+
+		&-left .elementor-post__thumbnail__link {
+			order: 0;
+			margin-left: 20px;
+		}
+
+		&-right .elementor-post__thumbnail__link {
+			order: 5;
+			margin-right: 20px;
+		}
+
+		&-none .elementor-posts-container .elementor-post__thumbnail__link {
+			display: none;
+		}
+	}
+}

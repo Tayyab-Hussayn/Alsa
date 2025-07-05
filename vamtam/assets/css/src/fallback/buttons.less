@@ -1,0 +1,67 @@
+// submit buttons and a catch-all selector which may style some plugins
+
+.button,
+button,
+input[type=button],
+input[type=submit],
+.woocommerce.widget_shopping_cart .widget_shopping_cart_content .buttons a.button,
+.woocommerce a.button,
+.woocommerce .cross-sells .add_to_cart_button,
+.woocommerce a.added_to_cart,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit,
+.woocommerce #content input.button,
+.woocommerce-page a.button,
+.woocommerce-page button.button,
+.woocommerce-page input.button,
+.woocommerce-page #respond input#submit,
+.woocommerce-page #content input.button,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce button.button.alt.disabled,
+.woocommerce input.button.alt,
+.woocommerce .woocommerce-message .vamtam-close-notice-btn,
+.woocommerce.woocommerce-cart .cart-collaterals .wc-proceed-to-checkout .checkout-button,
+.woocommerce.woocommerce-cart .vamtam-cart-collaterals .coupon button[name=apply_coupon],
+.woocommerce.woocommerce-checkout .checkout_coupon .button[name=apply_coupon],
+.woocommerce #place_order,
+.woocommerce .woocommerce-form-login .woocommerce-form-login__submit,
+.woocommerce .woocommerce-Button.button,
+.woocommerce .woocommerce-button.button,
+.woocommerce .button.wc-backward,
+a.comment-reply-link,
+.vamtam-cart-collaterals input[name="apply_coupon"] {
+	.standard-button();
+}
+
+body.vamtam-limited-layout & {
+	--vamtam-button-solid-padding: 11px 27px;
+}
+
+/* RevSLider Buttons */
+
+.rev-btn.rev-withicon i.vamtam-arrow-right-sample,
+.rev-btn.rev-withicon i.vamtam-arrow-left-sample,
+.rev-btn.rev-withicon i.vamtam-arrow-top-sample,
+.rev-btn.rev-withicon i.vamtam-arrow-bottom-sample {
+	margin: 0px !important;
+	font-size: 24px;
+	font-family: 'vamtam-theme';
+}
+.vamtam-arrow-left-sample:before {
+	content: icon( vamtam-theme-arrow-left-sample );
+}
+.vamtam-arrow-right-sample:before {
+	content: icon( vamtam-theme-arrow-right-sample );
+}
+.vamtam-arrow-top-sample:before {
+	content: icon( vamtam-theme-arrow-top-sample );
+}
+.vamtam-arrow-bottom-sample:before {
+	content: icon( vamtam-theme-arrow-bottom-sample );
+}
+
+/* Underline buttons */
+

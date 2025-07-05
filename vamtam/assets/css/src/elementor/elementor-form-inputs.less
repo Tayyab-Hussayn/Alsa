@@ -1,0 +1,197 @@
+/*
+	Currently, only used in /woocommerce/elementor-main.less (i.e, pure wc pages),
+	but we should prob rewrite it to be Elementor-friendly so if there are any
+	elementor widgets added to wc-pages, they dont get affected.
+*/
+
+.form-input {
+	position: relative;
+	margin: 0;
+	background: var( --vamtam-accent-color-7 );
+
+	.required {
+		display: none;
+	}
+}
+body {
+	--vamtam-input-border-radius: 0;
+	--vamtam-input-bg: var(--vamtam-accent-color-5);
+
+	input[type=text],
+	input[type=tel],
+	input[type=email],
+	input[type=password],
+	input[type=email],
+	input[type=search],
+	input[type=date],
+	input[type=range],
+	input[type=number],
+	input[type=tel],
+	input[type=url],
+	textarea,
+	select,
+	.select2.select2-container .select2-selection[role="combobox"],
+	.select2-search--dropdown
+	{
+		box-sizing: border-box;
+		padding: 13px 20px;
+		height: auto;
+		width: 100%;
+		position: relative;
+		outline: none;
+		border: 0;
+		border-radius: var( --vamtam-input-border-radius );
+		color: var(--vamtam-widget-text-lighter);
+		margin: 0;
+		font-size: var( --vamtam-primary-font-font-size-desktop );
+		font-family: var( --vamtam-primary-font-font-family );
+		line-height: 1.5;
+		caret-color: var(--vamtam-accent-color-1);
+		background-color: var( --vamtam-input-bg );
+
+		appearance: none;
+
+		.vamtam-main & {
+			color: var( --vamtam-accent-color-2 );
+			background: var( --vamtam-accent-color-2-hc );
+		}
+
+		&:not([class*='elementor-size']) {
+			min-height: 50px;
+		}
+	}
+	input[type=range] {
+		padding: inherit;
+	}
+	textarea {
+		border-radius: var( --vamtam-input-border-radius );
+	}
+	.vamtam-form-remove-border {
+		input[type=text],
+		input[type=tel],
+		input[type=email],
+		input[type=password],
+		input[type=email],
+		input[type=search],
+		input[type=date],
+		input[type=range],
+		input[type=number],
+		input[type=tel],
+		input[type=url],
+		textarea,
+		select {
+			border: transparent;
+		}
+	}
+
+	select,
+	body:not([class*="elementor-"]) .select2.select2-container .select2-selection[role="combobox"] {
+		&:not(.elementor-field-textual) {
+			background: var( --vamtam-input-bg ) data-uri("../images/fa-caret-down.svg") no-repeat right 20px top 50% / 12px !important;
+		}
+	}
+
+	select:not(.elementor-field-textual) {
+		padding-right: 40px !important;
+		margin-bottom: 10px !important;
+	}
+
+	.select2.select2-container .select2-selection[role="combobox"] {
+		padding: 0;
+	}
+
+	.select2-container--default .select2-selection--single {
+		.select2-selection__placeholder,
+		.select2-selection__rendered {
+			color: inherit;
+		}
+	}
+}
+
+body input[type="radio"] {
+	border-radius: 50% !important;
+}
+
+textarea {
+	min-height: 4em;
+	width: 100%;
+	position: relative;
+	resize: none;
+}
+
+body .pika-single.is-bound {
+	border-radius: var( --vamtam-border-radius );
+	background: var( --vamtam-accent-color-5 );
+	border: none;
+	box-shadow: 0 1px 20px 0 rgba(0,0,0,0.08);
+	color: var( --vamtam-accent-color-3 );
+
+	table {
+		margin: 0px;
+
+		tr {
+			border: none;
+		}
+		th {
+			color: var( --vamtam-accent-color-2 );
+			font-size: 11px;
+			font-weight: normal;
+		}
+		thead th {
+			border: none;
+			padding-bottom: 10px;
+		}
+
+	}
+
+	.pika-day {
+		display: block;
+		transition: all 0.2s ease;
+		border-radius: var( --vamtam-border-radius );
+		padding: 10px 10px;
+		font-size: 12px;
+		color: var( --vamtam-accent-color-3 );
+		background: var( --vamtam-accent-color-5 );
+
+			&:hover {
+				color: var( --vamtam-accent-color-1-hc );
+				background: var( --vamtam-accent-color-1 );
+			}
+	}
+	.is-selected .pika-day {
+		color: var( --vamtam-accent-color-1-hc );
+		background: var( --vamtam-accent-color-1 );
+		box-shadow: none;
+	}
+	.pika-lendar {
+		width: auto;
+		margin: 20px;
+	}
+
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	background: transparent;
+	border: 1px solid transparent;
+	color: initial;
+	text-align: center;
+}
+.ui-widget-content {
+	background: transparent;
+}
+
+.ui-widget-header {
+	background: transparent;
+	border: none;
+	font-weight: initial;
+
+	&:not(.ui-datepicker-header) .ui-icon {
+		background: none;
+	}
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+	background: none;
+	border-color: transparent;
+	border: none;
+}

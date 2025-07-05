@@ -1,0 +1,189 @@
+@header-bg-color: transparent;
+
+.fixed-header-box {
+	position: relative;
+	z-index: 10;
+	margin: 0 auto;
+
+	.logo-wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		margin: auto 0;
+
+		.logo {
+			text-decoration: none !important;
+			line-height: 1;
+			display: block;
+			position: relative;
+			border: none;
+
+			img {
+				clear: both;
+				padding: 0;
+				border: 0 !important;
+				vertical-align: unset;
+			}
+
+			&.text-logo {
+				font-size: 150%;
+				font-weight: bold !important;
+				white-space: nowrap;
+				border: var( --vamtam-no-border-link );
+				font-family: Syne, sans-serif;
+				text-transform: capitalize;
+
+				&, &:hover {
+					color: var( --vamtam-h3-color );
+				}
+			}
+		}
+
+		.site-tagline {
+			display: block;
+			padding-top: 5px;
+			font-size: 0.7em;
+			line-height: 1em;
+		}
+	}
+}
+
+.header-background {
+	margin-top: 0;
+	transition: background .3s ease-out;
+}
+
+header.main-header {
+	@menu-height: 49px;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: @header-bg-color;
+
+	.header-padding {
+		padding: 10px 60px;
+	}
+
+	form.searchform {
+		#search-text-widget {
+			color: #959cb4;
+			background-color: rgba(44, 51, 93, .5);
+			border: none;
+			max-height: 35px;
+		}
+		&:before {
+			color: #959cb4;
+			top: -5px;
+		}
+	}
+
+	#mega-menu-wrap-menu-header #mega-menu-menu-header li.mega-menu-item-has-children > a.mega-menu-link::after {
+		content: "\f347";
+	}
+
+	.first-row {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		box-sizing: border-box;
+
+		.alternative-logo {
+			position: absolute;
+			top: 0;
+			left: 50%;
+			transform: translateX( -50% );
+			opacity: 0;
+		}
+	}
+
+	.second-row {
+		clear: both;
+		min-height: @menu-height;
+		width: 100%;
+
+		.second-row-columns {
+			display: flex;
+			align-items: center;
+			box-sizing: border-box;
+			position : relative;
+			width: 100%;
+		}
+	}
+
+	.header-left {
+		padding: 0;
+		min-width: 160px;
+		white-space: nowrap;
+	}
+
+	.header-center {
+		width: 100%;
+		text-align: center;
+		padding: 0px;
+
+		&:after {
+			display: block;
+			clear: both;
+			content: "";
+		}
+	}
+
+	.header-right {
+		position: relative;
+		padding: 0;
+		text-align: end;
+	}
+
+	&.layout-single-row {
+		.header-contents {
+			display: flex;
+			align-items: center;
+		}
+
+		.first-row {
+			width: auto;
+			min-height: 60px;
+			background: transparent;
+			box-sizing: border-box;
+
+			.logo-wrapper {
+				position: relative;
+				text-align: start;
+			}
+		}
+
+		.second-row {
+			width: auto;
+			flex: 1 1 auto;
+			background: transparent;
+			text-align: end;
+
+			&:last-child #menus {
+				margin-right: -10px;
+			}
+		}
+
+		.search-wrapper {
+			padding-left: 30px;
+		}
+	}
+
+	.mobile-top-bar,
+	.mobile-logo-additions {
+		display: none;
+	}
+
+	//we need this to override the display for #mobile-top-bar-above set in menu.js ln:36
+	@media only screen and (min-width: 900px){
+		//force-hide mobile-top-bar
+		#mobile-top-bar-above.mobile-top-bar {
+			display: none !important;
+		}
+	}
+}
+
+.header-middle {
+	position: relative;
+	z-index: 9;
+}

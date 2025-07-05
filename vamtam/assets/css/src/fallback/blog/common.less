@@ -1,0 +1,342 @@
+@icon-height: 20px;
+@icon-offset: 0px;
+
+.loop-wrapper {
+	.post-actions-wrapper {
+		height: auto;
+		width: 100%;
+		padding-bottom: 20px;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+
+		.comment-word {
+			display: none;
+		}
+
+		a {
+			display: inline;
+			border: var( --vamtam-no-border-link );
+
+			&:hover {
+				opacity: 1;
+				.icon {
+					color: var( --vamtam-body-link-hover );
+				}
+			}
+		}
+		.author a .icon {
+			display: none;
+		}
+
+		.post-edit-link {
+			margin: 0 5px;
+			font-size: .7em;
+			color: inherit;
+		}
+
+		span.icon {
+			padding: 0 .3em;
+		}
+	}
+
+	.post-row:hover {
+		.media-inner > img {
+			opacity: 0.8;
+			-webkit-backface-visibility: hidden;
+		}
+	}
+
+	.meta-top {
+		&, a {
+			color: var( --vamtam-accent-color-3);
+		}
+	}
+
+	.vamtam-meta-author,
+	.vamtam-meta-date,
+	.vamtam-meta-comments,
+	.vamtam-meta-tax {
+		display: inline-block;
+		padding: 0;
+
+		&:hover {
+			opacity: 1;
+		}
+
+		span.icon {
+			padding-top: 0;
+			padding-left: 2px;
+		}
+	}
+
+	.vamtam-meta-tax.the-categories {
+		&:extend( .vamtam-font-h5 );
+	}
+
+	.vamtam-meta-comments,
+	.vamtam-meta-tax.the-tags {
+		svg {
+			width: auto;
+			height: 16px;
+			margin-right: 10px;
+			color: var( --vamtam-accent-color-3 );
+			vertical-align: middle;
+		}
+	}
+
+	.vamtam-meta-comments svg {
+		margin-top: -3px;
+	}
+
+	.list-item {
+		margin-bottom: 0;
+
+		&:last-child {
+			border-bottom: 0;
+		}
+
+		.post-content-outer {
+			.post-content {
+				> ol, > ul {
+					&:last-child {
+						margin-bottom: 1em;
+					}
+				}
+			}
+		}
+
+		.post-media {
+			min-width: 38%;
+			max-width: 38%;
+			flex: 0 1 ;
+			order: 2;
+			margin: 0px;
+			margin-bottom: 20px;
+			margin-top: 0px;
+			padding-right: 4%;
+
+			.media-inner {
+				display: block;
+			}
+		}
+
+		.post-article {
+			display: block;
+		}
+	}
+
+	header {
+		position: relative;
+		margin-bottom: var(--vamtam-content-space-s);
+
+		a {
+			display: block;
+		}
+	}
+
+	.page-content {
+		position: relative;
+	}
+
+	.post-article {
+		display: inline-block;
+		margin: 0;
+		width: 100%;
+
+		:not(.single-post-wrapper) > & p {
+			font-size: inherit;
+		}
+
+		.post-content-outer {
+			.post-meta {
+				overflow: hidden;
+				margin: 0 0 15px 0;
+				clear: both;
+
+				nav > div:not(.post-actions),
+				.post-actions > div,
+				.post-edit-link {
+					padding-right: 20px;
+					margin-top: 10px;
+					min-height: 20px;
+					text-align: start;
+					display: inline-block;
+
+					> span.icon {
+						opacity: .8;
+						font-family: 'vamtam-theme' !important;
+					}
+
+					&.blog-buttons {
+						padding-top: 24px;
+						border-right: none !important;
+
+						a {
+							position: relative;
+
+							&:after {
+								position: absolute;
+								top: -25px;
+								right: -20px;
+								width: 1px;
+								height: 300%;
+								border-right: 1px solid var( --vamtam-default-line-color );
+								content: "";
+							}
+						}
+					}
+				}
+
+				span.icon {
+					display: inline-block;
+					overflow: hidden;
+					text-align: center;
+					width: auto;
+					vertical-align: top;
+					font-size: 14px;
+					line-height: 16px;
+					font-family: 'vamtam-theme' !important;
+				}
+
+				.post-actions {
+					float: right;
+				}
+			}
+		}
+
+	}
+}
+
+.page-content {
+	label[for|=pwbox] {
+		input {
+			font-size: var( --vamtam-primary-font-font-size-desktop ) !important;
+
+			&[type=password] {
+				padding: 14px;
+				top: -1px;
+				margin: 0;
+				font-size: 8px;
+				line-height: 17px;
+			}
+		}
+	}
+}
+
+.post-article {
+	header {
+
+		&.sep-text.single {
+			.content {
+				text-align: start;
+				white-space: normal;
+			}
+		}
+
+		h4 {
+			margin: 0px 0px 10px 0px;
+
+			a {
+				transition: color .2s ease;
+			}
+		}
+	}
+
+	.post-subheader {
+		display: table;
+		width: 100%;
+		font-size: 14px;
+
+		.post-date {
+			display: table-cell;
+			margin: 0;
+			padding-right: 1em;
+			text-transform: uppercase;
+			white-space: nowrap;
+			font-size: 11px;
+			line-height: 1;
+		}
+
+		.post-date-after {
+			display: table-cell;
+			overflow: visible;
+			width: 100%;
+			vertical-align: top;
+			white-space: nowrap;
+
+			&:after {
+				display: inline-block;
+				width: 100%;
+				height: 1ex;
+				border-bottom: 1px solid var( --vamtam-default-line-color );
+				content: "";
+				vertical-align: top;
+			}
+		}
+	}
+
+	.post-media {
+		text-align: center;
+		max-width: 100%;
+		margin: auto;
+
+		.media-inner {
+			position: relative;
+			min-height: @icon-height + @icon-offset * 2;
+
+			> div {
+				max-width: none !important;
+				width: auto !important;
+			}
+
+			> img,
+			> a img {
+				transition: all .3s;
+				max-width: 100%;
+			}
+		}
+	}
+
+	.blog-buttons {
+		text-align: center;
+
+		&:after {
+			display: block;
+			clear: both;
+			content: "";
+		}
+
+		a {
+			display: inline-block;
+			margin: 0 auto;
+
+			.icon {
+				margin: 0 8px 0 0;
+				padding: 0;
+				color: var( --vamtam-accent-color-1 );
+				font-size: 16px;
+			}
+		}
+	}
+}
+
+
+body.layout-full .post-article .post-media .media-inner {
+	padding: 0px;
+	border: 0;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+	border-radius: var( --vamtam-border-radius );
+	max-width: var( --vamtam-site-max-width );
+	margin-left: auto;
+	margin-right: auto;
+
+	img {
+		margin: auto;
+		max-width: 100%;
+		height: auto;
+		display: block;
+	}
+}

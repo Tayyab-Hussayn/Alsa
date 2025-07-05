@@ -1,0 +1,179 @@
+.products + .navigation {
+	margin-top: 0;
+}
+
+.navigation {
+	clear: both;
+	border-top: 1px solid var( --vamtam-default-line-color );
+	z-index: 100;
+	position: relative;
+	text-align: center;
+	border: none;
+
+	margin: 40px 0 5px 0;
+	display: flex;
+	justify-content: center;
+
+	a, span {
+		display: inline-block;
+		padding: 0 !important;
+		font-size: 12px;
+		border-radius: var( --vamtam-border-radius-oval );
+		width: 46px;
+		height: 46px;
+		line-height: 46px;
+		margin: 0px 6px 0px 6px !important;
+	}
+
+	.attachment + & {
+		justify-content: space-between;
+
+		.nav-previous,
+		.nav-next {
+			a {
+				width: auto;
+				height: auto;
+				border: 0;
+				margin: 0;
+
+				&:hover {
+					background: transparent !important;
+					color: var( --vamtam-body-link-hover ) !important;
+					border: 0 !important;
+				}
+			}
+		}
+	}
+
+	.current {
+		font-size: 12px;
+		font-weight: normal !important;
+		margin: 0px 5px 0px 5px !important;
+
+		.current {
+			margin: 0 !important;
+			border: 0;
+			width: auto;
+			height: auto;
+		}
+	}
+
+	a {
+		transition: all 0.3s;
+		border: solid 1px var( --vamtam-default-line-color );
+		color: var(--vamtam-accent-color-6);
+	}
+
+	a:not(.prev):not(.next):hover,
+	.current {
+		background-color: var(--vamtam-accent-color-6);
+		border: solid 1px var(--vamtam-accent-color-6);
+		color: var(--vamtam-accent-color-6-hc);
+	}
+
+	.prev,
+	.next {
+		background: var( --vamtam-accent-color-5 );
+		width: 48px;
+		height: 48px;
+		text-align: center;
+		line-height: 28px;
+		padding: 0 !important;
+		color: var(--vamtam-accent-color-6);
+		margin: 0 5px 0 5px!important;
+		border: none;
+
+		span {
+			display: none;
+		}
+
+
+		&:after {
+			font-size: 0.7em;
+			font-family: 'vamtam-theme';
+			position: relative;
+			font-weight: normal !important;
+			top: 19%;
+		}
+
+		&:hover {
+			background-color: var(--vamtam-accent-color-6);
+			color: var(--vamtam-accent-color-6-hc);
+		}
+	}
+
+	.prev {
+		&:after {
+			content: icon( vamtam-theme-angle-left);
+		}
+	}
+
+	.next {
+		&:after {
+			content: icon( vamtam-theme-angle-right);
+		}
+	}
+
+	a.page {
+		background: var( --vamtam-accent-color-5 );
+		color:var( --vamtam-body-link-regular );
+		font-size: 12px;
+
+		&:hover {
+			color:var( --vamtam-body-link-hover );
+		}
+
+		&:visited {
+			color:var( --vamtam-body-link-visited );
+		}
+	}
+
+	a,
+	span,
+	.current {
+		font-size: 1.2em;
+	}
+
+	&.vamtam-pagination-wrapper {
+		padding-top: 30px;
+		border-top: 1px solid var( --vamtam-default-line-color );
+
+		:is(a.page-numbers, span.page-numbers) {
+			padding: 5px 10px !important;
+			margin: 0px  5px !important;
+		}
+	}
+}
+
+.comments-pagination {
+	border-top: 0;
+	margin: 10px 0;
+	padding-top: 0;
+
+	a, span {
+		margin: 1px !important;
+		border: none !important;
+		display: inline-block;
+		padding: 2px 8px 3px 8px !important;
+		font-size: 12px;
+	}
+
+	.current {
+		font-size: 12px;
+		font-weight: normal !important;
+	}
+
+	a.page-numbers {
+		background: var( --vamtam-accent-color-5 );
+		color:var( --vamtam-body-link-regular );
+		font-size: 12px;
+
+		&:hover {
+			color:var( --vamtam-body-link-hover );
+		}
+
+		&:visited {
+			color:var( --vamtam-body-link-visited );
+		}
+	}
+}

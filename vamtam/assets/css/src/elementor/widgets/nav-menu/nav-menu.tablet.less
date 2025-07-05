@@ -1,0 +1,26 @@
+// Nav menu - Tablet.
+.elementor-widget-nav-menu {
+	// Base theme widget styles.
+	&.vamtam-has-theme-widget-styles {
+
+		&.vamtam-mb-submenu-indicator {
+			.menu-item a.has-submenu {
+				display: flex;
+				justify-content: space-between;
+				width: 100%;
+			}
+		}
+
+		&.vamtam-has-mobile-disable-scroll {
+			nav.elementor-nav-menu--dropdown {
+				overflow-y: auto;
+			}
+		}
+
+		&.vamtam-has-mobile-menu-max-height {
+			nav.elementor-nav-menu--dropdown > ul {
+				max-height: calc(var(--vamtam-mobile-menu-max-height, 80vh) - var(--wp-admin--admin-bar--height, 0px));
+			}
+		}
+	}
+}

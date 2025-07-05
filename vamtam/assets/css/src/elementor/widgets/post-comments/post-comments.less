@@ -1,0 +1,344 @@
+// Post Comments.
+.elementor-widget-post-comments {
+	// Base Theme Widget Styles.
+	&.vamtam-has-theme-widget-styles {
+		.respond-box {
+			position: relative;
+
+			.no-comments {
+				margin-top: 0;
+				padding-top: var(--vamtam-content-space-l);
+				border-top: solid 1px var(--vamtam-default-line-color);
+			}
+		}
+
+		.comment-reply-title,
+		.comments-wrapper .sep-text .content,
+		.comments-wrapper .sep-text .content a {
+			&:extend( .vamtam-font-h5 );
+			color: var( --vamtam-h5-color );
+			display: block;
+			height: auto;
+			text-align: start;
+			margin: 0;
+			padding: var(--vamtam-content-space-l) 0;
+			padding-top: 0;
+			line-height: 1em;
+			font-size: 1.5em;
+			text-transform: none;
+  			border: none;
+		}
+
+		.comment-reply-title {
+			font: var(--vamtam-h4-font-style, normal) var(--vamtam-h4-font-weight, normal) var(--vamtam-h4-font-size-desktop)/var(--vamtam-h4-line-height-desktop) var(--vamtam-h4-font-family);
+			padding-bottom: 8px;
+		}
+
+		.comments-wrapper {
+			clear: both;
+			margin-bottom: 60px;
+
+			body:not(.vamtam-is-elementor) & {
+				border: 0;
+			}
+
+			.sep-text {
+				z-index: 2;
+				margin-top: 0px;
+				margin-bottom: 0px;
+				position: relative;
+
+				.content {
+					font: var(--vamtam-h4-font-style, normal) var(--vamtam-h4-font-weight, normal) var(--vamtam-h4-font-size-desktop)/var(--vamtam-h4-line-height-desktop) var(--vamtam-h4-font-family);
+					padding-bottom: 35px;
+				}
+			}
+
+			label {
+				display: inline-block;
+				padding-bottom: 5px;
+			}
+			.logged-in-as {
+				margin: 0 0 20px 0 !important;
+				a {
+					border: var( --vamtam-no-border-link );
+				}
+			}
+		}
+
+		.comments,
+		.woocommerce #reviews #comments {
+			@comment-avatar: 70px;
+			position: relative;
+
+			#respond {
+				padding: 10px 0px;
+			}
+
+
+			.comment {
+				position: relative;
+
+				&.depth-1 {
+					border-left: 0;
+				}
+
+				// nested
+				.comment {
+					padding: var(--vamtam-content-space-l) 0 0 20px;
+					box-sizing: border-box;
+					margin-left: 35px;
+				}
+
+				.single-comment-wrapper {
+					display: flex;
+				}
+
+				.comment-content {
+					flex: 1;
+					max-width: 100%;
+					padding-bottom: 0;
+
+					p {
+						font-size: inherit;
+						line-height: 1.3em;
+
+						&:last-child {
+							margin-bottom: 0;
+						}
+
+						+ .comment-reply-link {
+							display: flex;
+							margin-top: 1.3em;
+						}
+					}
+
+					img {
+						padding: 10px 0px;
+					}
+				}
+			}
+
+			.avatar {
+				max-width: 85px !important;
+				max-height: 85px;
+				width: 85px;
+				border: 0;
+			}
+
+			.comment-author {
+				display: inline-block;
+				vertical-align: top;
+				width: auto;
+				padding-bottom: 0;
+
+				img {
+					margin-right: var(--vamtam-content-space-m);
+					background: var( --vamtam-accent-color-7 );
+					border-radius: 100em;
+					display: block;
+				}
+			}
+
+			.bypostauthor {
+				position: relative;
+				z-index: 1;
+			}
+			.comment-author-link {
+				font-weight: 600;
+
+				a {
+					color: var( --vamtam-body-link-regular );
+				}
+			}
+			.comment-time {
+				padding: .2em 0 10px 0;
+				font-size: .8em;
+				color: var(--vamtam-accent-color-6);
+				opacity: 0.6;
+			}
+
+			.comment-meta {
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: space-between;
+
+				.comment-meta-left {
+					max-width: 80%;
+				}
+
+				> .comment-meta-inner {
+					display: flex;
+					flex-flow: column;
+					flex-wrap: wrap;
+
+					> div,
+					> a {
+						margin-right: 10px;
+						margin-bottom: 0;
+
+						&:last-child {
+							margin-right: 0;
+						}
+					}
+				}
+			}
+
+			#reply-title {
+				margin-bottom: 0px !important;
+			}
+
+			#cancel-comment-reply-link {
+				&:extend( .vamtam-font-primary-font );
+				color: var( --vamtam-body-link-regular );
+				position: relative;
+				margin-left: 5px;
+				text-transform: capitalize;
+			}
+
+			.comment-notes {
+				margin-bottom: 14px;
+				font-size: 10px;
+				opacity: 0.6;
+			}
+
+			.comment-note {
+				position: absolute;
+				top: -10px;
+				font-size: 12px;
+				transition: all .35s;
+				opacity: 0;
+				color: #4F9304;
+			}
+
+			a.comment-reply-link {
+				font-size: 12px;
+				font-weight: 500;
+				padding: 8px 16px;
+				margin-top: 0;
+			}
+		}
+
+		.comments .comment,
+		.woocommerce #reviews #comments .comment,
+		.woocommerce #reviews #comments ol.commentlist li {
+			border: none;
+			padding: 0 0 var(--vamtam-content-space-l);
+		}
+
+		#commentform {
+			clear: both;
+			position: relative;
+			border: none;
+			padding: 0;
+			&:extend( .vamtam-font-primary-font );
+
+			&:after {
+				display: block;
+				clear: both;
+				content: "";
+			}
+
+			.input {
+				background: var( --vamtam-accent-color-5 );
+			}
+
+			.form-input {
+				float: left;
+				width: 100%;
+				background: none;
+			}
+
+			.comment-form-email:hover .comment-note {
+				opacity: 1;
+				top: -20px;
+			}
+
+			.comment-form-comment textarea {
+				padding: var(--forms-fields-padding, 8px);
+				min-height: 45px;
+				height: 130px;
+			}
+
+			input[type=text],
+			input[type=email],
+			input[type=url],
+			.comment-form-comment textarea {
+				padding: var(--forms-fields-padding, 8px);
+				min-height: 45px;
+				width: 100%;
+				margin-top: 10px;
+				margin-bottom: 0 !important;
+				outline: none;
+
+				&::placeholder {
+					color: var(--vamtam-accent-color-6);
+				}
+			}
+
+			.form-submit {
+				bottom: 0;
+				height: auto;
+				float: none;
+				clear: both;
+			}
+
+			input[type="checkbox"] {
+				vertical-align: middle;
+				margin-right: 5px;
+				padding: 10px;
+				float: left;
+			}
+
+			label[for="wp-comment-cookies-consent"] {
+				display: inline;
+			}
+
+			p {
+				line-height: 1.5;
+				font-size: 12px;
+				font-style: normal;
+				margin-bottom: var(--vamtam-content-space-m);
+
+				&.comment-notes {
+					line-height: 1.5;
+					font-size: 12px;
+					font-style: normal;
+				}
+			}
+
+			.comment-form-cookies-consent {
+				display: flex;
+				align-items: center;
+				> input {
+					margin-right: 10px;
+				}
+				> label {
+					padding-bottom: 0;
+				}
+			}
+		}
+
+		.comment-author {
+			line-height: 1em !important;
+
+			span {
+				float: left;
+				margin-top: 3px;
+			}
+		}
+
+		.comment-edit-link {
+			font-size: 12px !important;
+
+			&:hover {
+				color: var(--vamtam-body-link-hover);
+			}
+		}
+
+		.comments {
+			border-bottom: solid 1px var(--vamtam-default-line-color);
+			margin-bottom: var(--vamtam-content-space-l);
+		}
+	}
+}

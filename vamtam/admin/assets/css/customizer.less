@@ -1,0 +1,138 @@
+.customize-control-vamtam-heading {
+	text-align: center;
+	padding: 4px 0;
+	border: solid #ccc;
+	border-width: 1px 0;
+
+	.customize-control-title {
+		margin-top: 5px;
+	}
+}
+
+.customize-control-vamtam-image-select {
+	input {
+		display: none;
+	}
+
+	img {
+		border: 2px solid transparent;
+		max-width: calc( 48% - 4px );
+	}
+
+	:checked + img {
+		border-color: #008ec2;
+	}
+}
+
+.customize-control-vamtam-info {
+	&#customize-control-vamtam_theme-theme-options-migration-notice,
+	&#customize-control-vamtam_theme-theme-options-migration-warning {
+		display: list-item !important;
+		background: white;
+		border: 1px solid;
+		border-left-width: 4px;
+		padding-left: 12px;
+		padding-right: 12px;
+		width: auto;
+		input {
+			display: none;
+		}
+	}
+
+	&#customize-control-vamtam_theme-theme-options-migration-notice {
+		border-color:#ffb900;
+	}
+
+	&#customize-control-vamtam_theme-theme-options-migration-warning {
+		border-color:#dc3232;
+		font-weight: bold;
+	}
+}
+
+// Styles shared between common Vamtam controls.
+[id^="customize-control-vamtam"] {
+	.resp-control,
+	.base-control {
+		.options {
+			display: flex;
+			align-items: center;
+			.option-label {
+				display: inline;
+				margin-right: 10px;
+			}
+
+			.units {
+				justify-self: flex-end;
+				margin-left: auto;
+				font-size: smaller;
+				[data-unit] {
+					cursor: pointer;
+					display: inline-block;
+					&.active {
+						color: #1e8cbe;
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+
+		.values {
+			display: flex;
+			&[data-type="slider"] {
+				input[type="range"] {
+					flex-basis: 70%;
+					margin-right: 10px;
+				}
+				input[type="number"] {
+					min-width: 10px; // firefox fix.
+					flex-basis: 30%;
+				}
+			}
+			&[data-type="box-fields"] {
+				.field-wrap {
+					display: flex;
+					flex-flow: column;
+					align-items: center;
+
+					&:nth-of-type(1) input {
+						border-top-right-radius: 0;
+						border-bottom-right-radius: 0;
+					}
+					&:nth-of-type(2) input,
+					&:nth-of-type(3) input {
+						border-radius: 0;
+					}
+					&:nth-of-type(4) input {
+						border-top-left-radius: 0;
+						border-bottom-left-radius: 0;
+					}
+				}
+			}
+		}
+	}
+
+	.resp-control {
+		.options {
+			.resp-btns [data-device] {
+				cursor: pointer;
+				&.active {
+					color: #1e8cbe;
+				}
+			}
+		}
+	}
+
+	.base-control {
+		&.select-control {
+			display: flex;
+			align-items: center;
+			.options {
+				flex-basis: 40%;
+			}
+			.values {
+				flex-basis: 65%;
+				margin-left: auto;
+			}
+		}
+	}
+}
