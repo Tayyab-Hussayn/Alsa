@@ -1,6 +1,6 @@
 # Numerique WordPress Theme
 
-A modern Digital Marketing and SEO WordPress theme by VamTam.
+A modern premium Digital Marketing and SEO WordPress theme that you can use for free
 
 ## Description
 
